@@ -51,9 +51,15 @@ There are two ways to use this template in a new project:
    - Add project-specific documentation files
    - Update links and references to match your project structure
 
-## Updating Existing Projects
+## Managing Template Updates and Project-Specific Changes
 
-When the template is updated, you can sync those changes to projects that are already using the template:
+### Bidirectional Synchronization Process
+
+This template system supports a bidirectional workflow for managing documentation across multiple projects:
+
+#### 1. Template-to-Project Updates (Forward Sync)
+
+When the template is updated with improvements, new sections, or best practices:
 
 1. Pull the latest template changes:
    ```bash
@@ -61,16 +67,49 @@ When the template is updated, you can sync those changes to projects that are al
    git pull
    ```
 
-2. Run the update script:
+2. Run the update script to propagate changes to existing projects:
    ```bash
    ./update-documentation-template.sh --target /path/to/your/project/documentation
    ```
 
-The update script will:
-- Preserve project-specific content
-- Update directory structure and README files
-- Create backups of modified files (.bak extension)
-- Add any new directories or files from the template
+The update script intelligently handles changes:
+- **Structure Updates**: Adds any new directories or files from the template
+- **Content Preservation**: Preserves project-specific content while updating template sections
+- **Safety Measures**: Creates backups of modified files with `.bak` extension
+- **Selective Updates**: Updates README structure while keeping project-specific details
+
+#### 2. Project-to-Template Updates (Reverse Sync)
+
+When you make improvements in a specific project that should be incorporated back into the template:
+
+1. Identify the valuable changes in your project documentation
+2. Manually copy those changes to the template repository
+3. Commit and push the changes to the template repository
+4. Use the update script to propagate these improvements to other projects
+
+#### 3. Understanding the Update Boundaries
+
+The update script uses the **"Purpose"** section in README files as the boundary between:
+- **Template Structure** (before the Purpose section): Updated from the template
+- **Project-Specific Content** (after the Purpose section): Preserved during updates
+
+This allows for consistent structure while maintaining project-specific details.
+
+### Best Practices for Bidirectional Updates
+
+1. **Regular Template Updates**: Schedule periodic reviews of the template to incorporate best practices
+2. **Consistent Section Structure**: Maintain the same section headers across all projects
+3. **Clear Boundaries**: Keep template content and project-specific content clearly separated
+4. **Documentation Review**: After updates, review the changes to ensure nothing important was lost
+5. **Version Control**: Commit documentation changes separately from code changes for clearer history
+
+### When to Update the Template
+
+Consider updating the template when you:
+- Discover a better way to organize certain documentation
+- Create a new type of document that would benefit multiple projects
+- Improve the clarity or completeness of README files
+- Establish new documentation standards or processes
 
 ## Template Features
 
