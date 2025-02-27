@@ -2,14 +2,22 @@
 
 # Script to push the documentation template to a remote repository
 
+# Default to moochyben's GitHub account
+DEFAULT_URL="https://github.com/moochyben/documentation-template.git"
+
 # Check if a remote URL was provided
 if [ $# -eq 0 ]; then
-  echo "Usage: $0 <remote_url>"
-  echo "Example: $0 https://github.com/yourusername/documentation-template.git"
-  exit 1
+  echo "No remote URL provided, using default: $DEFAULT_URL"
+  REMOTE_URL=$DEFAULT_URL
+else
+  REMOTE_URL=$1
 fi
 
-REMOTE_URL=$1
+# Check if remote origin already exists
+if git remote | grep -q "^origin$"; then
+  echo "Remote 'origin' already exists. Removing it to add the new one."
+  git remote remove origin
+fi
 
 # Add the remote repository
 git remote add origin "$REMOTE_URL"
