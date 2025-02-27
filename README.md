@@ -20,7 +20,7 @@ There are two ways to use this template in a new project:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/documentation-template.git
+   git clone https://github.com/moochyben/documentation-template.git
    ```
 
 2. Run the installation script:
@@ -33,7 +33,7 @@ There are two ways to use this template in a new project:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/documentation-template.git
+   git clone https://github.com/moochyben/documentation-template.git
    ```
 
 2. Copy the template to your project:
