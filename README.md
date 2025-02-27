@@ -5,11 +5,9 @@ This repository contains a comprehensive documentation template structure that c
 ## Repository Structure
 
 - **documentation-template/**: The main template directory containing the full documentation structure
-  - **TEMPLATE-README.md**: Instructions for using the template
   - All documentation directories and their README files
   - Process rules and guidelines
 
-- **create-documentation-template.sh**: Script used to create the template from an existing documentation structure
 - **install-documentation-template.sh**: Script to install the template into a target project
 
 ## Using the Template
