@@ -9,6 +9,7 @@ This repository contains a comprehensive documentation template structure that c
   - Process rules and guidelines
 
 - **install-documentation-template.sh**: Script to install the template into a target project
+- **update-documentation-template.sh**: Script to update existing projects with the latest template changes
 
 ## Using the Template
 
@@ -49,6 +50,27 @@ There are two ways to use this template in a new project:
    - Modify directory descriptions as needed
    - Add project-specific documentation files
    - Update links and references to match your project structure
+
+## Updating Existing Projects
+
+When the template is updated, you can sync those changes to projects that are already using the template:
+
+1. Pull the latest template changes:
+   ```bash
+   cd documentation-template
+   git pull
+   ```
+
+2. Run the update script:
+   ```bash
+   ./update-documentation-template.sh --target /path/to/your/project/documentation
+   ```
+
+The update script will:
+- Preserve project-specific content
+- Update directory structure and README files
+- Create backups of modified files (.bak extension)
+- Add any new directories or files from the template
 
 ## Template Features
 
