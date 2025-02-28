@@ -1,0 +1,5 @@
+{
+  "confluenceUrl": "https://your-confluence-instance.atlassian.net",
+  "username": "your-username",
+  "apiToken": "your-api-token"
+} 
