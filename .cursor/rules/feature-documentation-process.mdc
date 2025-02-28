@@ -1,3 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
 # Feature Documentation and Implementation Process
 
 ## Purpose
@@ -193,7 +198,7 @@ This document outlines the standardized process for documenting, reviewing, and 
 - Approve final implementation
 
 ## Related Documentation
-- [Product Requirements Documentation](../../product-requirements/README.md)
-- [Development Workflow](../git-workflow.md)
-- [Code Review Process](../code-review-process.md)
-- [Testing Strategy](../testing-strategy.md) 
+- [Product Requirements Documentation](mdc:../../product-requirements/README.md)
+- [Development Workflow](mdc:../git-workflow.md)
+- [Code Review Process](mdc:../code-review-process.md)
+- [Testing Strategy](mdc:../testing-strategy.md) 
