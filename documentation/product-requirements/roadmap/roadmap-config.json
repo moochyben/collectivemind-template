@@ -1,0 +1,114 @@
+{
+  "roadmapTitle": "CollectiveMind Product Roadmap",
+  "timelineConfig": {
+    "startDate": "2023-01-01",
+    "endDate": "2023-12-31",
+    "timeUnits": ["quarter", "month"],
+    "defaultView": "month"
+  },
+  "categories": [
+    {
+      "id": "core-features",
+      "name": "Core Features",
+      "color": "#4285F4",
+      "order": 1
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "color": "#34A853",
+      "order": 2
+    },
+    {
+      "id": "user-experience",
+      "name": "User Experience",
+      "color": "#FBBC05",
+      "order": 3
+    },
+    {
+      "id": "integrations",
+      "name": "Integrations",
+      "color": "#EA4335",
+      "order": 4
+    }
+  ],
+  "statusTypes": [
+    {
+      "id": "planning",
+      "name": "Planning",
+      "color": "#9AA0A6",
+      "order": 1
+    },
+    {
+      "id": "in-progress",
+      "name": "In Progress",
+      "color": "#4285F4",
+      "order": 2
+    },
+    {
+      "id": "review",
+      "name": "In Review",
+      "color": "#FBBC05",
+      "order": 3
+    },
+    {
+      "id": "completed",
+      "name": "Completed",
+      "color": "#34A853",
+      "order": 4
+    }
+  ],
+  "priorityLevels": [
+    {
+      "id": "high",
+      "name": "High",
+      "color": "#EA4335",
+      "order": 1
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "color": "#FBBC05",
+      "order": 2
+    },
+    {
+      "id": "low",
+      "name": "Low",
+      "color": "#34A853",
+      "order": 3
+    }
+  ],
+  "documentationSources": [
+    {
+      "path": "documentation/product-requirements/features",
+      "pattern": "**/**/prd.md",
+      "type": "feature"
+    },
+    {
+      "path": "documentation/product-requirements/features",
+      "pattern": "**/**/implementation/implementation-plan.md",
+      "type": "implementation"
+    }
+  ],
+  "refreshConfig": {
+    "autoRefreshInterval": 0,
+    "lastRefreshed": null,
+    "refreshCommand": "npm run update-roadmap",
+    "outputFormats": ["html", "svg", "png"]
+  },
+  "displayOptions": {
+    "showDependencies": true,
+    "showProgress": true,
+    "showMilestones": true,
+    "compactView": false,
+    "darkMode": false,
+    "filterByCategory": [],
+    "filterByStatus": [],
+    "filterByPriority": []
+  },
+  "exportOptions": {
+    "includeDetailedDescriptions": true,
+    "includeDependencyGraph": true,
+    "includeResourceAllocation": true
+  }
+} 

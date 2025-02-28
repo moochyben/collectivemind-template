@@ -1,82 +1,186 @@
-# Collective Mind Documentation
+# CollectiveMind Documentation
 
-This directory contains comprehensive documentation for the Collective Mind project.
+This directory contains all documentation for the CollectiveMind project, organized by functional areas and document types. This README provides an overview of the documentation structure, guidelines for contributing, and information on how to navigate the documentation effectively.
 
-## Purpose
+> **Note**: The documentation structure was reorganized on February 28, 2025 to improve organization and discoverability. If you're looking for documentation that you can't find, please refer to the directory structure below or contact the documentation team.
 
-The purpose of this documentation is to provide a centralized location for all information related to the Collective Mind project, including architecture, development guidelines, user guides, and process documentation.
+## Documentation Purpose and Design
 
-## Directory Structure
+This documentation structure is designed to provide comprehensive context and consistency for any agent (human or AI) seeking to understand, and then action change on, the CollectiveMind business. Key design principles include:
 
-This documentation is organized into the following directories:
+1. **Hierarchical Organization**: Documentation is organized in a logical hierarchy from strategic vision down to technical implementation details
+2. **Cross-Referencing**: Related documents are linked to provide a complete picture across functional areas
+3. **Standardized Formats**: Consistent document structures make information easy to locate
+4. **Contextual Depth**: Each area provides both high-level overviews and detailed specifics
+5. **Temporal Awareness**: Documentation includes historical context, current state, and future direction
 
-- **accessibility-docs/**: Accessibility standards and implementation guidelines
-- **analytics-docs/**: Analytics architecture and implementation details
-- **api-docs/**: API documentation and integration guides
-- **business-docs/**: Business-related documentation and requirements
-- **business-operations-docs/**: Business operations documentation
-- **confluence-sync/**: Synced Confluence pages organized by space
-- **data-architecture/**: Data model documentation and database schema analyses
-- **deployment-docs/**: Deployment architecture and procedures
-- **design-docs/**: Technical design documents
-- **devops-docs/**: DevOps practices and tools
-- **integration-docs/**: Integration specifications and patterns
-- **localization-docs/**: Internationalization and localization guidelines
-- **mobile-docs/**: Mobile-specific documentation
-- **operations-docs/**: Operational procedures and monitoring
-- **process/**: Development processes, workflows, and best practices
-  - **integrations/**: Documentation for integrations with external systems
-- **product-requirements/**: Product requirement documents
-- **reference-materials/**: Industry standards, templates, and research
-- **security-docs/**: Security architecture and procedures
-- **solution-architecture/**: System architecture documentation
-- **testing-docs/**: Testing strategies and procedures
-- **user-guides/**: End-user documentation and usage guides
-- **ux-design-docs/**: User experience design documentation
+### For Human Agents
 
-## Getting Started
+For human team members, this documentation serves as:
+- A single source of truth for project information
+- An onboarding resource for new team members
+- A reference for decision-making and implementation
+- A knowledge base to understand project context and history
 
-To contribute to the documentation:
+### For AI Agents
 
-1. Find the appropriate directory for your documentation
-2. Follow the README guidelines in that directory
-3. Use Markdown format for all documentation files
-4. Include diagrams and visual aids where appropriate
-5. Link to related documentation when relevant
+For AI assistants and tools, this documentation provides:
+- Structured context to understand the business domain
+- Clear guidelines for generating appropriate responses and solutions
+- Reference material to ensure outputs align with project standards
+- Historical context to inform recommendations and actions
 
-## Documentation Standards
+### Integration with Cursor Rules
 
-All documentation should follow these standards:
+This documentation should be used in collaboration with Cursor rules, which provide specific guidance for AI agents on how to interact with the codebase. While the documentation provides comprehensive context, Cursor rules offer targeted instructions for specific tasks and code patterns.
 
-1. Use clear, concise language
-2. Include a table of contents for longer documents
-3. Use proper headings and formatting
-4. Include version information and last updated date
-5. Provide examples where appropriate
-6. Link to reference materials when needed
+Together, the documentation and Cursor rules create a complete framework that enables both human and AI agents to:
+1. Understand the business context and objectives
+2. Follow established patterns and practices
+3. Make informed decisions aligned with project goals
+4. Implement changes consistently and effectively
 
-## Updating Documentation
+## Documentation Structure
 
-When updating documentation:
+The documentation is organized into the following main categories, arranged from high-level strategic content to detailed implementation specifics:
 
-1. Ensure information is accurate and up-to-date
-2. Follow the guidelines in process/rules/documentation-update.mdc
-3. Update related documentation if necessary
-4. Notify the team of significant changes
+### Strategic Documentation
+- **[Strategy](./strategy/)**: Business strategy documentation
+  - **Vision**: Product vision and mission statements
+  - **Goals**: Strategic goals and objectives
 
-## Confluence Integration
+### Research and Requirements
+- **[Market Research](./market-research/)**: Market and user research
+  - **Competitive Analysis**: Competitor research and analysis
+  - **User Research**: User interviews, surveys, and feedback
+  - **Analytics**: Analytics and data analysis documentation
+- **[Product Requirements](./product-requirements/)**: Feature specifications, roadmaps, and templates
+  - **Features**: Individual feature documentation with implementation details
+  - **Roadmap**: Product roadmap visualization and planning tools
+  - **Templates**: Templates for creating new feature documentation
 
-The Collective Mind project integrates with Confluence to maintain a synchronized copy of important documentation. This integration allows team members to:
+### Project and Process Management
+- **[Project Management](./project-management/)**: Project planning and tracking
+  - **Charters**: Project charter documents
+  - **Plans**: Project plans and schedules
+  - **Reports**: Status reports and project metrics
+  - **Risks**: Risk assessments and mitigation plans
+- **[Process](./process/)**: Organizational processes and workflows
+  - **Workflows**: Standard workflows for development, deployment, etc.
+  - **Templates**: Reusable templates for process documentation
+  - **Standards**: Coding standards, documentation standards, etc.
+  - **Onboarding**: Materials for onboarding new team members
+  - **Roles**: Role-specific guidelines and responsibilities
+  - **Operations**: Technical and business operations documentation
+  - **Integrations**: Process documentation for integrations with external systems
+  - **Rules**: Organizational rules and governance guidelines
+- **[Agile](./agile/)**: Agile development artifacts
+  - **Sprints**: Sprint planning, reviews, and retrospectives
+  - **Ceremonies**: Documentation for standups, planning, and other ceremonies
 
-1. Access Confluence documentation offline
-2. Track documentation changes using version control
-3. Ensure consistency between code and documentation
+### Design and Implementation
+- **[Design](./design/)**: Design assets and documentation
+  - **Design System**: Design system components and guidelines
+  - **Wireframes**: Low-fidelity design wireframes
+  - **Prototypes**: Interactive prototypes
+  - **User Flows**: User journey and flow diagrams
+  - **Technical Designs**: Technical design documents
+- **[Technical](./technical/)**: Technical specifications and architecture
+  - **Architecture**: System architecture documentation
+  - **APIs**: Comprehensive API documentation
+  - **Infrastructure**: Infrastructure and deployment documentation
+  - **Mobile**: Mobile application documentation
+  - **Testing**: Testing strategies and procedures
+  - **Localization**: Localization and internationalization documentation
+  - **Integrations**: Documentation for integrations with external systems
+  - **Security**: Security policies and procedures
+  - **DevOps**: DevOps processes and tools
+  - **Deployment**: Deployment procedures and environments
 
-For more information, see:
-- [Confluence Integration Overview](./process/integrations/confluence-integration.md)
-- [Using Confluence MCP](./process/integrations/using-confluence-mcp.md)
-- [Syncing Confluence Pages](./process/integrations/syncing-confluence-pages.md)
+### Support and Compliance
+- **[Support](./support/)**: User support documentation
+  - **Guides**: User guides and tutorials
+  - **FAQs**: Frequently asked questions
+  - **Troubleshooting**: Common issues and solutions
+  - **Accessibility**: Accessibility documentation and guidelines
+- **[Legal](./legal/)**: Legal documentation
+  - **Contracts**: Contract templates and agreements
+  - **Policies**: Company policies
+  - **Compliance**: Compliance documentation and certifications
 
-## Contact
+## Navigation Patterns for Agents
 
-For questions about the documentation structure or content, please contact the project maintainers. 
+### Top-Down Navigation
+Start with high-level strategy and work down to implementation details:
+1. Begin with **Strategy** documentation to understand vision and goals
+2. Move to **Product Requirements** to see how strategy translates to features
+3. Explore **Technical** and **Design** documentation for implementation details
+
+### Bottom-Up Navigation
+Start with specific implementation and work up to understand context:
+1. Begin with **Technical** or **Design** documentation for specific components
+2. Move to **Product Requirements** to understand feature context
+3. Explore **Strategy** documentation to understand business objectives
+
+### Role-Based Navigation
+Different roles may focus on different documentation areas:
+- **Product Managers**: Strategy, Product Requirements, Market Research
+- **Developers**: Technical, Product Requirements, Process
+- **Designers**: Design, Product Requirements, User Research
+- **Project Managers**: Project Management, Process, Agile
+
+## Contributing to Documentation
+
+### Documentation Standards
+
+1. **File Naming**: Use kebab-case for file names (e.g., `user-authentication.md`)
+2. **Directory Structure**: Place documents in the appropriate category directory
+3. **Metadata**: Include metadata at the top of each document (title, author, date, status)
+4. **Formatting**: Use Markdown for all documentation
+5. **Images**: Store images in an `assets` folder within the relevant directory
+6. **Links**: Use relative links to reference other documents
+
+### Documentation Workflow
+
+1. **Creation**: Create new documentation using the appropriate template
+2. **Review**: Have documentation reviewed by relevant stakeholders
+3. **Publication**: Merge approved documentation into the main branch
+4. **Maintenance**: Regularly review and update documentation
+
+## Tools and Utilities
+
+### Roadmap Visualization
+
+The product roadmap visualization tool is available in the `product-requirements/roadmap` directory. This tool generates interactive roadmaps from feature documentation.
+
+To update the roadmap:
+
+```bash
+cd documentation/product-requirements/roadmap
+npm run update
+```
+
+### Documentation Templates
+
+Templates for various document types are available in the `process/templates` directory. Use these templates to ensure consistency across documentation.
+
+## Documentation Best Practices
+
+1. **Keep it Updated**: Regularly review and update documentation
+2. **Be Concise**: Write clear, concise documentation that is easy to understand
+3. **Use Examples**: Include examples and code snippets where appropriate
+4. **Consider the Audience**: Write for the intended audience (developers, users, etc.)
+5. **Link Related Documents**: Create connections between related documentation
+6. **Version Control**: Use version control for documentation changes
+7. **Include Context**: Provide context for why decisions were made
+8. **Avoid Duplication**: Maintain a single source of truth for each type of documentation
+9. **AI-Friendly Structure**: Organize content with clear headings and consistent patterns to facilitate AI comprehension
+10. **Cursor Rule Integration**: Reference relevant Cursor rules in technical documentation to guide AI assistance
+
+## Getting Help
+
+If you have questions about documentation or need assistance, please contact the documentation team at [documentation@collectivemind.com](mailto:documentation@collectivemind.com).
+
+---
+
+Last updated: February 28, 2025 

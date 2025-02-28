@@ -30,7 +30,7 @@ SYNC_DIR="documentation/confluence-sync"
 MCP_PORT=3000
 
 # Docker image for the Confluence MCP
-MCP_IMAGE="mcr.microsoft.com/mcp/confluence:latest"
+MCP_IMAGE="ghcr.io/aaronsb/confluence-cloud-mcp:latest"
 
 # Container name
 CONTAINER_NAME="confluence-mcp"
@@ -96,9 +96,19 @@ start_mcp_server() {
     return 0
   fi
   
+  # Get configuration values
+  CONFLUENCE_URL=$(jq -r '.confluenceUrl' mcp-config.json)
+  CONFLUENCE_USERNAME=$(jq -r '.username' mcp-config.json)
+  CONFLUENCE_API_TOKEN=$(jq -r '.apiToken' mcp-config.json)
+  
   # Start a new container
   echo "Starting MCP server..."
-  docker run -d --name "$CONTAINER_NAME" -p "$MCP_PORT:3000" -v "$(pwd)/mcp-config.json:/app/config.json" "$MCP_IMAGE"
+  docker run -d --name "$CONTAINER_NAME" \
+    -p "$MCP_PORT:3000" \
+    -e "CONFLUENCE_DOMAIN=$CONFLUENCE_URL" \
+    -e "CONFLUENCE_EMAIL=$CONFLUENCE_USERNAME" \
+    -e "CONFLUENCE_API_TOKEN=$CONFLUENCE_API_TOKEN" \
+    "$MCP_IMAGE"
   
   # Wait for the server to start
   echo "Waiting for MCP server to start..."
