@@ -16,6 +16,7 @@ This repository contains:
   - API documentation
   - User guides
   - Process documentation
+  - Confluence integration
 
 - **src/**: Source code for the Collective Mind platform (coming soon)
 
@@ -28,8 +29,27 @@ The documentation directory follows a standardized structure to organize all pro
 - **Development Guidelines**: Coding standards, development workflows
 - **User Guides**: Instructions for end-users
 - **Process Documentation**: Team processes and workflows
+- **Confluence Integration**: Documentation for integrating with Confluence
 
 To explore the documentation, navigate to the [documentation](./documentation) directory.
+
+## Confluence Integration
+
+Collective Mind integrates with Confluence to maintain a synchronized copy of important documentation. This integration allows team members to:
+
+1. Access Confluence documentation offline
+2. Track documentation changes using version control
+3. Ensure consistency between code and documentation
+
+### Syncing Confluence Pages
+
+To sync Confluence pages with your local repository:
+
+1. Ensure Docker is installed on your system
+2. Create a `mcp-config.json` file with your Confluence credentials
+3. Run the sync script: `./sync-confluence-pages.sh`
+
+For detailed instructions, see the [Confluence Integration documentation](./documentation/confluence-integration/README.md).
 
 ## Getting Started
 
