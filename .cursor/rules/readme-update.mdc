@@ -1,5 +1,5 @@
 ---
-description: 
+description: guidelines for periodically reviewing and updating README files // to ensure documentation stays current with the codebase.
 globs: 
 alwaysApply: false
 ---

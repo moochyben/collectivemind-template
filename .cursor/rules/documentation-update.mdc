@@ -1,15 +1,15 @@
 ---
-description: This rule provides guidelines for periodically reviewing and updating documentation files in the Voyagr CRM documentation directory. It ensures that documentation remains accurate, up-to-date, and aligned with the current state of the project
+description: This rule provides guidelines for periodically reviewing and updating documentation files in the documentation directory. It ensures that documentation remains accurate, up-to-date, and aligned with the current state of the project
 globs: 
 alwaysApply: false
 ---
 # Documentation Review Rule
 
 ## Description
-This rule provides guidelines for periodically reviewing and updating documentation files in the Voyagr CRM documentation directory. It ensures that documentation remains accurate, up-to-date, and aligned with the current state of the project.
+This rule provides guidelines for periodically reviewing and updating documentation files in the documentation directory. It ensures that documentation remains accurate, up-to-date, and aligned with the current state of the project.
 
 ## Glob Pattern
-voyagr-crm/documentation/**/*.md
+/documentation/**/*.md
 
 ## Review Schedule
 - **README.md files**: Review monthly or after major feature additions
