@@ -1,6 +1,10 @@
 # Ignore Confluence MCP configuration file with sensitive credentials
 mcp-config.json
 
+# Confluence sync temporary files
+*.confluence.json
+*.confluence.tmp
+
 # Logs
 logs
 *.log
