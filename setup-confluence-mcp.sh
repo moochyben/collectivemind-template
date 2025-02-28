@@ -31,11 +31,12 @@ sed -i '' "s|your-api-token|$CONFLUENCE_API_TOKEN|g" mcp-config.json
 
 echo "Configuration updated successfully!"
 
-# Create documentation directory for Confluence integration
-mkdir -p documentation/confluence-integration
-
-# Create README for Confluence integration
-cat > documentation/confluence-integration/README.md << 'EOF'
+# Create documentation directory for Confluence integration if it doesn't exist
+if [ ! -d "documentation/confluence-integration" ]; then
+    mkdir -p documentation/confluence-integration
+    
+    # Create README for Confluence integration
+    cat > documentation/confluence-integration/README.md << 'EOF'
 # Confluence Integration
 
 This directory contains documentation related to the integration between Collective Mind and Confluence.
@@ -60,6 +61,8 @@ The integration is configured using the `mcp-config.json` file in the root direc
 
 ## Usage
 
+For detailed usage instructions, please refer to the [Using Confluence MCP](../process/integrations/using-confluence-mcp.md) guide in the process/integrations directory.
+
 When using Cursor with this project, you can interact with Confluence using natural language commands, such as:
 
 - "Create a new Confluence page with this content"
@@ -77,7 +80,8 @@ If you encounter issues with the Confluence integration:
 4. Check the Cursor logs for any error messages related to the MCP server
 EOF
 
-echo "Created documentation for Confluence integration"
+    echo "Created documentation for Confluence integration"
+fi
 
 # Instructions for using in Cursor
 echo ""
@@ -92,4 +96,10 @@ echo "- 'Search Confluence for documentation about X'"
 echo "- 'Create a new Confluence page with this content'"
 echo "- 'Update the Confluence page about Y'"
 echo ""
-echo "Setup complete! Your Collective Mind project is now configured to use the Confluence MCP Server." 
+echo "Setup complete! Your Collective Mind project is now configured to use the Confluence MCP Server."
+echo ""
+echo "NOTE: Changes have been made locally only. If you want to commit these changes to your repository:"
+echo "1. Review the changes: git status"
+echo "2. Add the changes: git add ."
+echo "3. Commit the changes: git commit -m 'Configure Confluence MCP integration'"
+echo "4. Push the changes (if desired): git push" 

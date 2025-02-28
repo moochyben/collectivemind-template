@@ -24,6 +24,7 @@ This directory includes several types of process documentation:
 - **Incident Response**: Procedures for handling production incidents
 - **Meeting Rituals**: Structure and cadence of team meetings
 - **Decision Records**: Documentation of key technical and product decisions
+- **Integrations**: Processes for setting up and using external integrations
 
 ## Document Structure
 
@@ -56,6 +57,13 @@ For example: `git-workflow.md` or `release-process.md`
 | Release Process | [release-process.md](./release-process.md) | [Date] |
 | Code Review | [code-review-process.md](./code-review-process.md) | [Date] |
 | Testing Strategy | [testing-strategy.md](./testing-strategy.md) | [Date] |
+
+## Subdirectories
+
+This directory contains the following subdirectories for specialized process documentation:
+
+- **[integrations/](./integrations/)**: Documentation for setting up and using external integrations
+  - [Confluence MCP](./integrations/using-confluence-mcp.md): Integration with Confluence Cloud
 
 ## Continuous Improvement
 
