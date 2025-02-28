@@ -120,5 +120,5 @@ Note: The `--auto-sync` option is not currently implemented but could be added t
 
 ## Related Documentation
 
-- [Confluence Integration](../../confluence-integration/README.md) - Overview of the Confluence integration
+- [Confluence Integration](./confluence-integration.md) - Overview of the Confluence integration
 - [Syncing Confluence Pages](./syncing-confluence-pages.md) - Guide for syncing Confluence pages 

@@ -168,5 +168,5 @@ When syncing Confluence pages:
 
 ## Related Documentation
 
-- [Confluence Integration](../../confluence-integration/README.md) - Overview of the Confluence integration
+- [Confluence Integration](./confluence-integration.md) - Overview of the Confluence integration
 - [Using Confluence MCP](./using-confluence-mcp.md) - Guide for using the Confluence MCP 

@@ -15,7 +15,6 @@ This documentation is organized into the following directories:
 - **api-docs/**: API documentation and integration guides
 - **business-docs/**: Business-related documentation and requirements
 - **business-operations-docs/**: Business operations documentation
-- **confluence-integration/**: Documentation for the Confluence integration
 - **confluence-sync/**: Synced Confluence pages organized by space
 - **data-architecture/**: Data model documentation and database schema analyses
 - **deployment-docs/**: Deployment architecture and procedures
@@ -26,6 +25,7 @@ This documentation is organized into the following directories:
 - **mobile-docs/**: Mobile-specific documentation
 - **operations-docs/**: Operational procedures and monitoring
 - **process/**: Development processes, workflows, and best practices
+  - **integrations/**: Documentation for integrations with external systems
 - **product-requirements/**: Product requirement documents
 - **reference-materials/**: Industry standards, templates, and research
 - **security-docs/**: Security architecture and procedures
@@ -73,7 +73,7 @@ The Collective Mind project integrates with Confluence to maintain a synchronize
 3. Ensure consistency between code and documentation
 
 For more information, see:
-- [Confluence Integration](./confluence-integration/README.md)
+- [Confluence Integration Overview](./process/integrations/confluence-integration.md)
 - [Using Confluence MCP](./process/integrations/using-confluence-mcp.md)
 - [Syncing Confluence Pages](./process/integrations/syncing-confluence-pages.md)
 

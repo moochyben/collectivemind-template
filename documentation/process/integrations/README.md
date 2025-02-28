@@ -8,7 +8,10 @@ The purpose of this directory is to provide a centralized location for all integ
 
 ## Available Integrations
 
-- [Confluence MCP](./using-confluence-mcp.md) - Integration with Confluence Cloud using the Machine Callable Program (MCP)
+### Confluence Integration
+
+- [Confluence Integration Overview](./confluence-integration.md) - Overview of the Confluence integration
+- [Using Confluence MCP](./using-confluence-mcp.md) - Guide for using the Machine Callable Program (MCP)
 - [Syncing Confluence Pages](./syncing-confluence-pages.md) - Guide for syncing Confluence pages to the local repository
 
 ## Integration Standards
