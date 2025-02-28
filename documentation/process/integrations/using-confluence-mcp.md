@@ -1,141 +1,124 @@
-# Using the Confluence MCP in Collective Mind
+# Using Confluence MCP
 
-This guide explains how to use the Confluence MCP (Machine Callable Program) server with the Collective Mind project in Cursor.
+This guide explains how to use the Confluence Machine Callable Program (MCP) server to interact with Confluence from the command line.
 
-## What is the Confluence MCP?
+## What is Confluence MCP?
 
-The Confluence MCP is a server that allows AI assistants in Cursor to interact with Confluence Cloud. It provides a set of tools for:
+The Confluence MCP is a Docker container that provides a command-line interface to Confluence. It allows you to:
 
-- Searching Confluence content
-- Creating new pages
-- Updating existing pages
-- Retrieving page content
-- Managing page permissions
-- Working with attachments
+1. Fetch pages from Confluence
+2. List spaces and pages
+3. Convert Confluence content to Markdown
+4. Search for content in Confluence
 
-## Setup
+## Prerequisites
 
-Before using the Confluence MCP, you need to:
+Before using the Confluence MCP, ensure you have:
 
-1. Run the `setup-confluence-mcp.sh` script in the project root
-2. Configure Cursor to use the MCP server
-3. Ensure Docker is running on your system
+1. Docker installed on your system
+2. A Confluence Cloud account with API access
+3. An API token for authentication
+4. The `mcp-config.json` file configured with your credentials
 
-## Configuring Cursor
+## Configuration
 
-To configure Cursor to use the Confluence MCP:
+Create a `mcp-config.json` file in the project root with the following structure:
 
-1. Open Cursor
-2. Go to Settings (⚙️)
-3. Navigate to the "MCP Servers" section
-4. Add the path to your `mcp-config.json` file
-5. Restart Cursor
-
-## Available Commands
-
-When working with the Collective Mind project in Cursor, you can use the following types of commands:
-
-### Searching Confluence
-
-```
-Search Confluence for documentation about knowledge management
+```json
+{
+  "confluenceUrl": "https://your-confluence-instance.atlassian.net",
+  "username": "your-username",
+  "apiToken": "your-api-token"
+}
 ```
 
-### Creating Content
+Replace the placeholders with your actual Confluence information:
+- `confluenceUrl`: The URL of your Confluence instance
+- `username`: Your Confluence username (usually your email)
+- `apiToken`: Your Confluence API token (can be generated in your Atlassian account settings)
 
-```
-Create a new Confluence page titled "Collective Mind Integration" with the following content:
-[Your content here]
-```
+## Starting the MCP Server
 
-### Updating Content
+The MCP server is started automatically when you run the `sync-confluence-pages.sh` script. If you need to start it manually, you can use the following Docker command:
 
-```
-Update the Confluence page titled "Project Documentation" to include this section:
-[Your content here]
-```
-
-### Retrieving Content
-
-```
-Get the content of the Confluence page titled "Development Guidelines"
+```bash
+docker run -d --name confluence-mcp -p 3000:3000 -v $(pwd)/mcp-config.json:/app/config.json mcr.microsoft.com/mcp/confluence:latest
 ```
 
-### Working with Spaces
+## Basic Commands
 
+### Listing Spaces
+
+To list all spaces in your Confluence instance:
+
+```bash
+curl -X GET http://localhost:3000/spaces
 ```
-List all spaces in Confluence
+
+### Listing Pages in a Space
+
+To list all pages in a specific space:
+
+```bash
+curl -X GET http://localhost:3000/spaces/{spaceKey}/pages
 ```
 
+Replace `{spaceKey}` with the key of the space you want to list pages from.
+
+### Fetching a Page
+
+To fetch a specific page:
+
+```bash
+curl -X GET http://localhost:3000/pages/{pageId}
 ```
-Create a new space in Confluence called "Collective Mind" with key "CM"
+
+Replace `{pageId}` with the ID of the page you want to fetch.
+
+### Converting a Page to Markdown
+
+To fetch a page and convert it to Markdown:
+
+```bash
+curl -X GET http://localhost:3000/pages/{pageId}/markdown
 ```
 
-## Best Practices
+Replace `{pageId}` with the ID of the page you want to convert.
 
-1. **Be specific with page titles**: When referencing Confluence pages, use the exact title to ensure the correct page is found.
+## Using the Sync Script
 
-2. **Use structured content**: When creating or updating pages, use Markdown formatting for better readability.
+The `sync-confluence-pages.sh` script provides a user-friendly interface to the MCP server. To use it:
 
-3. **Include metadata**: When creating pages, specify the space key where the page should be created.
-
-4. **Handle permissions**: Consider who should have access to the pages you create or modify.
-
-5. **Verify changes**: After creating or updating content, verify that the changes appear correctly in Confluence.
+1. Make sure the script is executable: `chmod +x sync-confluence-pages.sh`
+2. Run the script: `./sync-confluence-pages.sh`
+3. Follow the menu prompts to list spaces, fetch pages, or sync all pages in a space
 
 ## Troubleshooting
 
-If you encounter issues with the Confluence MCP:
+If you encounter issues with the MCP server:
 
-1. Check that Docker is running
-2. Verify your API token has the necessary permissions
-3. Ensure the Confluence domain is correct in your configuration
-4. Check for any error messages in the Cursor console
+1. Check that Docker is running: `docker ps`
+2. Verify your configuration in `mcp-config.json`
+3. Check the MCP server logs: `docker logs confluence-mcp`
+4. Ensure you're using the correct API token and have the necessary permissions in Confluence
 
-## Example Workflow
+## Advanced Usage
 
-Here's an example workflow for using the Confluence MCP in your project:
+### Custom Markdown Conversion
 
-1. Search for existing documentation:
-   ```
-   Search Confluence for documentation about collective intelligence
-   ```
+The MCP server converts Confluence content to Markdown using a set of rules. If you need to customize the conversion, you can modify the `sync-confluence-pages.sh` script to post-process the Markdown files.
 
-2. Create a new page with project information:
-   ```
-   Create a new Confluence page titled "Collective Mind Overview" in the "CM" space with the following content:
-   # Collective Mind
-   
-   Collective Mind is a platform designed to harness the power of collective intelligence by enabling teams to collaborate, share knowledge, and make better decisions together.
-   
-   ## Key Features
-   
-   - Knowledge management
-   - Collaborative decision-making
-   - Team coordination
-   ```
+### Automating Sync
 
-3. Update the page with additional information:
-   ```
-   Update the Confluence page titled "Collective Mind Overview" to add this section:
-   
-   ## Implementation Timeline
-   
-   - Phase 1: Knowledge management (Q2 2024)
-   - Phase 2: Collaborative decision-making (Q3 2024)
-   - Phase 3: Team coordination (Q4 2024)
-   ```
+You can automate the syncing process by adding the `sync-confluence-pages.sh` script to a cron job or CI/CD pipeline. For example, to sync pages daily:
 
-4. Retrieve the updated content:
-   ```
-   Get the content of the Confluence page titled "Collective Mind Overview"
-   ```
+```bash
+0 0 * * * /path/to/your/project/sync-confluence-pages.sh --auto-sync
+```
 
-## Integration with Development Workflow
+Note: The `--auto-sync` option is not currently implemented but could be added to enable non-interactive syncing.
 
-The Confluence MCP can be integrated into your development workflow to:
+## Related Documentation
 
-1. Automatically update documentation when code changes
-2. Pull requirements from Confluence into your development environment
-3. Share implementation details with the team through Confluence
-4. Keep project status and documentation in sync 
+- [Confluence Integration](../../confluence-integration/README.md) - Overview of the Confluence integration
+- [Syncing Confluence Pages](./syncing-confluence-pages.md) - Guide for syncing Confluence pages 

@@ -1,41 +1,61 @@
 # Confluence Integration
 
-This directory contains documentation related to the integration between Collective Mind and Confluence.
+This directory contains documentation about the integration between the Collective Mind project and Confluence.
 
-## Purpose
+## Overview
 
-The purpose of this integration is to enable seamless knowledge sharing between Collective Mind and Confluence, allowing teams to access and update information across both platforms.
+Confluence is used as the primary knowledge management system for the Collective Mind project. This integration allows team members to:
+
+1. Sync Confluence pages to the local repository
+2. Reference Confluence documentation in code
+3. Maintain consistency between code and documentation
+4. Track documentation changes alongside code changes
+
+## Components
+
+The Confluence integration consists of the following components:
+
+1. **Confluence MCP Server** - A Docker container that provides a Machine Callable Program interface to Confluence
+2. **Sync Script** - A bash script that fetches pages from Confluence and converts them to Markdown
+3. **Configuration** - JSON configuration for connecting to Confluence
+4. **Synced Pages** - Local copies of Confluence pages stored in the `confluence-sync` directory
 
 ## Setup
 
-The integration uses the Confluence MCP Server, which provides tools for interacting with Confluence Cloud directly from the AI assistant in Cursor.
+To set up the Confluence integration:
 
-### Prerequisites
-
-- Docker installed on your system
-- Confluence Cloud account with API access
-- API token for authentication
-
-### Configuration
-
-The integration is configured using the `mcp-config.json` file in the root directory of the project. This file contains the necessary credentials and settings for connecting to Confluence.
+1. Ensure Docker is installed on your system
+2. Create a `mcp-config.json` file in the project root with your Confluence credentials:
+   ```json
+   {
+     "confluenceUrl": "https://your-confluence-instance.atlassian.net",
+     "username": "your-username",
+     "apiToken": "your-api-token"
+   }
+   ```
+3. Run the sync script to test the connection: `./sync-confluence-pages.sh`
 
 ## Usage
 
-For detailed usage instructions, please refer to the [Using Confluence MCP](../process/integrations/using-confluence-mcp.md) guide in the process/integrations directory.
+See the following guides for detailed usage instructions:
 
-When using Cursor with this project, you can interact with Confluence using natural language commands, such as:
+- [Using Confluence MCP](../process/integrations/using-confluence-mcp.md) - Guide for using the Confluence MCP
+- [Syncing Confluence Pages](../process/integrations/syncing-confluence-pages.md) - Guide for syncing Confluence pages
 
-- "Create a new Confluence page with this content"
-- "Search Confluence for information about X"
-- "Update the Confluence page about Y"
-- "Get the content of the Confluence page with title Z"
+## Best Practices
+
+When working with the Confluence integration:
+
+1. Keep your `mcp-config.json` file secure and never commit it to version control
+2. Sync pages regularly to ensure local copies are up to date
+3. Reference Confluence pages in code comments using the page ID or URL
+4. Document any local changes made to synced pages
 
 ## Troubleshooting
 
-If you encounter issues with the Confluence integration:
+Common issues and their solutions:
 
-1. Verify that your API token is valid and has the necessary permissions
-2. Check that Docker is running and can access the internet
-3. Ensure the Confluence domain is correct in the configuration file
-4. Check the Cursor logs for any error messages related to the MCP server 
+1. **Connection errors** - Check your Confluence URL and credentials in `mcp-config.json`
+2. **Docker errors** - Ensure Docker is running and you have permission to create containers
+3. **Sync failures** - Check the Confluence MCP logs for detailed error messages
+4. **Format issues** - Some Confluence elements may not convert perfectly to Markdown
