@@ -90,7 +90,7 @@ interface FilterState {
 const defaultConfig: RoadmapConfig = {
   roadmapTitle: 'Product Roadmap',
   timelineConfig: {
-    startDate: '2023-01-01',
+    startDate: '2025-01-01',
     endDate: '2025-12-31',
     timeUnits: ['quarter', 'month'],
     defaultView: 'quarter'
@@ -324,7 +324,7 @@ export const RoadmapVisualizer: React.FC<RoadmapVisualizerProps> = ({
                   key={i}
                   className="text-center text-sm text-gray-500 dark:text-gray-400"
                 >
-                  {format(new Date(2023, i), 'MMM')}
+                  {format(new Date(2025, i), 'MMM')}
                 </div>
               ))}
             </div>
@@ -534,7 +534,7 @@ const FeatureDetail: React.FC<{
 
 // Helper functions
 function getTimelinePosition(date: string): number {
-  const start = new Date('2023-01-01');
+  const start = new Date('2025-01-01');
   const current = new Date(date);
   const totalDays = 365;
   const daysPassed = Math.floor((current.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));

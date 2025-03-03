@@ -21,6 +21,7 @@ The workflows are organized by functional area:
 - **Quality Assurance Workflows**: Processes for testing and quality assurance
 - **Release Workflows**: Processes for releasing software
 - **Collaboration Workflows**: Processes for team collaboration
+- **Business Workflows**: Processes for business idea management and feature development
 
 ## Key Workflows
 
@@ -41,6 +42,7 @@ The workflows are organized by functional area:
 - [Documentation Workflow](./documentation-workflow.md): Process for creating and maintaining documentation
 - [API Documentation Process](./api-documentation-process.md): Process for documenting APIs
 - [User Guide Creation Process](./user-guide-creation-process.md): Process for creating user guides
+- [Folder Analysis Process](./folder-analysis-process.md): Process for analyzing folder structures
 
 ### Quality Assurance Workflows
 
@@ -59,6 +61,11 @@ The workflows are organized by functional area:
 - [Sprint Planning Process](./sprint-planning-process.md): Process for planning sprints
 - [Retrospective Process](./retrospective-process.md): Process for conducting retrospectives
 - [Decision Making Process](./decision-making-process.md): Process for making team decisions
+
+### Business Workflows
+
+- [Business Idea Process](./business-idea-process.md): Process for managing business ideas
+- [Business Idea to Feature Workflow](./business-idea-to-feature-workflow.md): Process for transitioning from business ideas to features
 
 ## Workflow Standards
 

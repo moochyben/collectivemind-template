@@ -156,8 +156,8 @@ To change the timeline range:
 2. Update the `timelineConfig` object:
    ```json
    "timelineConfig": {
-     "startDate": "2023-01-01",
-     "endDate": "2024-12-31",
+     "startDate": "2025-01-01",
+     "endDate": "2025-12-31",
      "timeUnits": ["quarter", "month"],
      "defaultView": "quarter"
    }

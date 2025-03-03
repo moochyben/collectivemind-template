@@ -74,7 +74,7 @@
           
           <footer className="text-center text-sm text-gray-500 dark:text-gray-400 pt-8">
             <p>This is a sample implementation of the RoadmapVisualizer component.</p>
-            <p>© 2023 CollectiveMind. All rights reserved.</p>
+            <p>© 2025 CollectiveMind. All rights reserved.</p>
           </footer>
         </div>
       );
@@ -85,8 +85,8 @@
       const [config, setConfig] = React.useState({
         roadmapTitle: 'Product Roadmap',
         timelineConfig: {
-          startDate: '2023-01-01',
-          endDate: '2023-12-31',
+          startDate: '2025-01-01',
+          endDate: '2025-12-31',
           timeUnits: ['quarter', 'month'],
           defaultView: 'month'
         },
@@ -189,7 +189,7 @@
 
       // Helper functions
       const getTimelinePosition = (date) => {
-        const start = new Date('2023-01-01');
+        const start = new Date('2025-01-01');
         const current = new Date(date);
         const totalDays = 365;
         const daysPassed = Math.floor((current.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
@@ -334,7 +334,7 @@
                       key={i}
                       className="text-center text-sm text-gray-500 dark:text-gray-400"
                     >
-                      {dateFns.format(new Date(2023, i), 'MMM')}
+                      {dateFns.format(new Date(2025, i), 'MMM')}
                     </div>
                   ))}
                 </div>

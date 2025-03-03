@@ -108,6 +108,67 @@ The documentation is organized into the following main categories, arranged from
   - **Policies**: Company policies
   - **Compliance**: Compliance documentation and certifications
 
+## README Inventory
+
+This section provides a comprehensive inventory of all README files across the documentation directory structure. Each README serves as an entry point and overview for its respective directory.
+
+### Root Level
+- **[README.md](./README.md)**: Main documentation overview (this file)
+
+### Strategy Documentation
+- **[strategy/README.md](./strategy/README.md)**: Overview of strategy documentation
+- **[strategy/vision/README.md](./strategy/vision/README.md)**: Vision and mission documentation
+- **[strategy/goals/README.md](./strategy/goals/README.md)**: Strategic goals documentation
+
+### Research and Requirements
+- **[market-research/README.md](./market-research/README.md)**: Overview of market research documentation
+- **[market-research/user-research/README.md](./market-research/user-research/README.md)**: User research documentation
+- **[market-research/competitive-analysis/README.md](./market-research/competitive-analysis/README.md)**: Competitive analysis documentation
+- **[market-research/analytics/README.md](./market-research/analytics/README.md)**: Analytics documentation
+- **[product-requirements/README.md](./product-requirements/README.md)**: Overview of product requirements documentation
+- **[product-requirements/features/README.md](./product-requirements/features/README.md)**: Feature specifications documentation
+- **[product-requirements/roadmap/README.md](./product-requirements/roadmap/README.md)**: Product roadmap documentation
+
+### Project and Process Management
+- **[project-management/README.md](./project-management/README.md)**: Overview of project management documentation
+- **[project-management/charters/README.md](./project-management/charters/README.md)**: Project charters documentation
+- **[process/README.md](./process/README.md)**: Overview of process documentation
+- **[process/workflows/README.md](./process/workflows/README.md)**: Process workflows documentation
+- **[process/templates/README.md](./process/templates/README.md)**: Document templates overview
+- **[process/standards/README.md](./process/standards/README.md)**: Documentation standards overview
+- **[agile/README.md](./agile/README.md)**: Overview of agile development documentation
+- **[agile/ceremonies/README.md](./agile/ceremonies/README.md)**: Agile ceremonies documentation
+
+### Design and Implementation
+- **[design/README.md](./design/README.md)**: Overview of design documentation
+- **[design/design-system/README.md](./design/design-system/README.md)**: Design system documentation
+- **[technical/README.md](./technical/README.md)**: Overview of technical documentation
+- **[technical/apis/README.md](./technical/apis/README.md)**: API documentation overview
+- **[technical/architecture/README.md](./technical/architecture/README.md)**: Architecture documentation overview
+- **[technical/architecture/data-architecture/README.md](./technical/architecture/data-architecture/README.md)**: Data architecture documentation
+- **[technical/infrastructure/README.md](./technical/infrastructure/README.md)**: Infrastructure documentation overview
+- **[technical/security/README.md](./technical/security/README.md)**: Security documentation overview
+
+### Support and Compliance
+- **[support/README.md](./support/README.md)**: Overview of support documentation
+- **[support/guides/README.md](./support/guides/README.md)**: User guides overview
+- **[support/faqs/README.md](./support/faqs/README.md)**: FAQs overview
+- **[support/troubleshooting/README.md](./support/troubleshooting/README.md)**: Troubleshooting documentation overview
+- **[support/accessibility/README.md](./support/accessibility/README.md)**: Accessibility documentation overview
+- **[legal/README.md](./legal/README.md)**: Overview of legal documentation
+- **[legal/policies/README.md](./legal/policies/README.md)**: Legal policies documentation
+- **[legal/compliance/README.md](./legal/compliance/README.md)**: Compliance documentation overview
+
+Each README file follows a consistent structure:
+1. Title and introduction
+2. Purpose of the documentation in that directory
+3. Directory contents and organization
+4. Key documents and their purposes
+5. Related documentation in other directories
+6. Guidelines specific to that documentation area
+
+The README files are designed to be read in sequence from higher-level directories to more specific subdirectories, providing increasingly detailed information about each documentation area.
+
 ## Navigation Patterns for Agents
 
 ### Top-Down Navigation
@@ -183,4 +244,4 @@ If you have questions about documentation or need assistance, please contact the
 
 ---
 
-Last updated: February 28, 2025 
+Last updated: March 2, 2025 

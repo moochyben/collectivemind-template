@@ -100,7 +100,7 @@ Example configuration updates:
 ```json
 {
   "timelineConfig": {
-    "startDate": "2023-01-01",
+    "startDate": "2025-01-01",
     "endDate": "2025-12-31",
     "timeUnits": ["quarter", "month"],
     "defaultView": "quarter"

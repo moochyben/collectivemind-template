@@ -15,39 +15,39 @@ This document provides a summary of all features in the product roadmap, grouped
 
 | Milestone | Date | Status | Features |
 |-----------|------|--------|----------|
-| **MVP Launch** | Mar 30, 2023 | ✅ Completed | Task Management System |
-| **Productivity Enhancement Release** | May 14, 2023 | 🔄 In Progress | Pomodoro Timer, Dashboard Analytics |
-| **User Experience Update** | Jun 29, 2023 | 📅 Planned | Positive Affirmation Button, Dark Mode |
-| **Integrations Release** | Aug 30, 2023 | 📅 Planned | Calendar Integration, Slack Integration |
-| **Mobile Platform Launch** | Dec 14, 2023 | 📅 Planned | Mobile App |
+| **MVP Launch** | Mar 30, 2025 | ✅ Completed | Task Management System |
+| **Productivity Enhancement Release** | May 14, 2025 | 🔄 In Progress | Pomodoro Timer, Dashboard Analytics |
+| **User Experience Update** | Jun 29, 2025 | 📅 Planned | Positive Affirmation Button, Dark Mode |
+| **Integrations Release** | Aug 30, 2025 | 📅 Planned | Calendar Integration, Slack Integration |
+| **Mobile Platform Launch** | Dec 14, 2025 | 📅 Planned | Mobile App |
 
 ## Core Features
 
 | Feature | Status | Priority | Progress | Timeline |
 |---------|--------|----------|----------|----------|
-| **[Mobile App](/documentation/product-requirements/features/mobile-app/prd.md)** | 📅 Planning | 🔴 High | [          ] 0% | Jun 30, 2023 - Nov 29, 2023 |
-| **[Dashboard Analytics](/documentation/product-requirements/features/dashboard-analytics/prd.md)** | 🔍 In Review | 🔴 High | [█████████ ] 90% | Mar 14, 2023 - Jun 29, 2023 |
-| **[Task Management System](/documentation/product-requirements/features/task-management/prd.md)** | ✅ Completed | 🔴 High | [██████████] 100% | Jan 14, 2023 - Mar 19, 2023 |
+| **[Mobile App](/documentation/product-requirements/features/mobile-app/prd.md)** | 📅 Planning | 🔴 High | [          ] 0% | Jun 30, 2025 - Nov 29, 2025 |
+| **[Dashboard Analytics](/documentation/product-requirements/features/dashboard-analytics/prd.md)** | 🔍 In Review | 🔴 High | [█████████ ] 90% | Mar 14, 2025 - Jun 29, 2025 |
+| **[Task Management System](/documentation/product-requirements/features/task-management/prd.md)** | ✅ Completed | 🔴 High | [██████████] 100% | Jan 14, 2025 - Mar 19, 2025 |
 
 ## Productivity
 
 | Feature | Status | Priority | Progress | Timeline |
 |---------|--------|----------|----------|----------|
-| **[Pomodoro Timer](/documentation/product-requirements/features/pomodoro-timer/prd.md)** | 🔄 In Progress | 🟡 Medium | [████████  ] 75% | Feb 9, 2023 - Apr 14, 2023 |
+| **[Pomodoro Timer](/documentation/product-requirements/features/pomodoro-timer/prd.md)** | 🔄 In Progress | 🟡 Medium | [████████  ] 75% | Feb 9, 2025 - Apr 14, 2025 |
 
 ## User Experience
 
 | Feature | Status | Priority | Progress | Timeline |
 |---------|--------|----------|----------|----------|
-| **[Positive Affirmation Button](/documentation/product-requirements/features/2025-02-28-pomodoro-affirmation/prd.md)** | 📅 Planning | 🟡 Medium | [██        ] 20% | Feb 28, 2023 - May 14, 2023 |
-| **[Dark Mode](/documentation/product-requirements/features/dark-mode/prd.md)** | 🔄 In Progress | 🟢 Low | [██████    ] 60% | Apr 9, 2023 - May 19, 2023 |
+| **[Positive Affirmation Button](/documentation/product-requirements/features/2025-02-28-pomodoro-affirmation/prd.md)** | 📅 Planning | 🟡 Medium | [██        ] 20% | Feb 28, 2025 - May 14, 2025 |
+| **[Dark Mode](/documentation/product-requirements/features/dark-mode/prd.md)** | 🔄 In Progress | 🟢 Low | [██████    ] 60% | Apr 9, 2025 - May 19, 2025 |
 
 ## Integrations
 
 | Feature | Status | Priority | Progress | Timeline |
 |---------|--------|----------|----------|----------|
-| **[Calendar Integration](/documentation/product-requirements/features/calendar-integration/prd.md)** | 📅 Planning | 🟡 Medium | [█         ] 10% | Apr 30, 2023 - Jul 14, 2023 |
-| **[Slack Integration](/documentation/product-requirements/features/slack-integration/prd.md)** | 📅 Planning | 🟢 Low | [█         ] 5% | May 31, 2023 - Aug 14, 2023 |
+| **[Calendar Integration](/documentation/product-requirements/features/calendar-integration/prd.md)** | 📅 Planning | 🟡 Medium | [█         ] 10% | Apr 30, 2025 - Jul 14, 2025 |
+| **[Slack Integration](/documentation/product-requirements/features/slack-integration/prd.md)** | 📅 Planning | 🟢 Low | [█         ] 5% | May 31, 2025 - Aug 14, 2025 |
 
 ## Feature Dependencies
 

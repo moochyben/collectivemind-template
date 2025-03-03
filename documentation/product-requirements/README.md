@@ -18,16 +18,25 @@ The PRDs in this directory aim to:
 The product requirements documentation is organized into the following subdirectories:
 
 - **[Features](./features/)**: Detailed documentation for individual features
-  - **[2025-02-28-pomodoro-affirmation](./features/2025-02-28-pomodoro-affirmation/)**: Documentation for the Pomodoro Affirmation feature
-  - **[2023-07-15-mood-capture](./features/2023-07-15-mood-capture/)**: Documentation for the Mood Capture feature
+  - Each feature is documented in its own subdirectory following the naming convention `YYYY-MM-DD-feature-name`
+  - Features include comprehensive documentation covering requirements, design, implementation, and testing
 - **[Roadmap](./roadmap/)**: Product roadmap visualization and planning tools
   - Interactive timeline visualization
   - Feature summary reports
   - Guidelines for product and project managers
-- **[Templates](./templates/)**: Templates for creating new feature documentation
-  - Feature request templates
-  - PRD templates
-  - User story templates
+  - Scripts and tools for roadmap management
+
+## Feature Documentation Structure
+
+Each feature directory contains the following documentation:
+
+1. **Feature Request (`feature-request.md`)**: Initial feature concept and justification
+2. **Product Requirements Document (`PRD.md`)**: Detailed feature requirements and specifications
+3. **Technical Specification (`technical-specification.md`)**: Technical implementation details
+4. **UI/UX Design (`ui-ux-design.md`)**: User interface and experience specifications
+5. **Implementation Plan (`implementation-plan.md`)**: Development approach and timeline
+6. **Test Plan (`test-plan.md`)**: Testing strategy and test cases
+7. **Supporting Directories**: Visual references, implementation notes, and Cursor AI integration guidance
 
 ## Document Structure
 
@@ -50,14 +59,15 @@ Each PRD follows a consistent structure to ensure comprehensive coverage of all 
 15. **Open Questions**: Unresolved issues requiring decisions
 16. **Appendix**: Reference materials and additional information
 
-## Available Features
+## Cursor Implementation Directions
 
-The following features are currently documented in this directory:
+Each technical document includes a "Cursor Implementation Directions" section that provides specific guidance for using Cursor AI to implement the feature, including:
 
-| Feature | Document | Last Updated | Status |
-|---------|----------|-------------|--------|
-| Pomodoro Affirmation | [2025-02-28-pomodoro-affirmation](./features/2025-02-28-pomodoro-affirmation/) | 2025-02-28 | In Development |
-| Mood Capture | [2023-07-15-mood-capture](./features/2023-07-15-mood-capture/) | 2023-07-15 | Implemented |
+- **Code Structure**: File paths and organization for implementation
+- **Implementation Order**: Step-by-step guidance for Cursor to follow
+- **Key Functions/Components**: Essential elements to implement with descriptions
+- **Testing Approach**: How to test the implementation
+- **Related Cursor Rules**: Specific rules to reference during implementation
 
 ## Roadmap Tools
 
@@ -69,11 +79,18 @@ The roadmap directory contains tools for visualizing and managing the product ro
 - **[Project Manager Guidelines](./roadmap/project-manager-guidelines.md)**: Guidelines for project managers
 - **[Update Scripts](./roadmap/update-roadmap.js)**: Scripts for updating the roadmap based on documentation
 
-## Templates
+## Feature Lifecycle
 
-The templates directory contains standardized templates for creating new product documentation:
+Features go through the following lifecycle stages:
 
-- **[Feature Request Template](./templates/feature-request-template.md)**: Template for submitting new feature requests
+1. **Proposed**: Initial feature idea proposed and captured in a feature request
+2. **Specified**: Feature requirements and specifications defined in the PRD
+3. **Designed**: UI/UX design and technical specifications completed
+4. **Planned**: Implementation plan and test plan created
+5. **Implemented**: Feature implemented in code according to specifications
+6. **Tested**: Feature tested against acceptance criteria and test plan
+7. **Released**: Feature released to users with appropriate documentation
+8. **Maintained**: Feature maintained and improved based on user feedback
 
 ## Using These Documents
 
@@ -89,6 +106,7 @@ The templates directory contains standardized templates for creating new product
 - Use acceptance criteria to guide feature development
 - Update code references in the tracking tables as features are implemented
 - Consult technical considerations for implementation guidance
+- Follow Cursor Implementation Directions for AI-assisted development
 
 ### For Stakeholders
 - Review PRDs to understand feature capabilities and limitations
@@ -96,6 +114,17 @@ The templates directory contains standardized templates for creating new product
 - Use timeline estimates for planning and resource allocation
 - Provide input on open questions to guide feature development
 - View the roadmap visualization for a high-level overview of the product plan
+
+## Creating a New Feature
+
+To create documentation for a new feature:
+
+1. Create a new directory using the naming convention `YYYY-MM-DD-feature-name` (use the current date)
+2. Copy the template files from `documentation/process/templates/feature-documentation/`
+3. Fill in each document with the appropriate information
+4. Ensure all technical documents include the required "Cursor Implementation Directions" section
+5. Get reviews from relevant stakeholders (product, design, engineering)
+6. Update documentation as the feature evolves
 
 ## Maintenance Guidelines
 
@@ -110,12 +139,28 @@ To maintain the accuracy and usefulness of these PRDs:
 7. Keep the roadmap visualization up to date with the latest feature timelines
 8. Use the provided templates when creating new feature documentation
 
+## Best Practices
+
+When documenting features:
+
+1. **Be specific**: Provide concrete details rather than vague descriptions
+2. **Use examples**: Include examples to illustrate requirements and behaviors
+3. **Consider edge cases**: Document how the feature should handle exceptional situations
+4. **Link related documents**: Reference related features, technical docs, or external resources
+5. **Include visuals**: Use diagrams, mockups, and screenshots to clarify concepts
+6. **Update regularly**: Keep documentation in sync with the actual implementation
+7. **Version control**: Track major changes to feature specifications
+8. **Seek feedback**: Get input from all stakeholders to ensure completeness
+9. **Provide clear Cursor directions**: Ensure Cursor Implementation Directions are comprehensive
+10. **Reference Cursor rules**: Identify and reference relevant rules in the `.cursor/rules/` directory
+
 ## Related Documentation
 
 - [Technical Documentation](../technical/README.md)
 - [Design Documentation](../design/README.md)
 - [Process Documentation](../process/README.md)
 - [Project Management Documentation](../project-management/README.md)
+- [Feature Documentation Process](../process/feature-documentation-process.mdc)
 
 ## Contributing
 
@@ -130,6 +175,10 @@ When creating or updating PRDs:
 7. Update the README.md table when adding new PRDs
 8. Use the provided templates for consistency
 
+## Contact
+
+For questions about product requirements documentation or to suggest improvements, please contact the product team at [product@collectivemind.com](mailto:product@collectivemind.com).
+
 ## Last Updated
 
-This README was last updated on February 28, 2025. 
+This README was last updated on March 2, 2025. 

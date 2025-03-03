@@ -20,12 +20,15 @@ The templates are organized by document type:
 - **Process Documentation**: Templates for process-related documents
 - **Design Documentation**: Templates for design-related documents
 - **Meeting Documentation**: Templates for meeting notes and agendas
+- **Business Idea Documentation**: Templates for business idea management process
+- **Feature Documentation**: Templates for comprehensive feature documentation
+- **Analysis Documentation**: Templates for analysis and evaluation
 
 ## Key Templates
 
 ### Project Documentation
 
-- [Feature Template](./feature-template.md): Template for documenting features
+- [Feature Template](./feature-template.md): Flexible template for documenting features at any stage
 - [Project Charter Template](./project-charter-template.md): Template for project charters
 - [Sprint Planning Template](./sprint-planning-template.md): Template for sprint planning
 - [Retrospective Template](./retrospective-template.md): Template for sprint retrospectives
@@ -55,6 +58,27 @@ The templates are organized by document type:
 - [Meeting Notes Template](./meeting-notes-template.md): Template for meeting notes
 - [Decision Log Template](./decision-log-template.md): Template for decision logs
 
+### Business Idea Documentation
+
+- [Business Idea Template](./business-idea-template.md): Template for documenting business ideas
+- [Market Analysis Framework](./market-analysis-framework.md): Framework for analyzing market need, competition, and potential
+- [Idea Categorization Framework](./idea-categorization-framework.md): Framework for categorizing business ideas
+
+### Feature Documentation
+
+- [Feature Template](./feature-template.md): Flexible template for documenting features at any stage
+- **[Feature Documentation Directory](./feature-documentation/)**: Additional templates for comprehensive feature documentation, including:
+  - [Product Requirements Document (PRD)](./feature-documentation/PRD.md): Template for detailed product requirements
+  - [Technical Specification](./feature-documentation/technical-specification.md): Template for technical implementation details
+  - [UI/UX Design](./feature-documentation/ui-ux-design.md): Template for UI/UX design documentation
+  - [Implementation Plan](./feature-documentation/implementation-plan.md): Template for planning feature implementation
+  - [Test Plan](./feature-documentation/test-plan.md): Template for feature testing strategy and test cases
+
+### Analysis Documentation
+
+- [Folder Analysis Template](./folder-analysis-template.md): Template for analyzing folder structures
+- [Product Documentation Template](./product-documentation-template.md): Template for documenting products
+
 ## Template Standards
 
 All templates in this directory follow these standards:
@@ -74,6 +98,18 @@ To use a template:
 4. Remove any instructions or guidance notes
 5. Review the document for completeness
 
+## Business Idea to Feature Workflow
+
+The business idea management process integrates with the feature documentation process through the following workflow:
+
+1. **Idea Submission**: Use the [Business Idea Template](./business-idea-template.md) to document the initial business idea
+2. **Idea Evaluation**: Analyze, categorize, and prioritize the idea using the [Market Analysis Framework](./market-analysis-framework.md) and [Idea Categorization Framework](./idea-categorization-framework.md)
+3. **Idea Approval**: Get stakeholder approval for the idea
+4. **Feature Documentation**: For approved ideas that involve product features, use the [Feature Template](./feature-template.md)
+5. **Comprehensive Documentation**: For complex features requiring detailed documentation, use the additional templates in the [Feature Documentation Directory](./feature-documentation/)
+
+This integrated workflow ensures a smooth transition from business ideas to feature implementation. For the complete workflow documentation, see [Business Idea to Feature Workflow](../workflows/business-idea-to-feature-workflow.md).
+
 ## Related Documentation
 
 For related information, please refer to:
@@ -81,6 +117,7 @@ For related information, please refer to:
 - [Documentation Standards](../standards/documentation-standards.md): Standards for documentation
 - [Documentation Workflow](../workflows/documentation-workflow.md): Process for creating and maintaining documentation
 - [File Naming Conventions](../standards/file-naming-conventions.md): Conventions for naming files
+- [Business Idea Management Process](../workflows/business-idea-process.md): Process for managing business ideas
 
 ## Contributing
 

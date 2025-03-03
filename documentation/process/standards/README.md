@@ -33,10 +33,21 @@ The standards are organized by functional area:
 
 ### Documentation Standards
 
-- [Documentation Standards](./documentation-standards.md): Standards for documentation
+- [Documentation Content Standards](./documentation-content-standards.md): Standards for documentation content, formatting, and quality
+- [Documentation Organization Guidelines](./documentation-organization-guidelines.md): Guidelines for organizing, managing, and maintaining documentation
 - [API Documentation Standards](./api-documentation-standards.md): Standards for API documentation
 - [Technical Writing Guidelines](./technical-writing-guidelines.md): Guidelines for technical writing
 - [File Naming Conventions](./file-naming-conventions.md): Conventions for naming files
+
+#### Documentation Standards Relationship
+
+Our documentation standards are divided into two complementary documents:
+
+1. **[Documentation Content Standards](./documentation-content-standards.md)**: Focuses on **what to include** in your documentation and **how to format it** (content quality, formatting rules, writing standards).
+
+2. **[Documentation Organization Guidelines](./documentation-organization-guidelines.md)**: Focuses on **where to place** documentation, **how to structure** directories and files, and the **processes and workflows** for creating and updating documentation.
+
+Together, these documents provide a complete framework for documentation practices at CollectiveMind.
 
 ### Design Standards
 

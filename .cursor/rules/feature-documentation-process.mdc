@@ -48,6 +48,7 @@ This document outlines the standardized process for documenting, reviewing, and 
   - Assign appropriate specialists based on feature requirements
   - Use Cursor to analyze visual inputs and generate documentation drafts
   - Create technical specifications, API designs, and UI mockups as needed
+  - **REQUIRED**: Include "Cursor Implementation Directions" section in each technical document
   - Ensure all documentation uses the current processing date, not placeholder dates
 - **Output**: Complete feature documentation package
 - **Tools**: Documentation templates, Cursor for documentation assistance
@@ -57,6 +58,7 @@ This document outlines the standardized process for documenting, reviewing, and 
 - **Input**: Feature documentation package
 - **Actions**:
   - Review documentation for completeness and accuracy
+  - **REQUIRED**: Verify that Cursor Implementation Directions are included and comprehensive
   - Provide feedback and request revisions if needed
   - Use Cursor to visualize documentation as code snippets or wireframes
   - Formal approval of documentation
@@ -71,6 +73,7 @@ This document outlines the standardized process for documenting, reviewing, and 
   - Cursor analyzes visuals and generates code implementation suggestions
   - Review and refine the generated code
   - Document any deviations from original documentation
+  - **REQUIRED**: Follow the Cursor Implementation Directions from documentation
 - **Output**: Initial code implementation
 - **Tools**: Cursor AI, code review tools
 - **Roles**: Developers, UX/UI Designer
@@ -79,6 +82,7 @@ This document outlines the standardized process for documenting, reviewing, and 
 - **Input**: Approved documentation, Cursor-generated code
 - **Actions**:
   - Develop the feature based on documentation and generated code
+  - **REQUIRED**: Follow Cursor Implementation Directions from documentation
   - Reference appropriate Cursor rules from `.cursor/rules/` directory
   - Regular progress updates against documentation specifications
   - Use Cursor to check implementation against documentation requirements
@@ -93,6 +97,7 @@ This document outlines the standardized process for documenting, reviewing, and 
   - QA testing against documented requirements
   - Stakeholder review against original feature concept
   - Use Cursor to verify code implementation matches visual requirements
+  - **REQUIRED**: Verify implementation follows Cursor Implementation Directions
   - Final documentation updates based on actual implementation
 - **Output**: Verified feature ready for release
 - **Tools**: Testing tools, Cursor for verification assistance
@@ -123,6 +128,7 @@ This document outlines the standardized process for documenting, reviewing, and 
   - UI/UX Design Documents
   - Test Plan
   - Implementation Plan
+  - **REQUIRED**: Each technical document must include a "Cursor Implementation Directions" section
 
 ### Documentation Review Checklist
 - Located at: `documentation/process/templates/documentation-review-checklist.md`
@@ -132,6 +138,7 @@ This document outlines the standardized process for documenting, reviewing, and 
   - Accuracy Check
   - Consistency Check
   - Feasibility Check
+  - **Cursor Implementation Check** (verify directions are clear and comprehensive)
   - Stakeholder Approval
   - Date Verification (ensure all dates are current and accurate)
 
@@ -169,23 +176,68 @@ This document outlines the standardized process for documenting, reviewing, and 
 - Process-specific rules (e.g., documentation-update)
 - Feature-specific rules (created for specific complex features)
 
+## Cursor Implementation Directions Template
+
+### Required in All Technical Documents
+Each technical document (Technical Specification, UI/UX Design, Implementation Plan, etc.) must include a "Cursor Implementation Directions" section with the following components:
+
+- **Code Structure**: File paths and organization for implementation
+- **Implementation Order**: Step-by-step guidance for Cursor to follow
+- **Key Functions**: Essential functions to implement with descriptions
+- **Testing Approach**: How to test the implementation
+- **Related Cursor Rules**: Specific rules to reference during implementation
+
+Example:
+```markdown
+## Cursor Implementation Directions
+
+### Code Structure
+- Create component in `src/components/feature-name/`
+- Update service in `src/services/relevant-service.ts`
+- Modify state management in `src/store/feature-name.ts`
+
+### Implementation Order
+1. First implement the data models
+2. Then create the UI components
+3. Connect components to state management
+4. Implement business logic
+
+### Key Functions
+- `fetchFeatureData()`: Retrieves data from API
+- `renderFeatureUI()`: Displays the feature interface
+- `processUserInput()`: Handles user interactions
+
+### Testing Approach
+- Unit tests for business logic
+- Component tests for UI elements
+- Integration tests for data flow
+
+### Related Cursor Rules
+- Follow the `component-structure` rule for UI components
+- Apply the `state-management` rule for data handling
+- Use the `api-integration` rule for backend communication
+```
+
 ## Roles and Responsibilities
 
 ### Product Manager
 - Create initial feature requests
 - Coordinate documentation creation
 - Facilitate documentation review
+- **Ensure Cursor Implementation Directions are included in all documentation**
 - Verify implementation against requirements
 - Ensure dates are current and accurate throughout documentation
 
 ### UX/UI Designer
 - Create visual designs and mockups
 - Work with Cursor to translate designs to code
+- **Provide Cursor Implementation Directions for UI components**
 - Review Cursor-generated code for design fidelity
 - Verify implementation matches design intent
 
 ### Developers
 - Review and refine Cursor-generated code
+- **Follow Cursor Implementation Directions during development**
 - Implement features based on documentation
 - Integrate generated code with existing codebase
 - Reference appropriate Cursor rules during implementation
@@ -193,6 +245,7 @@ This document outlines the standardized process for documenting, reviewing, and 
 
 ### QA Specialists
 - Test implementation against requirements
+- **Verify implementation follows Cursor Implementation Directions**
 - Verify visual and functional correctness
 - Document any discrepancies
 - Approve final implementation

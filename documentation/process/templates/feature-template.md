@@ -1,161 +1,150 @@
-# Feature Documentation Template
-
----
-title: [Feature Name]
-author: [Author Name]
-created_date: YYYY-MM-DD
-last_updated: YYYY-MM-DD
-status: [Draft/In Review/Approved/Implemented]
-priority: [Critical/High/Medium/Low]
-target_release: [Version or Sprint]
----
+# Feature Template
 
 ## Overview
 
-A brief description of the feature (1-2 paragraphs) that explains what the feature is and why it's important.
+**Feature Name**: [Feature Name]  
+**Feature ID**: [ID]  
+**Requested By**: [Name and Role]  
+**Feature Owner**: [Name and Role]  
+**Date Requested**: [YYYY-MM-DD]  
+**Status**: [Proposed/In Review/Approved/In Development/Completed]  
+**Priority**: [High/Medium/Low]  
+**Target Release**: [Version or Date]
 
-## Business Justification
+## Description
 
-### Problem Statement
+[Provide a clear, concise description of the feature. What is it and what does it aim to accomplish?]
 
-Describe the problem this feature solves. What pain points does it address?
+## Problem Statement
 
-### Success Metrics
+[Clearly describe the problem this feature aims to solve. What user pain points or business challenges does it address?]
 
-Define how success will be measured for this feature:
+## Business Value
 
-- Metric 1: [Description and target]
-- Metric 2: [Description and target]
+[Explain how this feature aligns with business goals and objectives. What value will it bring to the organization?]
 
-### User Value
-
-Explain the value this feature provides to users.
+- **Value 1**: [Description]
+- **Value 2**: [Description]
+- **Value 3**: [Description]
 
 ## User Stories
 
-List the user stories that this feature addresses:
+[List the user stories that this feature will fulfill]
 
-```
-As a [type of user],
-I want to [perform some action],
-So that [I can achieve some goal/benefit/value].
-```
+- As a [type of user], I want to [perform some action] so that [I can achieve some goal].
+- As a [type of user], I want to [perform some action] so that [I can achieve some goal].
+- As a [type of user], I want to [perform some action] so that [I can achieve some goal].
+
+## Target Users
+
+[Identify who will use this feature. Include user personas if available.]
 
 ## Requirements
 
 ### Functional Requirements
 
-List the specific functional requirements for this feature:
+[List the functional requirements for this feature]
 
-1. The system shall...
-2. The system shall...
+1. [Requirement 1]
+2. [Requirement 2]
+3. [Requirement 3]
 
 ### Non-Functional Requirements
 
-List any non-functional requirements (performance, security, usability, etc.):
+[List the non-functional requirements for this feature (performance, security, usability, etc.)]
 
-1. The feature shall respond within [X] seconds
-2. The feature shall be accessible according to WCAG 2.1 AA standards
+1. [Requirement 1]
+2. [Requirement 2]
+3. [Requirement 3]
 
-### Dependencies
+## Success Criteria
 
-List any dependencies on other features, systems, or teams:
+[Define how success will be measured for this feature. What metrics will indicate that it is achieving its intended goals?]
 
-- Dependency 1: [Description]
-- Dependency 2: [Description]
+1. [Criterion 1]
+2. [Criterion 2]
+3. [Criterion 3]
 
-## Design
+## Dependencies
 
-### User Interface
+[List any dependencies that this feature has on other features, systems, or teams]
 
-Describe the user interface for this feature. Include wireframes, mockups, or links to design files.
+1. [Dependency 1]
+2. [Dependency 2]
+3. [Dependency 3]
 
-### User Flow
+## Design and Implementation
 
-Describe the user flow for this feature. Include diagrams if helpful.
+> Note: This section can be expanded for approved features or kept minimal for initial proposals.
 
-### Technical Design
+### Design Overview
 
-Provide a high-level technical design for this feature. Include architecture diagrams if helpful.
+[Provide a high-level design overview for this feature. Include mockups, wireframes, or diagrams if available.]
 
-#### Data Model
+### Technical Approach
 
-Describe any changes to the data model required for this feature.
+[Describe the technical approach for implementing this feature. Include any architectural considerations, technologies to be used, etc.]
 
-#### API Changes
+## Risks and Mitigations
 
-Describe any API changes required for this feature.
+[Identify potential risks associated with this feature and how they will be mitigated]
+
+| Risk | Impact | Likelihood | Mitigation Strategy |
+|------|--------|------------|---------------------|
+| [Risk 1] | [High/Medium/Low] | [High/Medium/Low] | [Strategy] |
+| [Risk 2] | [High/Medium/Low] | [High/Medium/Low] | [Strategy] |
+| [Risk 3] | [High/Medium/Low] | [High/Medium/Low] | [Strategy] |
 
 ## Implementation Plan
 
-### Tasks
+> Note: Complete this section after the feature has been approved.
 
-Break down the implementation into specific tasks:
+### Key Phases
 
-1. Task 1: [Description]
-2. Task 2: [Description]
+1. [Phase 1]
+2. [Phase 2]
+3. [Phase 3]
 
-### Timeline
+### Resources
 
-Provide an estimated timeline for implementation:
+[List the resources required for this feature]
 
-- Week 1: [Tasks]
-- Week 2: [Tasks]
+- **Development**: [Number of developers and estimated effort]
+- **Design**: [Number of designers and estimated effort]
+- **QA**: [Number of QA engineers and estimated effort]
+- **Other**: [Any other resources required]
 
-## Testing
+## Supporting Materials
 
-### Test Cases
+[Attach or link to any supporting materials, research, examples, or visual references]
 
-List the test cases for this feature:
+## Next Steps
 
-1. Test Case 1: [Description]
-2. Test Case 2: [Description]
+> Note: Update this section based on the current stage of the feature.
 
-### Acceptance Criteria
+### For Proposed Features
+- [ ] Review with stakeholders
+- [ ] Prioritize against other features
+- [ ] Make approval decision
 
-List the acceptance criteria for this feature:
+### For Approved Features
+- [ ] Complete detailed design
+- [ ] Develop implementation plan
+- [ ] Assign to development team
+- [ ] Create test plan
 
-1. Criterion 1: [Description]
-2. Criterion 2: [Description]
+---
 
-## Rollout Plan
+## For Internal Use
 
-### Phasing
+**Status**: [Proposed/In Review/Approved/Rejected/In Development/Completed]  
+**Reviewed By**: [Names and Roles]  
+**Review Date**: [YYYY-MM-DD]  
+**Comments**: [Any comments from the review process]
 
-Describe any phased rollout plans for this feature:
+## Approvals
 
-- Phase 1: [Description]
-- Phase 2: [Description]
-
-### Monitoring
-
-Describe how the feature will be monitored in production:
-
-- Metric 1: [Description]
-- Metric 2: [Description]
-
-## Documentation
-
-### User Documentation
-
-Describe what user documentation will be needed for this feature.
-
-### Technical Documentation
-
-Describe what technical documentation will be needed for this feature.
-
-## Appendix
-
-### References
-
-List any references or related documents:
-
-- [Reference 1](link)
-- [Reference 2](link)
-
-### Glossary
-
-Define any terms that may be unfamiliar:
-
-- Term 1: Definition
-- Term 2: Definition 
+**Product Manager**: [Name] - [Approved/Pending]  
+**Engineering Lead**: [Name] - [Approved/Pending]  
+**Design Lead**: [Name] - [Approved/Pending]  
+**QA Lead**: [Name] - [Approved/Pending] 
