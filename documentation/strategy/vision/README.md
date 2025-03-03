@@ -26,45 +26,57 @@ The vision and mission documentation is organized by:
 
 ### Vision
 
-- [Vision Statement](./vision-statement.md): The organization's aspirational vision
-- [Vision Evolution](./vision-evolution.md): How the vision has evolved over time
-- [Vision Alignment](./vision-alignment.md): How the vision aligns with market trends and customer needs
-- [Vision Communication](./vision-communication.md): How the vision is communicated to stakeholders
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Vision Statement]** *(Planned)*: The organization's aspirational vision
+- **[Vision Evolution]** *(Planned)*: How the vision has evolved over time
+- **[Vision Alignment]** *(Planned)*: How the vision aligns with market trends and customer needs
+- **[Vision Communication]** *(Planned)*: How the vision is communicated to stakeholders
 
 ### Mission
 
-- [Mission Statement](./mission-statement.md): The organization's purpose and approach
-- [Mission Scope](./mission-scope.md): The scope of the organization's mission
-- [Mission Impact](./mission-impact.md): The intended impact of the mission
-- [Mission Execution](./mission-execution.md): How the mission is executed
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Mission Statement]** *(Planned)*: The organization's purpose and approach
+- **[Mission Scope]** *(Planned)*: The scope of the organization's mission
+- **[Mission Impact]** *(Planned)*: The intended impact of the mission
+- **[Mission Execution]** *(Planned)*: How the mission is executed
 
 ### Core Values
 
-- [Core Values](./core-values.md): The organization's fundamental beliefs and principles
-- [Values in Action](./values-in-action.md): How core values are applied in practice
-- [Cultural Principles](./cultural-principles.md): Principles that guide organizational culture
-- [Ethical Framework](./ethical-framework.md): Ethical framework for decision-making
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Core Values]** *(Planned)*: The organization's fundamental beliefs and principles
+- **[Values in Action]** *(Planned)*: How core values are applied in practice
+- **[Cultural Principles]** *(Planned)*: Principles that guide organizational culture
+- **[Ethical Framework]** *(Planned)*: Ethical framework for decision-making
 
 ### Value Proposition
 
-- [Customer Value Proposition](./customer-value-proposition.md): Value proposition for customers
-- [Market Differentiation](./market-differentiation.md): How the organization differentiates itself
-- [Competitive Advantage](./competitive-advantage.md): Sources of competitive advantage
-- [Value Delivery](./value-delivery.md): How value is delivered to customers
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Customer Value Proposition]** *(Planned)*: Value proposition for customers
+- **[Market Differentiation]** *(Planned)*: How the organization differentiates itself
+- **[Competitive Advantage]** *(Planned)*: Sources of competitive advantage
+- **[Value Delivery]** *(Planned)*: How value is delivered to customers
 
 ### Strategic Narrative
 
-- [Origin Story](./origin-story.md): The story of the organization's origins
-- [Purpose Narrative](./purpose-narrative.md): Narrative around the organization's purpose
-- [Future Vision](./future-vision.md): Narrative of the envisioned future
-- [Change Story](./change-story.md): Narrative of the change the organization seeks to create
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Origin Story]** *(Planned)*: The story of the organization's origins
+- **[Purpose Narrative]** *(Planned)*: Narrative around the organization's purpose
+- **[Future Vision]** *(Planned)*: Narrative of the envisioned future
+- **[Change Story]** *(Planned)*: Narrative of the change the organization seeks to create
 
 ### Brand Identity
 
-- [Brand Positioning](./brand-positioning.md): The organization's brand positioning
-- [Brand Personality](./brand-personality.md): The personality of the brand
-- [Brand Promise](./brand-promise.md): The promise made to customers
-- [Brand Expression](./brand-expression.md): How the brand is expressed
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Brand Positioning]** *(Planned)*: The organization's brand positioning
+- **[Brand Personality]** *(Planned)*: The personality of the brand
+- **[Brand Promise]** *(Planned)*: The promise made to customers
+- **[Brand Expression]** *(Planned)*: How the brand is expressed
 
 ## Vision and Mission Development
 
@@ -94,10 +106,12 @@ The vision and mission serve as:
 
 For related information, please refer to:
 
+> **Note**: Some of the following documents are planned and will be created as part of our documentation improvement initiative.
+
 - [Strategic Goals](../goals/): Strategic goals and objectives
 - [Strategic Roadmap](../../product-requirements/roadmap/): Product roadmap
-- [Brand Guidelines](../../design/design-system/brand/): Brand guidelines and assets
-- [Company Overview](../../process/onboarding/general/company-introduction.md): General company introduction
+- **[Brand Guidelines]** *(Planned)*: Brand guidelines and assets will be available in the design system
+- **[Company Overview]** *(Planned)*: General company introduction will be available in the onboarding documentation
 
 ## Contributing
 
@@ -107,9 +121,13 @@ When contributing to vision and mission documentation:
 2. Use clear, compelling, and inspirational language
 3. Consider the perspectives of all stakeholders
 4. Focus on long-term aspirations while remaining grounded in reality
-5. Follow the [documentation standards](../../process/standards/documentation-standards.md)
-6. Follow the [vision and mission development workflow](../../process/workflows/vision-mission-workflow.md)
+5. **[Documentation Standards]** *(Planned)*: Documentation standards will be available in the process/standards directory
+6. **[Vision and Mission Development Workflow]** *(Planned)*: Workflow documentation will be available in the process/workflows directory
 
 ## Contact
 
-For questions about the vision and mission or to suggest improvements, please contact the strategy team at [strategy@collectivemind.com](mailto:strategy@collectivemind.com). 
+For questions about the vision and mission or to suggest improvements, please contact the strategy team at [strategy@collectivemind.com](mailto:strategy@collectivemind.com).
+
+---
+
+Last updated: March 2, 2025 

@@ -24,10 +24,12 @@ The strategy documentation is organized into the following subdirectories:
 
 The vision directory contains documentation related to the project's vision and strategic direction, including:
 
-- Vision and mission statements
-- Value proposition
-- Strategic pillars and principles
-- Long-term strategic direction
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Vision and Mission Statements]** *(Planned)*: Core vision and mission documentation
+- **[Value Proposition]** *(Planned)*: Unique value offered to customers
+- **[Strategic Pillars]** *(Planned)*: Core principles guiding our strategy
+- **[Strategic Direction]** *(Planned)*: Long-term strategic direction and goals
 
 For more information, see the [Vision README](./vision/README.md).
 
@@ -35,10 +37,12 @@ For more information, see the [Vision README](./vision/README.md).
 
 The goals directory contains documentation related to strategic goals and objectives, including:
 
-- Strategic goals and objectives
-- OKRs (Objectives and Key Results)
-- KPIs (Key Performance Indicators)
-- Success metrics and measurement frameworks
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Strategic Goals]** *(Planned)*: High-level organizational goals
+- **[OKRs]** *(Planned)*: Objectives and Key Results framework
+- **[KPIs]** *(Planned)*: Key Performance Indicators
+- **[Success Metrics]** *(Planned)*: Measurement frameworks and targets
 
 For more information, see the [Goals README](./goals/README.md).
 
@@ -98,13 +102,13 @@ When contributing to strategy documentation:
 1. Ensure alignment with the established vision and mission
 2. Base strategic recommendations on data and analysis
 3. Consider both short-term and long-term implications
-4. Follow the [documentation standards](../process/standards/documentation-standards.md)
-5. Follow the [documentation workflow](../process/workflows/documentation-workflow.md)
+4. **[Documentation Standards]** *(Planned)*: Documentation standards will be available in the process/standards directory
+5. **[Documentation Workflow]** *(Planned)*: Documentation workflow will be available in the process/workflows directory
 
 ## Confidentiality Notice
 
 The strategy documentation in this directory is confidential and for internal use only. Do not share this information outside the company without proper authorization.
 
-## Last Updated
+---
 
-This README was last updated on February 28, 2025. 
+Last updated: March 2, 2025 

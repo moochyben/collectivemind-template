@@ -2,6 +2,34 @@
 
 This directory contains comprehensive documentation for the CollectiveMind APIs, including reference documentation, guides, examples, and API specifications.
 
+## Contents
+
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+### Reference Documentation
+
+- **[Core API Reference](./reference/core-api.md)** *(Planned)*: Complete reference for the Core API
+- **[Authentication API Reference](./reference/auth-api.md)** *(Planned)*: Reference for the Authentication API
+- **[Data API Reference](./reference/data-api.md)** *(Planned)*: Reference for the Data API
+- **[Integration API Reference](./reference/integration-api.md)** *(Planned)*: Reference for the Integration API
+- **[Admin API Reference](./reference/admin-api.md)** *(Planned)*: Reference for the Admin API
+- **[Webhooks Reference](./reference/webhooks.md)** *(Planned)*: Reference for available webhooks and event payloads
+
+### Guides
+
+- **[API Getting Started Guide](./guides/getting-started.md)** *(Planned)*: Guide for getting started with CollectiveMind APIs
+- **[Authentication Guide](./guides/authentication.md)** *(Planned)*: Guide for implementing authentication
+- **[Pagination Guide](./guides/pagination.md)** *(Planned)*: Guide for implementing pagination with the APIs
+- **[Error Handling Guide](./guides/error-handling.md)** *(Planned)*: Guide for handling API errors
+- **[Rate Limiting Guide](./guides/rate-limiting.md)** *(Planned)*: Information about API rate limits
+- **[Webhooks Integration Guide](./guides/webhooks.md)** *(Planned)*: Guide for integrating with CollectiveMind webhooks
+
+### Specifications
+
+- **[OpenAPI Specifications](./specs/openapi/)** *(Planned)*: OpenAPI/Swagger specifications for all APIs
+- **[JSON Schema Definitions](./specs/schemas/)** *(Planned)*: JSON Schema definitions for API objects
+- **[GraphQL Schema](./specs/graphql/)** *(Planned)*: GraphQL schema for GraphQL APIs (if applicable)
+
 ## Purpose
 
 API documentation serves to:
@@ -15,86 +43,18 @@ API documentation serves to:
 7. **Set Expectations**: Define request/response formats, error handling, and performance characteristics
 8. **Support Troubleshooting**: Provide information for debugging integration issues
 
-## API Overview
+## Directory Structure
 
-CollectiveMind provides the following APIs:
+> **Note**: The following directories are planned and will be populated as part of our documentation improvement initiative.
 
-1. **Core API**: Primary API for interacting with CollectiveMind features
-2. **Authentication API**: API for user authentication and authorization
-3. **Data API**: API for accessing and manipulating CollectiveMind data
-4. **Integration API**: API for integrating with third-party services
-5. **Admin API**: API for administrative functions and system management
-6. **Webhooks API**: API for event-driven integrations via webhooks
+The API documentation is organized into the following directories:
 
-## Documentation Structure
-
-The API documentation is organized into the following categories:
-
-- **Reference Documentation**: Detailed documentation for each API endpoint
-- **Getting Started Guides**: Guides for getting started with CollectiveMind APIs
-- **Integration Guides**: Guides for integrating with specific systems or use cases
-- **API Specifications**: OpenAPI/Swagger specifications for the APIs
-- **Examples**: Code examples and sample applications
-- **SDKs and Libraries**: Documentation for client libraries and SDKs
-- **API Changelog**: History of API changes and versioning information
-
-## API Endpoint Documentation Structure
-
-Each API endpoint documentation includes:
-
-1. **Endpoint**: The HTTP method and URL path
-2. **Description**: What the endpoint does and when to use it
-3. **Authentication**: Required authentication method
-4. **Request Parameters**: Query parameters, path parameters, and request body schema
-5. **Response Format**: Response body schema and status codes
-6. **Examples**: Sample requests and responses
-7. **Error Handling**: Possible error responses and their meaning
-8. **Rate Limiting**: Any applicable rate limits
-9. **Notes**: Additional information, caveats, or best practices
-
-## Naming Convention
-
-API documentation should follow this naming convention:
-
-```
-api-resource-name.md
-```
-
-For example: `api-users.md` or `api-authentication.md`
-
-## Key Documents
-
-### Reference Documentation
-
-- **Core API Reference**: Complete reference for the Core API
-- **Authentication API Reference**: Reference for the Authentication API
-- **Data API Reference**: Reference for the Data API
-- **Integration API Reference**: Reference for the Integration API
-- **Admin API Reference**: Reference for the Admin API
-- **Webhooks Reference**: Reference for available webhooks and event payloads
-
-### Guides
-
-- **API Getting Started Guide**: Guide for getting started with CollectiveMind APIs
-- **Authentication Guide**: Guide for implementing authentication
-- **Pagination Guide**: Guide for implementing pagination with the APIs
-- **Error Handling Guide**: Guide for handling API errors
-- **Rate Limiting Guide**: Information about API rate limits
-- **Webhooks Integration Guide**: Guide for integrating with CollectiveMind webhooks
-
-### Specifications
-
-- **OpenAPI Specifications**: OpenAPI/Swagger specifications for all APIs
-- **JSON Schema Definitions**: JSON Schema definitions for API objects
-- **GraphQL Schema**: GraphQL schema for GraphQL APIs (if applicable)
-
-## Available API Documentation
-
-| Resource | Document | Last Updated | Version |
-|----------|----------|-------------|---------|
-| Users | [api-users.md](./api-users.md) | 2025-02-15 | v1 |
-| Authentication | [api-authentication.md](./api-authentication.md) | 2025-02-15 | v1 |
-| Projects | [api-projects.md](./api-projects.md) | 2025-02-15 | v1 |
+- **[reference/](./reference/)** *(Planned)*: Detailed API reference documentation
+- **[guides/](./guides/)** *(Planned)*: Getting started and integration guides
+- **[specs/](./specs/)** *(Planned)*: API specifications and schemas
+- **[examples/](./examples/)** *(Planned)*: Code examples and sample applications
+- **[sdks/](./sdks/)** *(Planned)*: SDK and client library documentation
+- **[changelog/](./changelog/)** *(Planned)*: API versioning and change history
 
 ## API Standards
 
@@ -108,48 +68,19 @@ CollectiveMind APIs follow these standards:
 6. **Pagination**: APIs use cursor-based pagination for list endpoints
 7. **Rate Limiting**: APIs implement rate limiting with appropriate headers
 
-## OpenAPI Specification
+## Documentation Structure
 
-CollectiveMind APIs are documented using OpenAPI (Swagger) specification files that formally define the API in a machine-readable format. These files can be used to:
+Each API endpoint documentation includes:
 
-- Generate interactive API documentation
-- Create client libraries
-- Set up automated testing
-- Validate API implementations
-
-## Versioning
-
-API documentation clearly indicates:
-
-- The current API version
-- Backward compatibility guarantees
-- Deprecation notices and timelines
-- Migration guides for breaking changes
-
-## Using the API Documentation
-
-### For API Consumers
-
-1. Start with the Getting Started Guide to understand the basics
-2. Review the Authentication Guide to implement authentication
-3. Use the Reference Documentation for detailed endpoint information
-4. Check the Examples for code samples in your preferred language
-5. Use the OpenAPI Specifications for automated client generation
-
-### For API Developers
-
-1. Follow the API Standards when developing new APIs
-2. Update the documentation when making API changes
-3. Include examples for new endpoints or features
-4. Ensure OpenAPI Specifications are kept up to date
-5. Document breaking changes clearly with migration guides
-
-## Tools and Resources
-
-- **API Explorer**: Interactive tool for exploring and testing APIs
-- **Postman Collection**: Postman collection for testing APIs
-- **Client Libraries**: Client libraries for various programming languages
-- **API Status Page**: Page showing current API status and incidents
+1. **Endpoint**: The HTTP method and URL path
+2. **Description**: What the endpoint does and when to use it
+3. **Authentication**: Required authentication method
+4. **Request Parameters**: Query parameters, path parameters, and request body schema
+5. **Response Format**: Response body schema and status codes
+6. **Examples**: Sample requests and responses
+7. **Error Handling**: Possible error responses and their meaning
+8. **Rate Limiting**: Any applicable rate limits
+9. **Notes**: Additional information, caveats, or best practices
 
 ## Best Practices
 
@@ -166,24 +97,23 @@ When working with CollectiveMind APIs:
 9. Document error scenarios and status codes
 10. Consider performance implications of API usage patterns
 
-## Implementation Details
+## Tools and Resources
 
-This directory also includes technical implementation details for APIs, including:
+> **Note**: The following tools and resources are planned and will be created as part of our documentation improvement initiative.
 
-1. **Implementation Architecture**: How the APIs are structured internally
-2. **Code Organization**: How API code is organized and structured
-3. **Performance Optimizations**: Technical details about API performance
-4. **Security Implementation**: How security features are implemented
-5. **Testing Strategies**: Approaches for testing API functionality
-6. **Deployment Considerations**: Technical aspects of API deployment
+- **[API Explorer](./tools/explorer/)** *(Planned)*: Interactive tool for exploring and testing APIs
+- **[Postman Collection](./tools/postman/)** *(Planned)*: Postman collection for testing APIs
+- **[Client Libraries](./sdks/)** *(Planned)*: Client libraries for various programming languages
+- **[API Status Page](./status/)** *(Planned)*: Page showing current API status and incidents
 
 ## Related Documentation
 
-API documentation often relates to:
-- Technical Architecture in the `technical/architecture/` directory
-- Security Documentation in the `security-docs/` directory
-- DevOps Documentation in the `devops-docs/` directory
-- Integration Documentation in the `integrations/` directory
+API documentation relates to:
+- [Technical Architecture](../architecture/): System architecture and design
+- [Security Documentation](../security/): Security policies and procedures
+- [DevOps Documentation](../devops/): Deployment and operations
+- [Integration Documentation](../integrations/): Third-party integrations
+- [Process Documentation](../../process/): Organizational processes
 
 ## Review Schedule
 
@@ -196,4 +126,8 @@ To ensure API documentation stays current:
 
 ## Contact
 
-For questions about API documentation or to suggest improvements, please contact the API Team or Developer Relations. 
+For questions about API documentation or to suggest improvements, please contact the API Team at [api-team@collectivemind.com](mailto:api-team@collectivemind.com).
+
+---
+
+Last updated: March 2, 2025 

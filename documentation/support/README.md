@@ -2,6 +2,42 @@
 
 This directory contains documentation related to user support, including user guides, FAQs, troubleshooting resources, and accessibility guidelines for the CollectiveMind project.
 
+## Contents
+
+> **Note**: The following sections and documents are planned and will be created as part of our documentation improvement initiative.
+
+### User Guides & Tutorials
+
+- **[Getting Started](./guides/getting-started.md)** *(Planned)*: New user onboarding
+  - **[Quick Start](./guides/quick-start.md)** *(Planned)*: Quick start guide
+  - **[Basic Features](./guides/basic-features.md)** *(Planned)*: Core functionality
+  - **[Advanced Features](./guides/advanced-features.md)** *(Planned)*: Advanced usage
+  - **[Best Practices](./guides/best-practices.md)** *(Planned)*: Usage guidelines
+
+### FAQs & Knowledge Base
+
+- **[Account Management](./faqs/accounts/)** *(Planned)*: Account-related FAQs
+  - **[Registration](./faqs/accounts/registration.md)** *(Planned)*: Sign-up process
+  - **[Authentication](./faqs/accounts/auth.md)** *(Planned)*: Login and access
+  - **[Profile](./faqs/accounts/profile.md)** *(Planned)*: Profile management
+  - **[Settings](./faqs/accounts/settings.md)** *(Planned)*: Account settings
+
+### Troubleshooting & Support
+
+- **[Common Issues](./troubleshooting/)** *(Planned)*: Issue resolution
+  - **[Login Issues](./troubleshooting/login.md)** *(Planned)*: Access problems
+  - **[Performance](./troubleshooting/performance.md)** *(Planned)*: Performance issues
+  - **[Data Sync](./troubleshooting/sync.md)** *(Planned)*: Sync problems
+  - **[Error Messages](./troubleshooting/errors.md)** *(Planned)*: Error resolution
+
+### Accessibility & Compliance
+
+- **[Accessibility Guide](./accessibility/)** *(Planned)*: Accessibility docs
+  - **[WCAG Compliance](./accessibility/wcag.md)** *(Planned)*: WCAG 2.1 guidelines
+  - **[Screen Readers](./accessibility/screen-readers.md)** *(Planned)*: Screen reader support
+  - **[Keyboard Nav](./accessibility/keyboard.md)** *(Planned)*: Keyboard navigation
+  - **[Color & Contrast](./accessibility/contrast.md)** *(Planned)*: Visual accessibility
+
 ## Purpose
 
 Support documentation serves to:
@@ -13,90 +49,92 @@ Support documentation serves to:
 5. **Ensure Accessibility**: Provide guidelines for making the platform accessible to all users
 6. **Facilitate Onboarding**: Help new users learn how to use the platform effectively
 
-## Document Types
-
-This directory includes several types of support documentation:
-
-- **User Guides**: Step-by-step instructions for using platform features
-- **FAQs**: Answers to frequently asked questions
-- **Troubleshooting Guides**: Solutions to common problems
-- **Accessibility Guidelines**: Standards for ensuring platform accessibility
-- **Video Tutorials**: Visual demonstrations of platform features
-- **Quick Start Guides**: Concise guides for getting started quickly
-- **Reference Materials**: Detailed reference documentation for advanced users
-
 ## Directory Structure
 
-The support documentation is organized into the following subdirectories:
+> **Note**: The following directories are planned and will be populated as part of our documentation improvement initiative.
 
-- **[Guides](./guides/)**: Comprehensive user guides and tutorials
-- **[FAQs](./faqs/)**: Frequently asked questions organized by topic
-- **[Troubleshooting](./troubleshooting/)**: Common issues and their solutions
-- **[Accessibility](./accessibility/)**: Accessibility guidelines and compliance documentation
+The support documentation is organized into the following directories:
 
-## Document Structure
+- **[guides/](./guides/)** *(Planned)*: User guides and tutorials
+- **[faqs/](./faqs/)** *(Planned)*: Frequently asked questions
+- **[troubleshooting/](./troubleshooting/)** *(Planned)*: Issue resolution
+- **[accessibility/](./accessibility/)** *(Planned)*: Accessibility guidelines
+- **[templates/](./templates/)** *(Planned)*: Documentation templates
+- **[media/](./media/)** *(Planned)*: Images and videos
 
-Each support document should follow this general structure:
+## Support Standards
 
-1. **Title**: Clear, descriptive title
-2. **Overview**: Brief description of what the document covers
-3. **Prerequisites**: Any requirements or knowledge needed
-4. **Step-by-Step Instructions**: Clear, numbered steps (for guides)
-5. **Screenshots/Visuals**: Visual aids where appropriate
-6. **Troubleshooting Tips**: Common issues and solutions
-7. **Related Resources**: Links to related documentation
-8. **Last Updated**: Date of last update
+CollectiveMind follows these support standards:
 
-## Naming Convention
+1. **Clear Language**: Simple, jargon-free writing
+2. **Visual Aids**: Screenshots and diagrams
+3. **Step-by-Step**: Clear, numbered instructions
+4. **Accessibility**: WCAG 2.1 compliance
+5. **Searchability**: SEO-friendly content
+6. **Maintenance**: Regular updates
+7. **User Focus**: User-centric approach
 
-Support documentation should follow this naming convention:
+## Documentation Structure
 
-```
-topic-action.md
-```
+Each support document includes:
 
-For example: `account-creation.md` or `password-reset.md`
-
-## Available Support Documents
-
-| Category | Document | Last Updated | Description |
-|----------|----------|-------------|------------|
-| Guides | [getting-started.md](./guides/getting-started.md) | 2025-02-15 | Guide for new users |
-| FAQs | [account-faqs.md](./faqs/account-faqs.md) | 2025-02-20 | Common account questions |
-| Troubleshooting | [login-issues.md](./troubleshooting/login-issues.md) | 2025-02-18 | Resolving login problems |
-| Accessibility | [wcag-compliance.md](./accessibility/wcag-compliance.md) | 2025-02-25 | WCAG 2.1 compliance guide |
+1. **Overview**: Document purpose and scope
+2. **Prerequisites**: Required knowledge/setup
+3. **Instructions**: Step-by-step guidance
+4. **Screenshots**: Visual references
+5. **Examples**: Usage examples
+6. **Troubleshooting**: Common issues
+7. **Related**: Related resources
+8. **Updates**: Change history
 
 ## Best Practices
 
-When creating support documentation:
+When creating support content:
 
-1. Use clear, simple language avoiding technical jargon
-2. Include visual aids (screenshots, diagrams) where helpful
-3. Structure content with clear headings and bullet points
-4. Test instructions to ensure accuracy
-5. Include troubleshooting sections for common issues
-6. Keep documentation up-to-date with product changes
-7. Consider different user skill levels
-8. Provide examples and use cases
-9. Include search-friendly keywords
-10. Link to related resources
+1. Use clear language
+2. Include visuals
+3. Provide examples
+4. Add troubleshooting
+5. Consider accessibility
+6. Test instructions
+7. Update regularly
+8. Link related content
+9. Get user feedback
+10. Monitor effectiveness
+
+## Tools and Resources
+
+> **Note**: The following tools and resources are planned and will be created as part of our documentation improvement initiative.
+
+- **[Style Guide](./templates/style/)** *(Planned)*: Writing guidelines
+- **[Screenshot Templates](./templates/screenshots/)** *(Planned)*: Visual templates
+- **[Video Guidelines](./templates/video/)** *(Planned)*: Video creation guide
+- **[Support Scripts](./templates/scripts/)** *(Planned)*: Common responses
 
 ## Related Documentation
 
-Support documentation often relates to:
-- Product Documentation in the `product-requirements/` directory
-- Design Documentation in the `design/` directory
-- Technical Documentation in the `technical/` directory
+Support documentation relates to:
+- [User Interface](../design/): UI documentation
+- [Technical Docs](../technical/): Technical details
+- [Process Docs](../process/): Support processes
+- [Product Docs](../product-requirements/): Product features
+- [Training Docs](../training/): User training
 
 ## Review Schedule
 
 To ensure support documentation stays current:
 
-- User guides: Review with each major feature release
-- FAQs: Update monthly based on support ticket trends
-- Troubleshooting guides: Review quarterly and update as new issues emerge
-- Accessibility guidelines: Review semi-annually and with any major UI changes
+- User Guides: Review monthly
+- FAQs: Review bi-weekly
+- Troubleshooting: Review weekly
+- Accessibility: Review monthly
+- Templates: Review quarterly
+- Media: Review monthly
 
-## Last Updated
+## Contact
 
-This README was last updated on February 28, 2025. 
+For questions about support documentation or to suggest improvements, please contact the Support Documentation Team at [support-docs@collectivemind.com](mailto:support-docs@collectivemind.com).
+
+---
+
+Last updated: March 2, 2025 

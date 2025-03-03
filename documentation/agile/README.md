@@ -2,6 +2,42 @@
 
 This directory contains documentation related to the agile development process used in the CollectiveMind project, including sprint planning, ceremonies, and other agile artifacts.
 
+## Contents
+
+> **Note**: The following sections and documents are planned and will be created as part of our documentation improvement initiative.
+
+### Ceremonies & Events
+
+- **[Sprint Planning](./ceremonies/planning/)** *(Planned)*: Planning documentation
+  - **[Planning Guide](./ceremonies/planning/guide.md)** *(Planned)*: Planning process
+  - **[Capacity Planning](./ceremonies/planning/capacity.md)** *(Planned)*: Team capacity
+  - **[Story Estimation](./ceremonies/planning/estimation.md)** *(Planned)*: Story points
+  - **[Sprint Goals](./ceremonies/planning/goals.md)** *(Planned)*: Goal setting
+
+### Daily Operations
+
+- **[Daily Standups](./ceremonies/standups/)** *(Planned)*: Standup documentation
+  - **[Standup Guide](./ceremonies/standups/guide.md)** *(Planned)*: Meeting format
+  - **[Remote Standups](./ceremonies/standups/remote.md)** *(Planned)*: Virtual teams
+  - **[Blockers](./ceremonies/standups/blockers.md)** *(Planned)*: Issue resolution
+  - **[Time Zones](./ceremonies/standups/timezones.md)** *(Planned)*: Global teams
+
+### Sprint Reviews
+
+- **[Sprint Reviews](./ceremonies/reviews/)** *(Planned)*: Review documentation
+  - **[Demo Guidelines](./ceremonies/reviews/demos.md)** *(Planned)*: Demo format
+  - **[Stakeholder Input](./ceremonies/reviews/stakeholders.md)** *(Planned)*: Feedback
+  - **[Action Items](./ceremonies/reviews/actions.md)** *(Planned)*: Follow-up
+  - **[Metrics Review](./ceremonies/reviews/metrics.md)** *(Planned)*: Performance
+
+### Continuous Improvement
+
+- **[Retrospectives](./ceremonies/retrospectives/)** *(Planned)*: Retro documentation
+  - **[Retro Formats](./ceremonies/retrospectives/formats.md)** *(Planned)*: Meeting types
+  - **[Action Tracking](./ceremonies/retrospectives/actions.md)** *(Planned)*: Follow-up
+  - **[Team Health](./ceremonies/retrospectives/health.md)** *(Planned)*: Team metrics
+  - **[Improvement](./ceremonies/retrospectives/improvement.md)** *(Planned)*: Process
+
 ## Purpose
 
 Agile documentation serves to:
@@ -11,79 +47,94 @@ Agile documentation serves to:
 3. **Support Collaboration**: Enable team collaboration and transparency
 4. **Maintain History**: Keep a record of decisions and outcomes
 5. **Facilitate Improvement**: Support continuous improvement through retrospectives
+6. **Ensure Consistency**: Maintain consistent agile practices across teams
 
 ## Directory Structure
 
-The agile documentation is organized into the following subdirectories:
+> **Note**: The following directories are planned and will be populated as part of our documentation improvement initiative.
 
-- **[ceremonies/](./ceremonies/)**: Documentation for agile ceremonies
-  - **Sprint Planning**: Guidelines and templates for sprint planning
-  - **Daily Standups**: Structure and best practices for daily standups
-  - **Sprint Reviews**: Templates and guidelines for sprint reviews
-  - **Retrospectives**: Formats and tools for conducting retrospectives
-  - **Backlog Refinement**: Processes for refining the product backlog
+The agile documentation is organized into the following directories:
 
-- **[sprints/](./sprints/)**: Documentation for individual sprints
-  - Each sprint has its own directory (e.g., `2025-02-28-sprint-1/`)
-  - Sprint directories contain planning documents, reviews, and retrospectives
+- **[ceremonies/](./ceremonies/)** *(Planned)*: Agile ceremonies documentation
+- **[sprints/](./sprints/)** *(Planned)*: Sprint-specific documentation
+- **[metrics/](./metrics/)** *(Planned)*: Agile metrics and reporting
+- **[templates/](./templates/)** *(Planned)*: Agile document templates
+- **[practices/](./practices/)** *(Planned)*: Agile practices documentation
+- **[tools/](./tools/)** *(Planned)*: Agile tools and resources
 
-## Key Documents
+## Agile Standards
 
-### Ceremonies
+CollectiveMind follows these agile standards:
 
-- **Sprint Planning Guide**: Guidelines for conducting effective sprint planning
-- **Daily Standup Template**: Structure and questions for daily standups
-- **Sprint Review Template**: Format and agenda for sprint reviews
-- **Retrospective Guide**: Methods and tools for conducting retrospectives
+1. **Sprint-Based**: Two-week sprint cycles
+2. **Ceremony-Driven**: Regular agile ceremonies
+3. **Story Points**: Fibonacci estimation
+4. **Ready Definition**: Clear ready criteria
+5. **Done Definition**: Comprehensive done criteria
+6. **Metrics-Focused**: Data-driven decisions
+7. **Team-Empowered**: Self-organizing teams
 
-### Sprints
+## Documentation Structure
 
-- **Sprint Planning Document**: Goals, capacity, and backlog for each sprint
-- **Sprint Review Document**: Accomplishments, demos, and feedback from each sprint
-- **Sprint Retrospective Document**: Reflections and action items from each sprint
+Each agile document includes:
 
-## Agile Practices
-
-The CollectiveMind project follows these agile practices:
-
-1. **Sprint Duration**: 2-week sprints
-2. **Ceremonies Schedule**:
-   - Sprint Planning: First day of sprint, 2 hours
-   - Daily Standups: Every day, 15 minutes
-   - Backlog Refinement: Mid-sprint, 1 hour
-   - Sprint Review: Last day of sprint, 1 hour
-   - Sprint Retrospective: Last day of sprint, 1 hour
-3. **Story Points**: Using Fibonacci sequence (1, 2, 3, 5, 8, 13)
-4. **Definition of Ready**: Criteria for stories to be considered ready for sprint planning
-5. **Definition of Done**: Criteria for stories to be considered complete
+1. **Overview**: Document purpose and scope
+2. **Process**: Ceremony or practice details
+3. **Roles**: Role descriptions and responsibilities
+4. **Templates**: Required templates and forms
+5. **Guidelines**: Implementation guidance
+6. **Examples**: Real-world examples
+7. **Metrics**: Success measurements
+8. **References**: Related documentation
 
 ## Best Practices
 
-When creating agile documentation:
+When implementing agile:
 
-1. Keep documentation lightweight and focused on value
-2. Update documentation regularly to reflect current practices
-3. Use templates to ensure consistency across sprints
-4. Document decisions and action items clearly
-5. Include metrics to track progress and improvement
-6. Make documentation accessible to all team members
-7. Review and refine documentation practices regularly
+1. Keep documentation light
+2. Update regularly
+3. Use templates
+4. Track decisions
+5. Measure progress
+6. Stay transparent
+7. Adapt processes
+8. Empower teams
+9. Focus on value
+10. Learn continuously
+
+## Tools and Resources
+
+> **Note**: The following tools and resources are planned and will be created as part of our documentation improvement initiative.
+
+- **[Ceremony Templates](./templates/ceremonies/)** *(Planned)*: Meeting templates
+- **[Sprint Templates](./templates/sprints/)** *(Planned)*: Sprint documents
+- **[Metric Templates](./templates/metrics/)** *(Planned)*: Reporting templates
+- **[Tool Guides](./templates/tools/)** *(Planned)*: Tool documentation
 
 ## Related Documentation
 
-Agile documentation often relates to:
-- Project Management Documentation in the `project-management/` directory
-- Product Requirements in the `product-requirements/` directory
-- Process Documentation in the `process/` directory
+Agile documentation relates to:
+- [Project Management](../project-management/): Project planning
+- [Process Documentation](../process/): Process guidelines
+- [Product Documentation](../product-requirements/): Product planning
+- [Technical Documentation](../technical/): Technical planning
+- [Quality Documentation](../quality/): Quality standards
 
 ## Review Schedule
 
 To ensure agile documentation stays current:
 
-- Sprint documentation: Review at the end of each sprint
-- Ceremony templates: Review quarterly or when process changes
-- Agile practices: Review semi-annually or when significant process changes occur
+- Ceremony Guides: Review monthly
+- Sprint Templates: Review bi-weekly
+- Metrics: Review weekly
+- Practices: Review monthly
+- Tools: Review quarterly
+- Templates: Review monthly
 
 ## Contact
 
-For questions about agile documentation or to suggest improvements, please contact the Scrum Master or Agile Coach. 
+For questions about agile documentation or to suggest improvements, please contact the Agile Team at [agile@collectivemind.com](mailto:agile@collectivemind.com).
+
+---
+
+Last updated: March 2, 2025 

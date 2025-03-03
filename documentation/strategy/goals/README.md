@@ -24,47 +24,49 @@ The strategic goals documentation is organized by:
 
 ## Key Documents
 
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
 ### Organizational Goals
 
-- [Mission and Vision Alignment](./organizational/mission-vision-alignment.md): How goals align with mission and vision
-- [Strategic Pillars](./organizational/strategic-pillars.md): Key pillars of the organizational strategy
-- [Long-term Objectives](./organizational/long-term-objectives.md): 3-5 year objectives
-- [Annual Objectives](./organizational/annual-objectives.md): Current year objectives
+- **[Mission and Vision Alignment]** *(Planned)*: How goals align with mission and vision
+- **[Strategic Pillars]** *(Planned)*: Key pillars of the organizational strategy
+- **[Long-term Objectives]** *(Planned)*: 3-5 year objectives
+- **[Annual Objectives]** *(Planned)*: Current year objectives
 
 ### Product Goals
 
-- [Product Roadmap Goals](./product/roadmap-goals.md): Goals driving the product roadmap
-- [Feature Priorities](./product/feature-priorities.md): Prioritization of feature development
-- [User Experience Goals](./product/user-experience-goals.md): Goals for user experience improvement
-- [Technical Debt Goals](./product/technical-debt-goals.md): Goals for addressing technical debt
+- **[Product Roadmap Goals]** *(Planned)*: Goals driving the product roadmap
+- **[Feature Priorities]** *(Planned)*: Prioritization of feature development
+- **[User Experience Goals]** *(Planned)*: Goals for user experience improvement
+- **[Technical Debt Goals]** *(Planned)*: Goals for addressing technical debt
 
 ### Market Goals
 
-- [Market Share Goals](./market/market-share-goals.md): Goals for market share growth
-- [Customer Acquisition Goals](./market/customer-acquisition-goals.md): Goals for acquiring new customers
-- [Customer Retention Goals](./market/customer-retention-goals.md): Goals for retaining existing customers
-- [Brand Positioning Goals](./market/brand-positioning-goals.md): Goals for brand positioning
+- **[Market Share Goals]** *(Planned)*: Goals for market share growth
+- **[Customer Acquisition Goals]** *(Planned)*: Goals for acquiring new customers
+- **[Customer Retention Goals]** *(Planned)*: Goals for retaining existing customers
+- **[Brand Positioning Goals]** *(Planned)*: Goals for brand positioning
 
 ### Financial Goals
 
-- [Revenue Goals](./financial/revenue-goals.md): Goals for revenue growth
-- [Profitability Goals](./financial/profitability-goals.md): Goals for profitability
-- [Investment Goals](./financial/investment-goals.md): Goals for investment and funding
-- [Cost Optimization Goals](./financial/cost-optimization-goals.md): Goals for cost optimization
+- **[Revenue Goals]** *(Planned)*: Goals for revenue growth
+- **[Profitability Goals]** *(Planned)*: Goals for profitability
+- **[Investment Goals]** *(Planned)*: Goals for investment and funding
+- **[Cost Optimization Goals]** *(Planned)*: Goals for cost optimization
 
 ### Operational Goals
 
-- [Efficiency Goals](./operational/efficiency-goals.md): Goals for operational efficiency
-- [Quality Goals](./operational/quality-goals.md): Goals for quality improvement
-- [Team Growth Goals](./operational/team-growth-goals.md): Goals for team growth and development
-- [Process Improvement Goals](./operational/process-improvement-goals.md): Goals for process improvement
+- **[Efficiency Goals]** *(Planned)*: Goals for operational efficiency
+- **[Quality Goals]** *(Planned)*: Goals for quality improvement
+- **[Team Growth Goals]** *(Planned)*: Goals for team growth and development
+- **[Process Improvement Goals]** *(Planned)*: Goals for process improvement
 
 ### OKRs (Objectives and Key Results)
 
-- [Company OKRs](./okrs/company-okrs.md): Organization-wide OKRs
-- [Department OKRs](./okrs/department-okrs/): Department-specific OKRs
-- [Team OKRs](./okrs/team-okrs/): Team-specific OKRs
-- [Individual OKRs](./okrs/individual-okrs/): Individual OKRs
+- **[Company OKRs]** *(Planned)*: Organization-wide OKRs
+- **[Department OKRs]** *(Planned)*: Department-specific OKRs
+- **[Team OKRs]** *(Planned)*: Team-specific OKRs
+- **[Individual OKRs]** *(Planned)*: Individual OKRs
 
 ## Goal Structure
 
@@ -110,7 +112,7 @@ For related information, please refer to:
 - [Vision Documentation](../vision/): Vision and mission statements
 - [Strategic Roadmap](../../product-requirements/roadmap/): Product roadmap
 - [Project Management](../../project-management/): Project planning and tracking
-- [OKR Framework](./okrs/okr-framework.md): Framework for setting and tracking OKRs
+- **[OKR Framework]** *(Planned)*: Framework for setting and tracking OKRs will be available in the okrs directory
 
 ## Contributing
 
@@ -120,9 +122,13 @@ When contributing to strategic goals documentation:
 2. Align goals with the organization's vision and mission
 3. Include clear success criteria and key results
 4. Consider dependencies and potential risks
-5. Follow the [documentation standards](../../process/standards/documentation-standards.md)
-6. Follow the [goal setting workflow](../../process/workflows/goal-setting-workflow.md)
+5. **[Documentation Standards]** *(Planned)*: Documentation standards will be available in the process/standards directory
+6. **[Goal Setting Workflow]** *(Planned)*: Goal setting workflow will be available in the process/workflows directory
 
 ## Contact
 
-For questions about strategic goals or to suggest improvements, please contact the strategy team at [strategy@collectivemind.com](mailto:strategy@collectivemind.com). 
+For questions about strategic goals or to suggest improvements, please contact the strategy team at [strategy@collectivemind.com](mailto:strategy@collectivemind.com).
+
+---
+
+Last updated: March 2, 2025 

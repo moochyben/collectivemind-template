@@ -2,72 +2,105 @@
 
 This directory contains documentation related to project management for the CollectiveMind project. These materials provide guidance, templates, and processes for effectively planning, executing, and monitoring projects.
 
+## Contents
+
+> **Note**: The following sections and documents are planned and will be created as part of our documentation improvement initiative.
+
+### Project Initiation
+
+- **[Project Charters](./charters/)** *(Planned)*: Project initiation docs
+  - **[Charter Templates](./charters/templates/)** *(Planned)*: Charter templates
+  - **[Stakeholder Analysis](./charters/stakeholders/)** *(Planned)*: Stakeholder docs
+  - **[Business Case](./charters/business-case/)** *(Planned)*: Business justification
+  - **[Resource Planning](./charters/resources/)** *(Planned)*: Initial resourcing
+
+### Project Planning
+
+- **[Project Plans](./plans/)** *(Planned)*: Planning documentation
+  - **[Work Breakdown](./plans/wbs/)** *(Planned)*: WBS documentation
+  - **[Schedules](./plans/schedules/)** *(Planned)*: Schedule templates
+  - **[Budgets](./plans/budgets/)** *(Planned)*: Budget planning
+  - **[Quality Plans](./plans/quality/)** *(Planned)*: Quality assurance
+
+### Project Execution
+
+- **[Project Controls](./execution/)** *(Planned)*: Execution management
+  - **[Change Control](./execution/changes/)** *(Planned)*: Change management
+  - **[Issue Management](./execution/issues/)** *(Planned)*: Issue tracking
+  - **[Quality Control](./execution/quality/)** *(Planned)*: Quality control
+  - **[Team Management](./execution/team/)** *(Planned)*: Team leadership
+
+### Monitoring & Reporting
+
+- **[Project Reports](./reports/)** *(Planned)*: Reporting documentation
+  - **[Status Reports](./reports/status/)** *(Planned)*: Status templates
+  - **[Dashboards](./reports/dashboards/)** *(Planned)*: Dashboard templates
+  - **[Metrics](./reports/metrics/)** *(Planned)*: Project metrics
+  - **[Reviews](./reports/reviews/)** *(Planned)*: Review processes
+
 ## Purpose
 
-The purpose of this documentation is to:
+Project management documentation serves to:
 
-1. Establish consistent project management practices
-2. Provide tools and templates for project planning and tracking
-3. Define project governance and decision-making processes
-4. Support effective project execution and delivery
+1. **Establish Standards**: Define consistent project management practices
+2. **Guide Execution**: Provide guidance for project implementation
+3. **Enable Monitoring**: Support project tracking and control
+4. **Manage Risk**: Document risk management approaches
+5. **Ensure Quality**: Maintain project quality standards
+6. **Support Decisions**: Enable informed decision-making
 
 ## Directory Structure
 
-The project management documentation is organized into the following subdirectories:
+> **Note**: The following directories are planned and will be populated as part of our documentation improvement initiative.
 
-- **[Charters](./charters/)**: Project charter documents and templates
-- **[Plans](./plans/)**: Project plans, schedules, and planning guidelines
-- **[Reports](./reports/)**: Status reports, dashboards, and project metrics
-- **[Risks](./risks/)**: Risk assessments, registers, and mitigation plans
+The project management documentation is organized into the following directories:
 
-## Key Documents
+- **[charters/](./charters/)** *(Planned)*: Project charter documentation
+- **[plans/](./plans/)** *(Planned)*: Project planning documentation
+- **[execution/](./execution/)** *(Planned)*: Project execution guides
+- **[reports/](./reports/)** *(Planned)*: Project reporting templates
+- **[risks/](./risks/)** *(Planned)*: Risk management documentation
+- **[templates/](./templates/)** *(Planned)*: Project management templates
 
-### Charters
+## Project Management Standards
 
-The charters directory contains documentation related to project charters, which formally authorize projects and outline their scope, objectives, and high-level requirements:
+CollectiveMind follows these project management standards:
 
-- Project charter templates
-- Guidelines for developing project charters
-- Examples of completed project charters
+1. **Charter-Driven**: All projects require approved charters
+2. **Plan-Based**: Comprehensive project planning
+3. **Risk-Aware**: Proactive risk management
+4. **Quality-Focused**: Built-in quality assurance
+5. **Metrics-Driven**: Data-based decision making
+6. **Change-Controlled**: Structured change management
+7. **Stakeholder-Engaged**: Active stakeholder involvement
 
-For more information, see the [Charters README](./charters/README.md).
+## Documentation Structure
 
-### Plans
+Each project management document includes:
 
-The plans directory contains documentation related to project planning, including:
+1. **Overview**: Document purpose and scope
+2. **Process**: Management procedures
+3. **Roles**: Role descriptions and responsibilities
+4. **Templates**: Required templates and forms
+5. **Guidelines**: Implementation guidance
+6. **Examples**: Real-world examples
+7. **Metrics**: Success measurements
+8. **References**: Related documentation
 
-- Project plan templates
-- Resource planning guidelines
-- Schedule development guides
-- Budget planning resources
+## Best Practices
 
-For more information, see the [Plans README](./plans/README.md).
+When managing projects:
 
-### Reports
-
-The reports directory contains documentation related to project reporting and monitoring, including:
-
-- Status report templates
-- Dashboard templates
-- Project metrics guidelines
-- Reporting schedules and processes
-
-For more information, see the [Reports README](./reports/README.md).
-
-### Risks
-
-The risks directory contains documentation related to risk management, including:
-
-- Risk register templates
-- Risk assessment guidelines
-- Mitigation planning resources
-- Issue management processes
-
-For more information, see the [Risks README](./risks/README.md).
-
-## Project Management Process
-
-The project management process follows these stages:
+1. Define clear objectives
+2. Plan comprehensively
+3. Manage risks proactively
+4. Communicate effectively
+5. Track progress regularly
+6. Control changes formally
+7. Document decisions
+8. Engage stakeholders
+9. Measure performance
+10. Learn continuously
 
 1. **Initiation**: Defining the project and obtaining authorization
    - Developing the project charter

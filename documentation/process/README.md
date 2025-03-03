@@ -2,6 +2,16 @@
 
 This directory contains documentation related to organizational processes, workflows, standards, and operational procedures for the CollectiveMind project.
 
+## Contents
+
+> **Note**: The following documents are planned and will be created as part of our documentation improvement initiative.
+
+- **[Documentation Guidelines](./documentation-guidelines.md)** *(Planned)*: Guidelines for creating and maintaining documentation
+- **[Documentation Standards](./standards/documentation-standards.md)** *(Planned)*: Standards for documentation quality and structure
+- **[Documentation Workflow](./workflows/documentation-workflow.md)** *(Planned)*: Process for creating and updating documentation
+- **[Product Manager Role](./roles/product-manager.md)** *(Planned)*: Responsibilities and guidelines for product managers
+- **[Project Manager Role](./roles/project-manager.md)** *(Planned)*: Responsibilities and guidelines for project managers
+
 ## Purpose
 
 Process documentation serves to:
@@ -15,24 +25,18 @@ Process documentation serves to:
 
 ## Directory Structure
 
+> **Note**: The following directories are planned and will be populated as part of our documentation improvement initiative.
+
 The process documentation is organized into the following subdirectories:
 
-- **[Workflows](./workflows/)**: Standard workflows for development, documentation, and other processes
-- **[Templates](./templates/)**: Reusable templates for various documentation types
-- **[Standards](./standards/)**: Coding standards, documentation standards, and other quality guidelines
-- **[Onboarding](./onboarding/)**: Materials and procedures for onboarding new team members
-- **[Roles](./roles/)**: Role-specific guidelines and responsibilities
-- **[Operations](./operations/)**: Technical and business operations documentation
-- **[Integrations](./integrations/)**: Process documentation for integrations with external systems
-- **[Rules](./rules/)**: Organizational rules and governance guidelines
-
-## Key Documents
-
-- **[Documentation Guidelines](./documentation-guidelines.md)**: Guidelines for creating and maintaining documentation
-- **[Documentation Standards](./standards/documentation-standards.md)**: Standards for documentation quality and structure
-- **[Documentation Workflow](./workflows/documentation-workflow.md)**: Process for creating and updating documentation
-- **[Product Manager Role](./roles/product-manager.md)**: Responsibilities and guidelines for product managers
-- **[Project Manager Role](./roles/project-manager.md)**: Responsibilities and guidelines for project managers
+- **[Workflows](./workflows/)** *(Planned)*: Standard workflows for development, documentation, and other processes
+- **[Templates](./templates/)** *(Planned)*: Reusable templates for various documentation types
+- **[Standards](./standards/)** *(Planned)*: Coding standards, documentation standards, and other quality guidelines
+- **[Onboarding](./onboarding/)** *(Planned)*: Materials and procedures for onboarding new team members
+- **[Roles](./roles/)** *(Planned)*: Role-specific guidelines and responsibilities
+- **[Operations](./operations/)** *(Planned)*: Technical and business operations documentation
+- **[Integrations](./integrations/)** *(Planned)*: Process documentation for integrations with external systems
+- **[Rules](./rules/)** *(Planned)*: Organizational rules and governance guidelines
 
 ## Document Types
 
@@ -59,16 +63,6 @@ Each process document should follow this general structure:
 6. **Tools and Resources**: What tools or resources are needed
 7. **Metrics and Measurements**: How success is measured
 8. **References**: Links to related documentation or resources
-
-## Naming Convention
-
-Process documentation should follow this naming convention:
-
-```
-descriptive-process-name.md
-```
-
-For example: `documentation-workflow.md` or `feature-development-process.md`
 
 ## Best Practices
 
@@ -99,10 +93,12 @@ The process improvement cycle includes:
 
 ## Related Documentation
 
-Process documentation often relates to:
-- Project Management Documentation in the `project-management/` directory
-- Agile Documentation in the `agile/` directory
-- Technical Documentation in the `technical/` directory
+Process documentation relates to:
+- [Technical Architecture](../technical/architecture/): System architecture and design
+- [Project Management](../project-management/): Project planning and execution
+- [Support Documentation](../support/): User support and troubleshooting
+- [API Documentation](../technical/apis/): API specifications and documentation
+- [Security Documentation](../technical/security/): Security policies and procedures
 
 ## Review Schedule
 
@@ -115,6 +111,10 @@ To ensure process documentation stays current:
 - Onboarding materials: Review quarterly
 - Integration processes: Update when integration methods change
 
-## Last Updated
+## Contact
 
-This README was last updated on February 28, 2025. 
+For questions about process documentation or to suggest improvements, please contact the Process Documentation Team at [process-docs@collectivemind.com](mailto:process-docs@collectivemind.com).
+
+---
+
+Last updated: March 2, 2025 
