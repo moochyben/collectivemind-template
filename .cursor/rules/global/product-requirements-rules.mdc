@@ -1,0 +1,308 @@
+---
+description: standards for product requirements documentation, including feature specifications, product roadmaps, and acceptance criteria
+globs: 
+alwaysApply: false
+---
+# Product Requirements Documentation Rules
+Version: 1.0.0
+Last Updated: 2025-03-23
+
+## Purpose and Scope
+This rule defines standards for product requirements documentation, including feature specifications, product roadmaps, and acceptance criteria. These standards ensure clarity, completeness, and consistency in product requirements to facilitate accurate implementation.
+
+## Parent Rules
+@rule:global-documentation-standards.mdc
+@rule:global-ai-interaction-standards.mdc
+
+## Rule Specifications
+
+### Rule PR-1: Feature Documentation Structure
+All feature documentation must be organized in a directory with the naming convention `YYYY-MM-DD-feature-name` and must include:
+1. Feature Request (`feature-request.md`)
+2. Product Requirements Document (`PRD.md`)
+3. Technical Specification (`technical-specification.md`)
+4. UI/UX Design (`ui-ux-design.md`)
+5. Implementation Plan (`implementation-plan.md`)
+6. Test Plan (`test-plan.md`)
+7. Supporting directories as needed
+
+### Rule PR-2: Feature Request Format
+Feature Request documents must include:
+1. Problem statement (clear articulation of the problem being solved)
+2. User needs and pain points (with evidence)
+3. Business objectives (how this feature supports strategic goals)
+4. Success metrics (how success will be measured)
+5. Stakeholders (who has input and decision authority)
+6. Initial scope (high-level description of what's in/out of scope)
+7. Priority level (must-have, should-have, nice-to-have)
+8. Dependencies (technical and business dependencies)
+
+### Rule PR-3: Product Requirements Document Format
+PRD documents must include:
+1. Feature overview (high-level description)
+2. Background (context and rationale)
+3. Goals and success metrics (measurable objectives)
+4. User stories (in standard format: "As a [role], I want [capability] so that [benefit]")
+5. Functional requirements (specific capabilities)
+6. Non-functional requirements (performance, security, etc.)
+7. User flows (step-by-step user journeys)
+8. Data model (entity definitions with field specifications)
+9. User experience (workflow descriptions)
+10. Technical considerations (implementation notes)
+11. Acceptance criteria (verification points)
+12. Open questions (unresolved issues)
+
+### Rule PR-4: Technical Specification Format
+Technical Specification documents must include:
+1. Architecture overview (how the feature fits into the system)
+2. Data models (detailed data structures)
+3. API endpoints (interface definitions)
+4. Integration points (how the feature connects with other systems)
+5. Security considerations (authentication, authorization, etc.)
+6. Performance requirements (response times, throughput, etc.)
+7. Scalability considerations (how the feature scales)
+8. Technical dependencies (libraries, services, etc.)
+9. Cursor Implementation Directions (required section)
+
+### Rule PR-5: UI/UX Design Documentation
+UI/UX Design documents must include:
+1. User interface mockups (visual representations)
+2. User experience flows (process diagrams)
+3. Design system components (reusable elements)
+4. Accessibility considerations (WCAG compliance)
+5. Responsive design specifications (behavior across devices)
+6. Animation and interaction details (dynamic elements)
+7. Cursor Implementation Directions (required section)
+
+### Rule PR-6: Implementation Plan Format
+Implementation Plan documents must include:
+1. Development approach (methodology, phasing)
+2. Task breakdown (granular implementation tasks)
+3. Estimated effort (time and resources)
+4. Timeline (milestones and deadlines)
+5. Resource requirements (skills, team members)
+6. Risk assessment (potential issues and mitigations)
+7. Rollout strategy (deployment approach)
+8. Cursor Implementation Directions (required section)
+
+### Rule PR-7: Test Plan Format
+Test Plan documents must include:
+1. Test strategy (overall approach)
+2. Test cases (specific scenarios to test)
+3. Test data requirements (input data needed)
+4. Testing environments (where testing will occur)
+5. Automation approach (which tests will be automated)
+6. Performance testing requirements
+7. Security testing requirements
+8. Acceptance testing criteria
+
+### Rule PR-8: Acceptance Criteria Standards
+All acceptance criteria must:
+1. Be testable (verification is possible)
+2. Be specific (clear definition of done)
+3. Include expected behavior (what should happen)
+4. Cover edge cases and error conditions
+5. Be written in Gherkin syntax when appropriate:
+   ```
+   Given [precondition]
+   When [action]
+   Then [expected result]
+   ```
+6. Include performance expectations when relevant
+7. Reference applicable user stories
+8. Include both functional and non-functional requirements
+
+### Rule PR-9: Roadmap Documentation
+Roadmap documentation must include:
+1. Timeline visualization (quarters or months)
+2. Feature categorization (by theme or component)
+3. Priority indicators (must-have, should-have, nice-to-have)
+4. Milestone markers (significant releases)
+5. Dependencies between features
+6. Status indicators (planned, in progress, completed)
+7. Alignment with strategic goals
+8. Rationale for sequencing decisions
+
+### Rule PR-10: Cursor Implementation Directions
+Cursor Implementation Directions must include:
+1. Code structure (file paths and organization)
+2. Implementation order (step-by-step guidance)
+3. Key functions/components (essential elements)
+4. Testing approach (how to test the implementation)
+5. Related Cursor rules (specific rules to reference)
+6. Examples of similar implementations when available
+7. Edge cases to handle
+8. Performance considerations
+
+### Rule PR-11: Feature Lifecycle Tracking
+All feature documentation must track the current lifecycle stage:
+1. Proposed (initial idea documented)
+2. Specified (requirements defined)
+3. Designed (UI/UX and technical specifications completed)
+4. Planned (implementation plan created)
+5. Implemented (code developed)
+6. Tested (verification completed)
+7. Released (deployed to production)
+8. Maintained (in active use with ongoing support)
+
+### Rule PR-12: User Story Format
+User stories must follow the format:
+```
+As a [role],
+I want [capability],
+So that [benefit].
+```
+
+Where:
+1. Role is a specific user type or persona
+2. Capability is a concrete action or feature
+3. Benefit is the value received from the capability
+4. Additional details include:
+   - Acceptance criteria (3-5 testable conditions)
+   - Priority (must-have, should-have, nice-to-have)
+   - Size estimate (story points or t-shirt size)
+   - Dependencies (other stories that must be completed first)
+
+## Application Examples
+
+### Example 1: Feature Request
+```markdown
+# Feature Request: Collaborative Editing
+
+Last Updated: 2025-03-23
+
+## Problem Statement
+Teams using CollectiveMind currently cannot edit the same document simultaneously, resulting in version conflicts, lost work, and coordination challenges. This creates friction in collaborative workflows and reduces productivity.
+
+## User Needs and Pain Points
+- Users need to collaborate on documents in real-time
+- Current workarounds involve manual coordination via chat or email
+- Version conflicts occur frequently (reported in 35% of user feedback sessions)
+- Users lose work when overwriting each other's changes
+- Teams struggle to maintain a single source of truth for documents
+
+## Business Objectives
+This feature supports our strategic goals to:
+- Enhance team collaboration capabilities (Strategic Goal 2)
+- Reduce workflow friction (Strategic Goal 3.2)
+- Increase user engagement and retention (Strategic Goal 1.3)
+
+## Success Metrics
+- 50% reduction in reported version conflicts
+- 25% increase in document editing sessions
+- 30% reduction in time spent on document coordination
+- 20% increase in multi-user document engagement
+
+## Stakeholders
+- Product Manager: Jane Smith (decision authority)
+- Engineering Lead: John Doe (technical feasibility)
+- UX Designer: Alice Johnson (user experience)
+- Key Customers: Enterprise Advisory Board (requirements validation)
+
+## Initial Scope
+In scope:
+- Real-time collaborative text editing
+- User presence indicators
+- Edit conflict resolution
+- Change history and versioning
+
+Out of scope:
+- Real-time collaborative media editing
+- Offline collaboration
+- External user sharing
+
+## Priority Level
+Must-have (Priority 1)
+
+## Dependencies
+- User authentication system enhancements
+- Real-time data synchronization infrastructure
+- Document permission model updates
+
+## Related Documentation
+- [Strategic Goals](mdc:../../strategy/goals/strategic-goals.md)
+- [User Research Findings](mdc:../../market-research/user-research/2025-02-10-collaboration-pain-points.md)
+- [Technical Architecture](mdc:../../technical/architecture/real-time-systems.md)
+```
+
+### Example 2: Product Requirements Document (Partial)
+```markdown
+# Collaborative Editing Feature PRD
+
+Last Updated: 2025-03-23
+
+## Feature Overview
+The Collaborative Editing feature enables multiple users to simultaneously edit the same document in real-time, with changes visible to all participants immediately. The feature includes user presence indicators, cursor position sharing, and conflict resolution mechanisms.
+
+## Background
+Our user research indicates that teams spend significant time coordinating document edits and resolving version conflicts. This feature addresses these pain points by providing a seamless real-time collaboration experience that maintains a single source of truth while preserving the history of changes.
+
+## Goals and Success Metrics
+### Goals
+1. Enable real-time collaborative document editing
+2. Reduce version conflicts and coordination overhead
+3. Provide visibility into who is editing what and when
+4. Maintain a reliable audit trail of document changes
+
+### Success Metrics
+- 50% reduction in reported version conflicts
+- 25% increase in document editing sessions
+- 30% reduction in time spent on document coordination
+- 20% increase in multi-user document engagement
+
+## User Stories
+### US-1: Real-time Editing
+As a team member,
+I want to edit a document while seeing others' changes in real-time,
+So that I can collaborate efficiently without version conflicts.
+
+#### Acceptance Criteria
+1. Changes appear to all users within 500ms
+2. Multiple users can edit different parts of the document simultaneously
+3. Changes are preserved when users edit the same section
+4. Users receive visual indication when edit conflicts occur
+5. The system automatically resolves conflicts when possible
+
+### US-2: User Presence
+As a team member,
+I want to see who else is viewing or editing a document,
+So that I can coordinate my work with others.
+
+#### Acceptance Criteria
+1. User avatars appear in the document header when users are viewing
+2. User cursors are visible with name labels when users are editing
+3. User presence information updates within 2 seconds of status change
+4. The system shows when users are actively typing vs. idle
+5. Presence information persists only while users have the document open
+
+[Additional user stories would follow...]
+
+## Functional Requirements
+[Details would continue...]
+```
+
+## Validation Criteria
+Product requirements documentation complies with these standards if it:
+1. Follows all global documentation standards
+2. Contains all required sections for its specific document type
+3. Maintains consistent formatting and organization
+4. Uses clear, specific, and testable requirements
+5. Includes appropriate cross-references to related documentation
+6. Contains complete acceptance criteria for all features
+7. Properly documents the current feature lifecycle stage
+8. Includes required Cursor Implementation Directions
+9. Aligns requirements with strategic goals and user needs
+10. Properly formats user stories with all required elements
+
+## Automation Capabilities
+An AI agent can validate compliance with these standards by:
+1. Checking for presence of required documents within feature directories
+2. Validating the structure and content of each document type
+3. Ensuring acceptance criteria are specific and testable
+4. Verifying proper formatting of user stories
+5. Checking for appropriate cross-referencing between documents
+6. Validating alignment between requirements and strategic goals
+7. Ensuring Cursor Implementation Directions are complete
+8. Verifying the current lifecycle stage is properly documented
+9. Checking for completeness of technical specifications
+10. Validating that all open questions are clearly documented

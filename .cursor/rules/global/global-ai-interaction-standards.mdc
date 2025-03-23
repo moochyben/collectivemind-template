@@ -1,0 +1,169 @@
+---
+description: Updating any documentation in the documentation folder
+globs: 
+alwaysApply: false
+---
+# Global AI Interaction Standards
+Version: 1.0.0
+Last Updated: 2025-03-23
+
+## Purpose and Scope
+This rule defines standards for AI agent interaction with documentation. It establishes conventions for how AI agents should interpret, review, and update documentation, ensuring consistent and effective AI assistance across the project.
+
+## Parent Rules
+This is a top-level rule with no parents.
+
+## Rule Specifications
+
+### Rule AI-1: Documentation Analysis
+1. AI agents must analyze documentation structure before content
+2. Analysis should identify the document type and applicable rule sets
+3. Analysis must include validation against global and domain-specific rules
+4. AI agents should prioritize structural issues before content issues
+5. Analysis should include identification of missing required elements
+
+### Rule AI-2: Rule Application Hierarchy
+1. Apply global rules first, then domain-specific rules, then task-specific rules
+2. When rules conflict, the more specific rule takes precedence
+3. Document explicitly which rules were applied during analysis
+4. Flag potential rule conflicts for human review
+5. Include reference to applicable rule IDs when suggesting changes
+
+### Rule AI-3: Documentation Review Process
+1. Begin with an overview of the document's purpose and structure
+2. Systematically evaluate compliance with applicable rules
+3. Prioritize issues by severity (Critical, Major, Minor)
+4. For each issue:
+   - Identify the specific rule violation
+   - Explain why it's an issue
+   - Suggest a concrete fix
+5. Summarize overall compliance status
+
+### Rule AI-4: Documentation Update Process
+1. Start with the original document text
+2. Apply changes in order of priority (Critical → Major → Minor)
+3. Maintain the document's original style and voice
+4. Preserve existing content where possible
+5. Add appropriate metadata including update reason
+6. Update the "Last Updated" date to the current date
+7. Include a change summary with rule references
+
+### Rule AI-5: Placeholder Content Handling
+1. Identify placeholder content marked with "*(Planned)*" notation
+2. Do not remove placeholder markers unless replacing with actual content
+3. When generating content to replace placeholders:
+   - Follow applicable domain-specific rules
+   - Maintain consistency with existing content
+   - Clearly mark newly generated content for review
+4. Suggest priorities for placeholder content completion
+
+### Rule AI-6: Cross-Reference Validation
+1. Verify all internal links point to valid locations
+2. Ensure external references are properly formatted
+3. Check that all referenced documents exist
+4. Validate that section references point to actual sections
+5. Report broken or inconsistent references with fix recommendations
+
+### Rule AI-7: Terminology Consistency
+1. Maintain a consistent terminology set across all documentation
+2. Flag inconsistent terminology usage
+3. Reference the primary terminology source when suggesting changes
+4. Consider context when evaluating terminology
+5. Preserve specialized terminology in technical contexts
+
+### Rule AI-8: Output Format
+1. Provide analysis in a structured format:
+   - Summary section with overall assessment
+   - Compliance analysis with rule-by-rule evaluation
+   - Prioritized improvement recommendations
+   - Updated document if changes are suggested
+2. Use standardized severity levels (Critical, Major, Minor)
+3. Include specific rule references for all findings
+4. Group related issues together logically
+5. Provide clear before/after examples for suggested changes
+
+### Rule AI-9: Human Collaboration
+1. Clearly distinguish between AI analysis and suggestions vs. requirements
+2. Flag ambiguous situations for human review
+3. Provide options when multiple valid approaches exist
+4. Request clarification when documentation intent is unclear
+5. Acknowledge limitations in technical domain knowledge when appropriate
+
+### Rule AI-10: Documentation Evolution
+1. Track document versions over time
+2. Identify patterns in documentation issues
+3. Suggest improvements to documentation standards
+4. Adapt analysis to evolving project needs
+5. Learn from accepted and rejected suggestions
+
+## Application Examples
+
+### Example 1: Documentation Review Output
+```
+## Documentation Review: Collaborative Editing Feature
+
+### Summary
+This document meets most global documentation standards but has several issues with cross-referencing and missing required sections. 2 critical, 3 major, and 2 minor issues identified.
+
+### Rule Compliance Analysis
+
+#### Global Documentation Standards
+- Rule G-1 (Document Structure): NON-COMPLIANT
+  - Issue: Missing "Related Documentation" section (Critical)
+  - Fix: Add section linking to relevant design and technical documents
+
+- Rule G-5 (Cross-Referencing): NON-COMPLIANT
+  - Issue: Broken link to technical specification (Major)
+  - Fix: Update link to "../technical/specs/collaborative-editing.md"
+
+[Additional rule compliance details...]
+
+### Improvement Recommendations
+1. Add missing "Related Documentation" section (Rule G-1)
+2. Fix broken cross-references (Rule G-5)
+3. Update last modified date (Rule G-6)
+4. Add missing acceptance criteria (Domain Rule PR-2)
+
+### Updated Document
+[Revised document with all fixes applied]
+```
+
+### Example 2: Placeholder Content Completion
+```
+## Placeholder Content Completion: Vision Statement
+
+Original placeholder:
+> **Note**: The vision statement is planned and will be created as part of our documentation improvement initiative.
+
+Suggested completion following Strategy Domain Rules:
+# CollectiveMind Vision Statement
+
+Last Updated: 2025-03-23
+
+## Purpose
+This document articulates the long-term vision for CollectiveMind, establishing our aspirational future state and guiding our strategic direction.
+
+[Detailed vision statement content following Strategy Domain Rule S-1...]
+
+*Note: This content was AI-generated to replace a placeholder and requires human review.*
+```
+
+## Validation Criteria
+AI agent interactions comply with these standards if they:
+1. Follow the specified hierarchy for rule application
+2. Produce structured analysis following the required format
+3. Provide specific, actionable recommendations
+4. Reference specific rules for all identified issues
+5. Generate content that maintains consistency with existing documentation
+6. Clearly differentiate between analysis, suggestions, and requirements
+7. Adapt appropriately to different documentation types
+
+## Automation Capabilities
+An AI agent can implement these standards by:
+1. Systematically analyzing documents against applicable rule sets
+2. Identifying rule violations and suggesting specific fixes
+3. Prioritizing issues based on severity and impact
+4. Generating compliant documentation content when requested
+5. Maintaining consistency in terminology and style
+6. Tracking documentation evolution over time
+7. Validating cross-references and link integrity

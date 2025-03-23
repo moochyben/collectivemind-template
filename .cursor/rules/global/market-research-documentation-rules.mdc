@@ -1,0 +1,420 @@
+---
+description: market research documentation, including competitive analysis, user research, and analytics documentation
+globs: 
+alwaysApply: false
+---
+# Market Research Documentation Rules
+Version: 1.0.0
+Last Updated: 2025-03-23
+
+## Purpose and Scope
+This rule defines standards for market research documentation, including competitive analysis, user research, and analytics documentation. These standards ensure clarity, objectivity, and actionability in market research documentation to inform product strategy and decision-making.
+
+## Parent Rules
+@rule:global-documentation-standards
+@rule:global-ai-interaction-standards
+
+## Rule Specifications
+
+### Rule MR-1: Market Research Documentation Structure
+Market research documentation must be organized into the following categories:
+1. Competitive Analysis
+   - Competitor profiles
+   - Market trends
+   - Industry analysis
+2. User Research
+   - User interviews
+   - Surveys
+   - Usability studies
+   - Persona documentation
+3. Analytics
+   - Data analytics
+   - Metrics and KPIs
+   - Reporting frameworks
+
+### Rule MR-2: Research Document Naming Convention
+All market research documents must follow the naming convention:
+```
+YYYY-MM-DD-research-topic-name.md
+```
+Where:
+- YYYY-MM-DD is the date the research was conducted or completed
+- research-topic-name is a kebab-case description of the research topic
+
+### Rule MR-3: Research Document Structure
+All market research documents must include:
+1. Executive Summary (brief overview of key findings and recommendations)
+2. Research Objectives (clear statement of research goals and questions)
+3. Methodology (detailed description of research methods)
+4. Findings (objective presentation of research results)
+5. Analysis (interpretation of findings and implications)
+6. Recommendations (actionable recommendations based on research)
+7. Appendices (supporting data, interview transcripts, etc.)
+8. References (sources of external data or methodologies)
+
+### Rule MR-4: Competitive Analysis Documentation
+Competitive analysis documentation must include:
+1. Competitor identification and categorization
+2. Competitor profiles with:
+   - Company overview
+   - Product offerings
+   - Target markets
+   - Pricing models
+   - Strengths and weaknesses
+   - Market position
+   - Strategic direction
+3. Feature comparison matrix
+4. Pricing comparison
+5. SWOT analysis for key competitors
+6. Competitive differentiation analysis
+7. Market share analysis (if available)
+8. Competitive trends and patterns
+9. Recommendations for competitive positioning
+
+### Rule MR-5: User Research Documentation
+User research documentation must include:
+1. Research objectives and questions
+2. Target audience definition
+3. Research methodology details:
+   - Participant demographics
+   - Recruitment criteria
+   - Research protocol
+   - Data collection methods
+   - Analysis approach
+4. Key findings organized by themes
+5. Supporting evidence (quotes, behaviors, statistics)
+6. User pain points and needs
+7. Opportunity areas
+8. Recommendations for product improvements
+9. Research limitations
+10. Raw data references (anonymized)
+
+### Rule MR-6: User Persona Documentation
+User persona documentation must include:
+1. Persona name and role
+2. Demographic information
+3. Goals and motivations
+4. Pain points and frustrations
+5. Behaviors and preferences
+6. Technology proficiency
+7. Quotes that represent the persona
+8. Scenarios of product use
+9. Key needs and requirements
+10. Photo or illustration (representative, not specific individual)
+11. Research basis for the persona
+
+### Rule MR-7: Analytics Documentation
+Analytics documentation must include:
+1. Metrics definitions and calculation methods
+2. Data sources and collection methods
+3. Reporting frequency and cadence
+4. Baseline measurements
+5. Target thresholds
+6. Analysis methodology
+7. Trends and patterns
+8. Correlations and causations (if established)
+9. Anomalies and explanations
+10. Recommendations based on data
+11. Data limitations and caveats
+
+### Rule MR-8: Market Trend Analysis
+Market trend analysis documentation must include:
+1. Trend identification and description
+2. Timeline of trend development
+3. Market adoption rates
+4. Drivers and enablers
+5. Barriers and challenges
+6. Competitive responses
+7. Market size and growth projections
+8. Impact assessment on target markets
+9. Strategic implications
+10. Recommendations for response
+11. Sources and research methodology
+
+### Rule MR-9: Survey Documentation
+Survey documentation must include:
+1. Survey objectives
+2. Target audience and sampling method
+3. Complete questionnaire with all questions
+4. Response rates and completion rates
+5. Data quality assessment
+6. Quantitative results with statistical significance
+7. Qualitative analysis of open-ended responses
+8. Segmentation analysis (if applicable)
+9. Limitations and potential biases
+10. Key findings and implications
+11. Raw data (anonymized) in appendix
+
+### Rule MR-10: User Interview Documentation
+User interview documentation must include:
+1. Interview objectives
+2. Participant demographics and selection criteria
+3. Interview guide with questions
+4. Summary of key findings
+5. Thematic analysis with supporting quotes
+6. Behavioral patterns identified
+7. Pain points and needs
+8. Opportunity areas
+9. Recommendations based on insights
+10. Anonymized interview transcripts or notes
+11. Limitations of the research
+
+### Rule MR-11: Data Visualization Standards
+Research data visualizations must:
+1. Include descriptive titles
+2. Label all axes and data points
+3. Use a consistent color scheme
+4. Include a legend where appropriate
+5. Use appropriate chart types for the data
+6. Include source information
+7. Note any data limitations or caveats
+8. Use consistent scales where possible
+9. Avoid chart junk or unnecessary decoration
+10. Be accessible (considering color blindness, etc.)
+11. Include raw data references
+
+### Rule MR-12: Research Ethics and Privacy
+Research documentation must:
+1. Describe how informed consent was obtained
+2. Explain how personal data was protected
+3. Describe anonymization techniques used
+4. Outline data retention policies
+5. Address potential research biases
+6. Disclose research limitations
+7. Acknowledge participant contributions appropriately
+8. Follow applicable regulations (GDPR, CCPA, etc.)
+9. Document ethical considerations
+10. Obtain necessary approvals before research
+
+## Application Examples
+
+### Example 1: Competitive Analysis Document
+```markdown
+# Competitive Analysis: Team Collaboration Tools Market
+
+Last Updated: 2025-03-23
+
+## Executive Summary
+This analysis examines the current state of the team collaboration tools market, focusing on key competitors, feature differentiation, pricing models, and market trends. Our research reveals significant opportunities in the enterprise segment where current solutions lack robust knowledge management integration. We recommend positioning CollectiveMind as the premier knowledge-centered collaboration platform with unique capabilities for collective intelligence.
+
+## Research Objectives
+This competitive analysis aimed to:
+1. Identify and profile key competitors in the team collaboration space
+2. Compare feature sets, pricing, and target markets
+3. Identify market gaps and opportunities
+4. Inform our product differentiation strategy
+5. Prioritize feature development based on competitive landscape
+
+## Methodology
+Our research methodology included:
+- Comprehensive review of 15 competitor websites and product documentation
+- Hands-on product evaluations of 8 leading solutions
+- Analysis of 200+ user reviews across G2, Capterra, and TrustRadius
+- Interviews with 5 industry analysts specialized in workplace technology
+- Examination of market reports from Gartner, Forrester, and IDC
+- Financial performance analysis of public companies in the space
+- Social media sentiment analysis for key competitors
+
+## Findings
+
+### Key Competitors
+
+#### Tier 1: Direct Competitors
+1. **Confluence (Atlassian)**
+   - Company Overview: Established player focusing on documentation
+   - Target Market: Technical teams, especially in software development
+   - Strengths: Integration with development tools, large user base
+   - Weaknesses: Complex UI, limited real-time collaboration
+   - Pricing: $5-$19 per user per month
+
+2. **Notion**
+   - Company Overview: Fast-growing upstart with flexible workspace
+   - Target Market: Startups and SMBs, creative teams
+   - Strengths: Flexibility, modern UI, all-in-one workspace
+   - Weaknesses: Enterprise security, scaling performance
+   - Pricing: $8-$15 per user per month
+
+[Additional competitors would be listed...]
+
+### Feature Comparison Matrix
+| Feature | CollectiveMind | Confluence | Notion | Microsoft Teams |
+|---------|----------------|------------|--------|-----------------|
+| Real-time document editing | Planned | Limited | Yes | Yes |
+| Knowledge graph | Yes | No | No | No |
+| AI-assisted insights | Yes | Limited | No | Limited |
+| Team decision support | Yes | No | No | No |
+| Enterprise security | Yes | Yes | Limited | Yes |
+| API extensibility | Yes | Yes | Limited | Yes |
+
+### Market Trends
+1. **Consolidation of Collaboration Tools**
+   - Trend: Users are seeking unified platforms rather than multiple point solutions
+   - Evidence: 78% of companies report tool consolidation initiatives
+   - Implication: Opportunity for comprehensive solutions that replace multiple tools
+
+2. **AI-Enhanced Collaboration**
+   - Trend: Growing adoption of AI for insights, automation, and knowledge discovery
+   - Evidence: 65% growth in AI-powered collaboration features since 2023
+   - Implication: AI capabilities are becoming a key differentiator
+
+[Additional trends would be listed...]
+
+## Analysis
+The competitive landscape reveals several key insights:
+
+1. **Market Fragmentation**: The collaboration space remains fragmented, with most solutions focusing on specific aspects (document management, chat, tasks) rather than holistic collaboration.
+
+2. **Enterprise Gap**: Enterprise customers are underserved by current solutions, particularly in knowledge management integration, decision support, and collective intelligence features.
+
+3. **Integration Challenges**: Users report significant friction moving between different collaboration tools, creating an opportunity for a more integrated approach.
+
+4. **AI Differentiation**: While many competitors mention AI capabilities, actual implementation remains superficial, focused on basic automation rather than enhancing collective intelligence.
+
+5. **Pricing Pressure**: Price competition is intensifying at the lower end of the market, but enterprises show willingness to pay premium prices for solutions that deliver measurable productivity improvements.
+
+## Recommendations
+Based on our analysis, we recommend:
+
+1. **Enterprise-First Strategy**: Focus initial go-to-market efforts on mid-to-large enterprises seeking to enhance team knowledge work.
+
+2. **Knowledge Integration Focus**: Emphasize our unique knowledge graph and collective intelligence capabilities as primary differentiators.
+
+3. **Decision Support Positioning**: Position CollectiveMind as a decision acceleration platform, not just a documentation or chat tool.
+
+4. **Selective Feature Development**: Prioritize features that directly support collective intelligence rather than attempting feature parity across all collaboration capabilities.
+
+5. **Premium Pricing Strategy**: Adopt value-based pricing at a premium to the market, justified by productivity enhancements and knowledge preservation benefits.
+
+6. **Strategic Partnerships**: Develop integrations with adjacent tools (project management, CRM, etc.) rather than building competing functionality.
+
+## Appendices
+[Detailed competitor profiles, full feature comparison matrix, pricing details, etc.]
+
+## References
+1. Gartner Magic Quadrant for Workplace Collaboration, 2024
+2. IDC MarketScape: Worldwide Enterprise Collaboration, 2025
+3. Forrester Wave: Enterprise Collaboration Platforms, Q2 2024
+4. G2 Grid Report for Collaboration Tools, Spring 2025
+5. Competitor Earnings Reports Q4 2024
+```
+
+### Example 2: User Persona Documentation
+```markdown
+# User Persona: Enterprise Knowledge Manager
+
+Last Updated: 2025-03-23
+
+## Persona Overview
+**Name:** Elena Rodriguez  
+**Role:** Knowledge Management Director  
+**Organization:** Fortune 500 Financial Services Company  
+**Age:** 42  
+**Location:** Chicago, IL  
+**Education:** MBA, Knowledge Management certification  
+
+## Demographics
+- 15+ years of experience in information management
+- Leads a team of 5-7 knowledge specialists
+- Reports to Chief Information Officer
+- Responsible for organization-wide knowledge strategy
+- Budget authority: $500K-$1M annually
+
+## Goals and Motivations
+- Reduce knowledge fragmentation across the organization
+- Preserve institutional knowledge despite employee turnover
+- Measure and demonstrate knowledge management ROI
+- Increase efficiency through better knowledge discovery
+- Foster a knowledge-sharing culture
+- Align knowledge management with business objectives
+- Ensure compliance with industry regulations
+
+## Pain Points and Frustrations
+- "Our knowledge is scattered across dozens of systems with no single source of truth."
+- "When senior employees leave, critical knowledge walks out the door."
+- "Teams keep reinventing the wheel because they can't find existing solutions."
+- "Current tools don't connect related information in meaningful ways."
+- "Executives see knowledge management as a cost center rather than strategic asset."
+- "Compliance requirements make knowledge management more complex."
+- "People hoard knowledge because sharing isn't recognized or rewarded."
+
+## Behaviors and Preferences
+- Highly analytical, values data-driven decisions
+- Champions structured approaches to information organization
+- Regularly reviews usage metrics for knowledge systems
+- Presents quarterly reports to executive leadership
+- Conducts knowledge audits across departments
+- Advocates for knowledge management best practices
+- Balances standardization with team-specific needs
+- Prefers comprehensive solutions over point products
+
+## Technology Proficiency
+- High comfort level with enterprise software
+- Experienced with content management systems
+- Familiar with information architecture principles
+- Uses analytics tools to measure system effectiveness
+- Evaluates 5-10 new knowledge tools annually
+- Cautious about adopting unproven technologies
+- Prioritizes security and governance capabilities
+
+## Representative Quote
+> "My job isn't just about managing information—it's about transforming knowledge into a strategic advantage for our company. I need solutions that not only organize information but make it actionable and measurable."
+
+## User Scenarios
+
+### Scenario 1: Knowledge Fragmentation Assessment
+Elena needs to quantify knowledge fragmentation across the organization to justify investment in a new knowledge management platform. She requires tools to discover, catalog, and analyze information across multiple repositories.
+
+### Scenario 2: Knowledge Transfer Initiative
+After learning a department head with 20 years of experience is retiring, Elena must implement a structured knowledge transfer process to capture critical insights before departure.
+
+### Scenario 3: ROI Demonstration
+Elena is preparing for a quarterly review with the executive team and needs to demonstrate how improved knowledge management has impacted business outcomes through clear metrics and case studies.
+
+## Key Needs
+1. Unified knowledge discovery across multiple systems
+2. Robust analytics and measurement capabilities
+3. Tools for capturing tacit knowledge
+4. Governance and compliance features
+5. Integration with existing enterprise systems
+6. Automated knowledge connections and recommendations
+7. Change management and adoption resources
+
+## Research Basis
+This persona is based on:
+- Interviews with 8 knowledge management professionals in enterprise organizations
+- Survey of 120 information management specialists
+- Analysis of job descriptions for knowledge management roles
+- Social media analysis of knowledge management communities
+- Consultation with 3 knowledge management industry experts
+
+## Related Documentation
+- [Enterprise Customer Segment Analysis](mdc:../market-segments/enterprise-segment.md)
+- [Knowledge Management Use Cases](mdc:../../product-requirements/use-cases/knowledge-management.md)
+- [Knowledge Discovery Feature Requirements](mdc:../../product-requirements/features/knowledge-discovery.md)
+```
+
+## Validation Criteria
+Market research documentation complies with these standards if it:
+1. Follows all global documentation standards
+2. Contains all required sections for its specific document type
+3. Uses the correct naming convention for research documents
+4. Clearly separates findings (data) from analysis (interpretation)
+5. Provides specific, actionable recommendations
+6. Includes appropriate data visualizations
+7. Documents research methodology in detail
+8. Addresses limitations and potential biases
+9. Includes appropriate references and sources
+10. Provides raw data or links to data sources when appropriate
+
+## Automation Capabilities
+An AI agent can validate compliance with these standards by:
+1. Checking for presence of required sections
+2. Verifying proper document naming
+3. Ensuring clear separation between findings and analysis
+4. Validating that recommendations are specific and actionable
+5. Checking for appropriate methodology documentation
+6. Ensuring visualizations follow standards
+7. Verifying that research limitations are documented
+8. Checking for proper references and citations
+9. Validating that privacy and ethical considerations are addressed
+10. Ensuring consistency between executive summary and detailed content
