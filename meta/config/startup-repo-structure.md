@@ -1,9 +1,17 @@
-# Billion Dollar Business: AI-Powered Repository Architecture
+# AI Operating System Repository Architecture
+
+**🏢 Branch Information**:
+- **Main branch**: Enterprise billion-dollar template
+- **startup-adaptation branch**: Early-stage startup version (this document)
+
+---
+
+# Early-Stage Startup: AI-Powered Repository Architecture (startup-adaptation Branch)
 
 ## Repository Structure
 
 ```
-billion-corp/
+startup-corp/
 ├── CLAUDE.md                          # Root orchestrator configuration
 ├── .claude/
 │   ├── commands/
