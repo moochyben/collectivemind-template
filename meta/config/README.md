@@ -15,7 +15,7 @@ This directory contains comprehensive implementation guides for CLAUDE.md AI ope
 ### **Main Branch (Enterprise)**
 For billion-dollar companies with extensive resources:
 
-- **[startup-repo-structure.md](startup-repo-structure.md)**: Complete enterprise repository architecture
+- **[enterprise-repo-structure.md](enterprise-repo-structure.md)**: Complete enterprise repository architecture
 - **[implementation-roadmap.md](implementation-roadmap.md)**: 12-week enterprise implementation plan  
 - **[claude-system-inventory.md](claude-system-inventory.md)**: Full 57 personas + 79 commands
 - **[claude-configuration-guide.md](claude-configuration-guide.md)**: Detailed technical setup
