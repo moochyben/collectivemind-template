@@ -1,104 +1,70 @@
 ---
-description: Comprehensive morning briefing with parallel intelligence gathering
+description: Simple startup morning briefing focused on core metrics
 ---
 
-# Daily Executive Brief for $ARGUMENTS
+# Startup Daily Brief for $ARGUMENTS
 
-Execute comprehensive morning intelligence gathering using parallel subagents:
+Quick morning check on essential startup metrics and priorities:
 
-## Spawn 8 Concurrent Subagents:
+## Core Focus Areas (5 minutes total):
 
-1. **Metrics Analyst**
-   - Pull overnight metrics from all data sources
-   - Compare to daily/weekly/monthly targets
-   - Identify anomalies requiring attention
-   - Generate visual dashboard
+1. **Key Metrics Check** (1 minute)
+   - Cash runway remaining
+   - Weekly active users
+   - Customer acquisition/churn
+   - System uptime
    
    Example Output:
    ```
-   🎯 Key Metrics (UTC 00:00 - 08:00)
-   Revenue: $923K (+12% vs. yesterday)
-   New Users: 8,234 (-5% vs. avg)
-   Churn: 0.3% (⚠️ up from 0.2%)
-   API Uptime: 99.98% ✓
+   💰 Cash: 18 months runway
+   👥 Users: 2,847 WAU (+15% WoW)
+   🔄 New customers: 12, Churned: 3
+   ⚡ System: 99.9% uptime
    ```
 
-2. **Market Intelligence**
-   - Scan industry news and competitor moves
-   - Monitor stock movements of public comparables
-   - Track regulatory changes
-   - Identify market opportunities/threats
-   
-   Example Finding:
-   ```
-   🔍 Competitor Intel
-   - Competitor X raised $200M Series D
-   - New EU regulation on data privacy (affects Q3)
-   - Market opportunity: SMB segment underserved
-   ```
-
-3. **Customer Success**
-   - Analyze support ticket trends
-   - Review NPS/CSAT movements  
-   - Highlight at-risk enterprise accounts
-   - Surface product feedback themes
+2. **Customer Health** (2 minutes)
+   - Support tickets/issues
+   - Product usage patterns
+   - Customer feedback themes
+   - Immediate risks
    
    Example Alert:
    ```
-   ⚠️ Customer Risk Alert
-   - Enterprise client ABC Corp (MRR: $125K) 
-     logged 15 critical tickets this week
-   - Feature request pattern: API rate limits (47 requests)
+   📞 Support: 3 tickets (all responded)
+   🎯 Top feature request: Mobile app (8 requests)
+   ⚠️ At-risk: Customer X hasn't logged in 7 days
    ```
 
-4. **Engineering Monitor**
-   - System health and uptime metrics
-   - Deployment pipeline status
-   - Security vulnerability scan
-   - Technical debt assessment
+3. **Team & Operations** (1 minute)
+   - Blockers for today
+   - Engineering/product updates
+   - Hiring pipeline
+   - Cash burn vs budget
+   
+4. **Market Intel** (1 minute)
+   - Competitor moves
+   - Industry news affecting us
+   - Partnership opportunities
+   - Quick threat assessment
 
-5. **Financial Controller**
-   - Cash position and burn rate
-   - Revenue recognition updates
-   - Key contract movements
-   - FX and market risk exposure
+## Output Format
 
-6. **People Operations**
-   - Team sentiment analysis
-   - Hiring pipeline status
-   - Key person risk assessment
-   - Culture health metrics
+Synthesize into startup-focused brief:
 
-7. **Strategic Advisor**
-   - Progress on quarterly OKRs
-   - Strategic initiative updates
-   - Board/investor sentiment
-   - M&A opportunity scan
+1. **Today's Status** (30 seconds read)
+   - 🟢 What's working well
+   - 🟡 What needs attention  
+   - 🔴 What requires immediate action
 
-8. **Risk Manager**
-   - Operational risk assessment
-   - Compliance status check
-   - Legal matter updates
-   - Reputation monitoring
+2. **Action Items** (priority order)
+   - **Today**: Critical items only
+   - **This week**: Important but not urgent
+   - **Next week**: Planning items
 
-## Synthesis Instructions
+3. **Key Numbers**
+   - Cash runway
+   - User growth rate
+   - Customer health score
+   - System stability
 
-After parallel execution, synthesize into:
-
-1. **Executive Summary** (30 seconds)
-   - 3 things going well
-   - 3 areas needing attention
-   - 1 strategic decision required
-
-2. **Action Items** (prioritized)
-   - Must do today
-   - Should do this week
-   - Consider this month
-
-3. **Key Metrics Dashboard**
-   - Visual representation
-   - Trend lines
-   - Variance analysis
-
-Output format: Clean markdown with clear sections and visual hierarchy
-Time limit: Complete within 5 minutes
+**Keep it simple**: Focus on decisions that move the needle for a small team with limited resources.
