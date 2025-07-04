@@ -10,6 +10,7 @@
 
 *Capture ideas here as they come up - no structure required*
 Create a start up version, which includes software that is free to use and has MCP access
+Bring in strategy / definition documentation from Roam research and see if that impacts anything
 
 - 
 
