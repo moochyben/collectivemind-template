@@ -3,11 +3,73 @@
 This guide provides comprehensive rules and templates for creating CLAUDE.md files and slash commands in the billion-dollar business repository architecture.
 
 ## Table of Contents
-1. [CLAUDE.md Configuration Rules](#claudemd-configuration-rules)
-2. [Slash Command Creation Rules](#slash-command-creation-rules)
-3. [Directory Structure Requirements](#directory-structure-requirements)
-4. [Integration Patterns](#integration-patterns)
-5. [Templates and Examples](#templates-and-examples)
+1. [Hierarchical Context Optimization](#hierarchical-context-optimization)
+2. [CLAUDE.md Configuration Rules](#claudemd-configuration-rules)
+3. [Slash Command Creation Rules](#slash-command-creation-rules)
+4. [Directory Structure Requirements](#directory-structure-requirements)
+5. [Integration Patterns](#integration-patterns)
+6. [Templates and Examples](#templates-and-examples)
+
+---
+
+## Hierarchical Context Optimization
+
+### Context Economy Principles
+
+The hierarchical CLAUDE.md structure provides powerful organization, but each file consumes valuable context window tokens. Follow these optimization principles to maximize efficiency while maintaining the benefits of hierarchy:
+
+#### Token Budget per Level
+- **Root CLAUDE.md**: 800-1000 characters (~200-250 tokens)
+- **Domain CLAUDE.md**: 600-800 characters (~150-200 tokens)
+- **Subdomain CLAUDE.md**: 400-600 characters (~100-150 tokens)
+- **Total hierarchy consumption**: Target < 1000 tokens for full stack
+
+#### AI-First Writing Guidelines
+1. **Bullet Points Over Paragraphs**: Use structured lists
+2. **Directives Over Explanations**: "Monitor metrics X,Y,Z" not "You should carefully monitor..."
+3. **Abbreviations**: Use standard abbreviations (MRR, DAU, NPS)
+4. **Remove Fluff**: No "Remember:", "Important:", or decorative language
+5. **Structured Format**: Consistent headers for fast parsing
+
+#### Compression Techniques
+- **Before**: "You are the central orchestrator for a billion-dollar technology company. Your role is to coordinate across all business functions..."
+- **After**: "Central coordinator for large enterprise operations. Maintain strategic alignment through specialized subagents."
+- **Reduction**: 65% fewer characters, same functionality
+
+### Smart Inheritance Patterns
+
+Leverage hierarchy without duplication:
+
+#### Root Level (Maximum Context)
+```markdown
+# Enterprise AI Orchestrator
+Core directives, principles, and metrics that apply organization-wide.
+```
+
+#### Domain Level (Inherit + Extend)
+```markdown
+# [Domain] Operations
+Inherits: Core enterprise directives
+Extends: Domain-specific protocols only
+```
+
+#### Subdomain Level (Inherit + Specialize)
+```markdown
+# [Subdomain] Specialist
+Inherits: Enterprise + Domain context
+Adds: Specific tool configurations
+```
+
+### Reference System Architecture
+
+Each level should use references for detailed information:
+
+```markdown
+## Quick Reference
+- Detailed procedures: See `[domain]/procedures/`
+- Tool configurations: See `[domain]/configs/`
+- Integration specs: See `.claude/references/`
+```
 
 ---
 
@@ -27,6 +89,8 @@ This guide provides comprehensive rules and templates for creating CLAUDE.md fil
   - Memorable closing directive
 
 **Template Structure**:
+
+***Verbose Version (Original - ~1,500 characters):***
 ```markdown
 # [Organization Name] AI Operating System
 
@@ -62,6 +126,42 @@ Monitor continuously:
 [Memorable closing directive]
 ```
 
+***Optimized Version (~800 characters):***
+```markdown
+# [Org] AI Orchestrator
+
+Central coordinator. Maintain alignment through specialized subagents.
+
+## Core Directives
+- [Principle]: [action]
+- [Principle]: [action]
+- [Principle]: [action]
+
+## Decision Process
+1. Assess [key metrics]
+2. Evaluate [criteria]
+3. Document rationale
+4. Set success criteria
+
+## Subagent Protocol
+- Spawn by domain
+- Ensure info flow
+- Synthesize insights
+- Maintain consistency
+
+## Metrics
+- [Metric]: [Current]/[Target]
+- [Metric]: [Current]/[Target]
+- [Metric]: [Current]/[Target]
+
+## Priorities
+1. [Outcome-focused priority]
+2. [Outcome-focused priority]
+3. [Outcome-focused priority]
+
+[Short directive]
+```
+
 #### Domain-Specific CLAUDE.md
 - **Location**: In each major domain directory (strategy/, product/, engineering/, etc.)
 - **Purpose**: Define specialized persona for that domain
@@ -74,6 +174,8 @@ Monitor continuously:
   - Measurable success criteria
 
 **Template Structure**:
+
+***Verbose Version (Original - ~1,200 characters):***
 ```markdown
 # [Domain] Persona
 
@@ -102,6 +204,34 @@ You [embody/are/combine] [excellence references].
 ...
 
 [Domain-specific reminder or principle]
+```
+
+***Optimized Version (~600 characters):***
+```markdown
+# [Domain] Operations
+
+[Excellence reference] approach. Inherits enterprise directives.
+
+## Philosophy
+- [Point]: [specific action]
+- [Point]: [specific action]
+- [Point]: [specific action]
+
+## Framework
+1. **[Process]**: [key steps/tools]
+2. **[Process]**: [key steps/tools]
+3. **[Process]**: [key steps/tools]
+
+## Standards
+- [Tool/Tech]: [specific usage]
+- [Metric]: [threshold]
+- [Quality]: [standard]
+
+## Integrations
+- [Domain]: [interaction type]
+- [Domain]: [interaction type]
+
+[One-line principle]
 ```
 
 ### 2. Persona Design Principles
@@ -636,6 +766,48 @@ Root CLAUDE.md (base context)
 - Integration points accumulate (not replaced)
 - Metrics cascade with domain-specific additions
 
+#### Efficient Inheritance Patterns:
+
+**DO: Leverage Implicit Inheritance**
+```markdown
+# Engineering Operations
+<!-- No need to repeat enterprise directives -->
+## Engineering-Specific Protocols
+- Code review standards
+- Deployment procedures
+```
+
+**DON'T: Duplicate Parent Content**
+```markdown
+# Engineering Operations
+You are part of a large enterprise... <!-- Redundant -->
+## Core Principles <!-- Already in root -->
+```
+
+**DO: Reference Parent Context**
+```markdown
+# Engineering Operations
+Extends enterprise protocols with technical excellence.
+<!-- Parent context is implied, not repeated -->
+```
+
+#### Token-Efficient Inheritance Examples:
+
+**Root (200 tokens)**
+- Core directives
+- Enterprise metrics
+- Universal principles
+
+**Domain (150 tokens)**
+- Domain-specific protocols only
+- References parent metrics
+- Adds domain KPIs
+
+**Subdomain (100 tokens)**
+- Specialized tools/configs
+- Inherits all above
+- Minimal additions
+
 ### 2. Dynamic Variable Usage
 
 Commands can use dynamic variables:
@@ -657,16 +829,38 @@ If [condition], automatically execute:
 
 ### 4. Performance Optimization
 
+#### Hierarchical Token Management:
+- **Measure Each Level**: Track tokens per CLAUDE.md file
+- **Total Budget**: Keep full hierarchy under 1000 tokens
+- **Progressive Loading**: Load only needed levels
+- **Reference Heavy Content**: Use lightweight pointers
+
 #### Token Usage Guidelines:
 - Prefer bullet points over paragraphs
 - Use standard abbreviations (MRR, CAC, etc.)
 - Reference templates by name, not full content
 - Batch similar operations
+- Eliminate redundancy between levels
+
+#### Optimization Metrics:
+- **Character Count**: Root (800) + Domain (600) + Subdomain (400) = 1,800 total
+- **Token Estimate**: ~450 tokens for full hierarchy
+- **Compression Target**: 60-70% reduction from verbose versions
+- **Load Time**: < 100ms per level
 
 #### Response Time Targets:
 - Atomic commands: < 30 seconds
 - Orchestrators: < 5 minutes
 - Executive commands: < 10 minutes
+
+#### Reference System Integration:
+```markdown
+## References
+- Detailed: `/domain/references/[topic].md`
+- Configs: `/domain/configs/`
+- Templates: `/.claude/templates/`
+```
+Only load when specifically needed.
 
 ### 5. Error Handling
 
@@ -774,6 +968,118 @@ Regular review cycle:
 
 ---
 
+## Best Practices for Hierarchical Efficiency
+
+### 1. Token Budget Management
+
+#### Per-Level Allocation
+```
+Root:      800-1000 chars (200-250 tokens) - 40% of budget
+Domain:    600-800 chars  (150-200 tokens) - 35% of budget  
+Subdomain: 400-600 chars  (100-150 tokens) - 25% of budget
+Total:     ~1800-2400 chars (~450-600 tokens)
+```
+
+#### Measurement Protocol
+1. Use `wc -c [file]` to track character counts
+2. Estimate tokens as characters ÷ 4
+3. Set alerts when approaching limits
+4. Regular audits of token consumption
+
+### 2. Content Distribution Strategy
+
+#### What Goes Where
+**Root Level** (Maximum Impact):
+- Universal principles/directives
+- Organization-wide metrics
+- Core decision frameworks
+- Global integration patterns
+
+**Domain Level** (Specialized Context):
+- Domain-specific protocols only
+- Unique tools/technologies
+- Domain KPIs (not duplicating root)
+- Cross-domain touchpoints
+
+**Subdomain Level** (Minimal Additions):
+- Highly specific configurations
+- Specialized tool settings
+- Unique workflows
+- Local optimizations
+
+### 3. Compression Techniques by Level
+
+#### Root Compression
+```markdown
+<!-- Before (150 chars) -->
+You are the central orchestrator for a billion-dollar technology company, responsible for...
+
+<!-- After (50 chars) -->
+Central enterprise orchestrator. Strategic alignment.
+```
+
+#### Domain Compression  
+```markdown
+<!-- Before (200 chars) -->
+## Engineering Philosophy
+We believe in writing clean, maintainable code that scales with our growing user base...
+
+<!-- After (80 chars) -->
+## Engineering
+- Clean code
+- Scalability first
+- Test coverage >90%
+```
+
+### 4. Reference Architecture
+
+#### Lightweight Pointers
+```markdown
+## Quick Refs
+- Procedures: `./procedures/`
+- Standards: `./standards/`
+- Tools: `./configs/`
+```
+
+#### When to Reference vs. Inline
+**Inline** (Always loaded):
+- Critical directives
+- Key metrics
+- Core integration points
+
+**Reference** (Load on demand):
+- Detailed procedures
+- Extended configurations
+- Historical context
+- Training materials
+
+### 5. Testing Hierarchical Efficiency
+
+#### Validation Checklist
+- [ ] Each file under character limit?
+- [ ] No duplication between levels?
+- [ ] Clear inheritance chain?
+- [ ] References working?
+- [ ] Total hierarchy < 1000 tokens?
+
+#### Performance Testing
+```bash
+# Measure total hierarchy load
+find . -name "CLAUDE.md" -exec wc -c {} \; | awk '{sum+=$1} END {print sum}'
+
+# Should output < 2400 characters total
+```
+
+### 6. Progressive Enhancement
+
+Start minimal, add only when needed:
+1. **Week 1**: Root only (test base functionality)
+2. **Week 2**: Add critical domains
+3. **Week 3**: Add subdomains where specialized
+4. **Week 4**: Optimize based on usage patterns
+
+---
+
 ## Common Pitfalls to Avoid
 
 1. **Over-Personification**: Keep personas professional and functional
@@ -787,12 +1093,26 @@ Regular review cycle:
 9. **Metric Overload**: Focus on actionable KPIs only
 10. **Context Loss**: Preserve memory between sessions
 
+### Hierarchical Efficiency Pitfalls
+
+11. **Context Duplication**: Repeating parent content in child files
+12. **Verbose Templates**: Using human-friendly instead of AI-optimized format
+13. **Deep Nesting**: Going beyond 3 levels of hierarchy
+14. **Missing Measurements**: Not tracking token consumption per file
+15. **Reference Overload**: Too many external references slowing processing
+16. **Inheritance Confusion**: Unclear what's inherited vs. new
+17. **Token Creep**: Gradual increase without regular audits
+18. **All-or-Nothing Loading**: Not using progressive enhancement
+19. **Format Inconsistency**: Mixing verbose and compressed styles
+20. **Optimization Paralysis**: Over-optimizing at the cost of clarity
+
 ---
 
 ## Implementation Checklist
 
 When creating new CLAUDE.md or commands:
 
+### Structure & Content
 - [ ] Does it follow the template structure?
 - [ ] Are all metrics measurable?
 - [ ] Are integration points defined?
@@ -802,4 +1122,19 @@ When creating new CLAUDE.md or commands:
 - [ ] Is the scope appropriately bounded?
 - [ ] Are time constraints realistic?
 
-Remember: The goal is to create an AI operating system that amplifies human capability, not replaces it. Every configuration should enhance decision-making speed and quality while maintaining human oversight and strategic direction.
+### Token Efficiency
+- [ ] Is the file under character limit? (Root: 1000, Domain: 800, Subdomain: 600)
+- [ ] Have you removed all redundant content from parent levels?
+- [ ] Are you using AI-optimized format (bullets, abbreviations)?
+- [ ] Have you measured the character count with `wc -c`?
+- [ ] Is total hierarchy under 1000 tokens?
+- [ ] Are references used instead of inline for detailed content?
+- [ ] Have you tested the compressed version maintains functionality?
+
+### Hierarchy Validation
+- [ ] Clear inheritance from parent levels?
+- [ ] No duplication of parent content?
+- [ ] Appropriate level for the content (root/domain/subdomain)?
+- [ ] Integration points accumulate correctly?
+
+Remember: The goal is to create an AI operating system that amplifies human capability, not replaces it. Every configuration should enhance decision-making speed and quality while maintaining human oversight and strategic direction. **Optimize for AI consumption, not human readability.**
