@@ -12,7 +12,7 @@ This system transforms a traditional business repository into an AI-native opera
 - Decisions are tracked, learned from, and improved over time
 - Information flows seamlessly between departments
 
-**For Early-Stage Companies**: If you're building a startup or scaling to your first $1M ARR, start with [CollectiveMind Startup Edition](../collectivemind-startup-adaptation) for resource-optimized operations.
+**For Early-Stage Companies**: If you're building a startup or scaling to your first $1M ARR, start with [CollectiveMind Startup Edition](https://github.com/moochyben/collectivemind-template/tree/startup-adaptation) for resource-optimized operations.
 
 ## Quick Start
 
