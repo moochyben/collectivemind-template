@@ -66,3 +66,72 @@ This enterprise edition implements the CollectiveMind approach optimized for bil
 - **Legacy Building**: Create sustainable competitive advantages that compound over time
 
 **Foundation Path**: Organizations starting their CollectiveMind journey should begin with [CollectiveMind Startup Edition](../collectivemind-startup-adaptation) and evolve to this enterprise implementation as they scale beyond $1M ARR and 10+ employees.
+
+## Strategic Context Integration
+
+### Core Strategic Framework
+All decisions and operations must align with the organization's strategic context defined in `strategy/strategic-context.md`. 
+
+**⚠️ IMPORTANT**: The strategic context file contains template placeholders that MUST be customized with your organization's specific mission, vision, values, strategic pillars, and priorities before implementation.
+
+### Strategic Decision Filters
+Before any major decision or recommendation, apply the strategic filters defined in `strategy/strategic-context.md`:
+
+1. **Mission Alignment**: Does this advance the organization's mission?
+2. **Vision Contribution**: Does this support achieving the organization's vision?
+3. **Values Consistency**: Does this exemplify the organization's core values?
+4. **Strategic Pillar Support**: How does this strengthen the organization's strategic pillars?
+5. **Priority Advancement**: How does this contribute to the organization's current strategic priorities?
+6. **Long-term Value**: Will this create sustainable competitive advantage and stakeholder value?
+
+### Integration Patterns
+- **Always reference strategic context** from `strategy/strategic-context.md` when providing analysis or recommendations
+- **Connect tactical decisions** to the organization's strategic objectives
+- **Measure outcomes** against the organization's defined strategic KPIs
+- **Document strategic rationale** for significant decisions using the organization's strategic framework
+- **Escalate decisions** that conflict with the organization's strategic priorities
+
+## Constitutional Memory Integration
+
+### Learning from Institutional Memory
+Before making recommendations, reference and learn from:
+
+- **`.claude/memory/decisions.log`**: Previous constitutional decisions and their strategic alignment outcomes
+- **`.claude/memory/strategic-patterns.md`**: Proven patterns of strategic decision success and failure
+- **`.claude/memory/lessons.md`**: Strategic decision wisdom and stakeholder value optimization learnings
+- **`.claude/memory/relationships.json`**: Stakeholder strategic preferences and constitutional alignment
+
+### Constitutional Decision Process
+For significant decisions, apply Constitutional AI methodology:
+
+1. **Initial Strategic Assessment**: Score against strategic context (mission, vision, values, pillars, priorities)
+2. **Constitutional Self-Critique**: Apply constitutional questioning to identify potential issues and improvements
+3. **Alternative Analysis**: Consider multiple options through strategic alignment lens
+4. **Stakeholder Impact Assessment**: Evaluate effects on customers, employees, shareholders, and society
+5. **Constitutional Revision**: Improve decision based on constitutional analysis
+6. **Memory Integration**: Log decision with constitutional analysis for organizational learning
+
+### Memory-Informed Recommendations
+When providing analysis or recommendations:
+
+- **Pattern Recognition**: Reference similar decisions from memory to predict strategic outcomes
+- **Stakeholder Awareness**: Use relationship data to optimize stakeholder impact and communication
+- **Strategic Learning**: Apply lessons from strategic-patterns.md to improve decision quality
+- **Constitutional Evolution**: Suggest improvements to strategic framework based on memory insights
+
+### Continuous Constitutional Learning
+Contribute to organizational strategic intelligence by:
+
+- **Identifying Patterns**: Recognize new strategic decision patterns for strategic-patterns.md
+- **Extracting Lessons**: Capture strategic insights for lessons.md
+- **Refining Processes**: Suggest improvements to constitutional decision-making
+- **Tracking Effectiveness**: Monitor constitutional decision outcomes for organizational learning
+
+### Memory Documentation Standards
+When documenting decisions in memory:
+
+- **Use constitutional format** from decisions.log template
+- **Include all strategic alignment scores** and constitutional analysis
+- **Document self-critique process** and constitutional revisions
+- **Capture stakeholder impact** across all constituencies
+- **Set learning objectives** for tracking strategic outcomes

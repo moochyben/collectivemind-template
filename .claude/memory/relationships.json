@@ -7,8 +7,21 @@
         "preferences": "Monthly metrics updates, focus on growth",
         "communication_style": "Formal, data-driven",
         "key_interests": ["Revenue growth", "Market expansion", "Unit economics"],
+        "strategic_alignment": {
+          "mission_support": 8.5,
+          "vision_alignment": 9.0,
+          "values_compatibility": 7.5,
+          "strategic_priorities": ["Scale Infrastructure", "Operational Profitability"],
+          "decision_influence": "High",
+          "stakeholder_value_focus": "Shareholder returns with long-term sustainability"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "High - wants detailed strategic rationale",
+          "stakeholder_balance": "Shareholder-focused but accepts multi-stakeholder approach",
+          "risk_tolerance": "Moderate - strategic alignment over short-term gains"
+        },
         "last_contact": "2025-01-01",
-        "notes": "Appreciates proactive communication"
+        "notes": "Appreciates proactive communication and strategic decision documentation"
       }
     ],
     "board_members": [
@@ -18,7 +31,20 @@
         "expertise": "SaaS scaling",
         "communication_style": "Direct, strategic focus",
         "key_contributions": ["Go-to-market strategy", "Executive recruiting"],
-        "meeting_preferences": "Quarterly deep dives"
+        "strategic_alignment": {
+          "mission_support": 9.0,
+          "vision_alignment": 8.5,
+          "values_compatibility": 9.0,
+          "strategic_priorities": ["Market Expansion", "Scalable Growth"],
+          "decision_influence": "High",
+          "stakeholder_value_focus": "Long-term value creation across all stakeholders"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "High - values constitutional reasoning",
+          "stakeholder_balance": "Balanced - advocates for all stakeholder groups",
+          "risk_tolerance": "High - supports strategic risks for competitive advantage"
+        },
+        "meeting_preferences": "Quarterly deep dives with strategic decision reviews"
       }
     ],
     "key_customers": [
@@ -28,7 +54,20 @@
         "champion": "John Doe (CTO)",
         "renewal_date": "2025-06-01",
         "health_score": 85,
-        "key_requirements": ["99.99% uptime", "SOC2 compliance", "24/7 support"]
+        "key_requirements": ["99.99% uptime", "SOC2 compliance", "24/7 support"],
+        "strategic_alignment": {
+          "mission_support": 8.0,
+          "vision_alignment": 7.5,
+          "values_compatibility": 8.5,
+          "strategic_priorities": ["AI-Powered Premium Tier", "Operational Excellence"],
+          "decision_influence": "Medium-High",
+          "stakeholder_value_focus": "Operational efficiency and strategic competitive advantage"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "Medium - values understanding strategic direction",
+          "stakeholder_balance": "Customer-focused with vendor partnership mindset",
+          "innovation_tolerance": "High - early adopter of strategic AI capabilities"
+        }
       }
     ],
     "strategic_partners": [
@@ -38,7 +77,20 @@
         "value": "API integration",
         "contact": "Sarah Johnson",
         "status": "Active",
-        "notes": "Critical for enterprise features"
+        "strategic_alignment": {
+          "mission_support": 7.5,
+          "vision_alignment": 8.0,
+          "values_compatibility": 8.0,
+          "strategic_priorities": ["Multi-Agent Orchestration", "Enterprise Features"],
+          "decision_influence": "Medium",
+          "stakeholder_value_focus": "Mutual value creation and strategic capability building"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "Medium - values strategic partnership communication",
+          "stakeholder_balance": "Partnership-focused with mutual benefit orientation",
+          "innovation_collaboration": "High - open to co-innovation opportunities"
+        },
+        "notes": "Critical for enterprise features and strategic AI integration capabilities"
       }
     ]
   }

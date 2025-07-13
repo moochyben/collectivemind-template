@@ -120,10 +120,44 @@ This system enables:
 
 ## Getting Started
 
-1. **Week 1**: Set up core structure and daily briefings
-2. **Week 2**: Configure domain personas and basic workflows
-3. **Week 3**: Implement multi-agent orchestrators
-4. **Week 4**: Optimize and tune for your business
+### ⚠️ Critical Setup Step
+
+**BEFORE implementing CollectiveMind**, you MUST customize the strategic templates:
+
+1. **Navigate to** `strategy/strategic-context.md`
+2. **Replace all [PLACEHOLDER] content** with your organization's information:
+   - Mission statement
+   - Vision statement  
+   - Core values (3-7 recommended)
+   - Strategic pillars (3-5 recommended)
+   - Strategic priorities (current year)
+   - Key performance indicators
+3. **Use the customization checklist** at the bottom of the file to ensure completion
+4. **Review industry examples** to guide your customization
+
+**Why This Matters**: CollectiveMind's AI agents reference your strategic context for every decision. Without proper customization, the system will not align with your business objectives.
+
+### Implementation Path
+
+1. **Week 1: Strategic Foundation**
+   - Customize strategic templates with your organization's context
+   - Set up core structure and daily briefings
+   - Configure organizational context in CLAUDE.md files
+
+2. **Week 2: Domain Configuration**
+   - Configure domain personas for your specific business functions
+   - Implement basic AI workflows aligned with your strategic context
+   - Set up cross-departmental coordination
+
+3. **Week 3: Multi-Agent Orchestration**
+   - Implement multi-agent orchestrators for complex workflows
+   - Establish institutional memory and learning systems
+   - Deploy strategic decision-making frameworks
+
+4. **Week 4: Optimization & Tuning**
+   - Optimize workflows based on initial performance data
+   - Refine strategic alignment and decision-making processes
+   - Document lessons learned and successful patterns
 
 ## Best Practices
 
