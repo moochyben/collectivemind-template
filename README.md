@@ -98,30 +98,49 @@ This system enables startups to achieve:
 
 ## Getting Started
 
+### ⚠️ Critical Setup Step
+
+**BEFORE implementing CollectiveMind Startup Edition**, you MUST customize the strategic templates:
+
+1. **Navigate to** `strategy/strategic-context.md`
+2. **Replace all [PLACEHOLDER] content** with your startup's information:
+   - Mission statement
+   - Vision statement  
+   - Core values (3-5 recommended for startups)
+   - Strategic pillars (3-4 recommended for startups)
+   - Strategic priorities (current year, 3-4 recommended)
+   - Key performance indicators aligned with your startup stage
+3. **Use the customization checklist** at the bottom of the file to ensure completion
+4. **Review startup examples** by stage and industry to guide your customization
+
+**Why This Matters**: CollectiveMind's AI agents reference your strategic context for every decision. Without proper customization, the system will not align with your startup's specific goals and constraints.
+
 ### Prerequisites
 - Claude Code CLI access
-- Basic understanding of your target market
+- Your startup's mission, vision, and strategic priorities clearly defined
+- Basic understanding of your target market and business model
 - Commitment to data-driven decision making
 
 ### Implementation Path
 
 **Month 1: Foundation**
-1. Set up core AI operations and daily briefings
-2. Establish key metric tracking and reporting
-3. Implement basic customer feedback loops
-4. Configure automated financial monitoring
+1. **Customize strategic templates** with your startup's specific context
+2. Set up core AI operations and daily briefings aligned with your mission
+3. Establish key metric tracking focused on your strategic priorities
+4. Implement basic customer feedback loops
+5. Configure automated financial monitoring and runway tracking
 
 **Month 2: Product-Market Fit**
-1. Deploy AI-assisted user research and analysis
-2. Automate feature prioritization and roadmap management
-3. Implement rapid experimentation frameworks
+1. Deploy AI-assisted user research and analysis aligned with your vision
+2. Automate feature prioritization based on your strategic pillars
+3. Implement rapid experimentation frameworks guided by your values
 4. Set up conversion optimization workflows
 
 **Month 3: Growth Acceleration**
 1. Activate AI-powered content and marketing automation
 2. Deploy customer success and retention workflows
 3. Implement competitive intelligence monitoring
-4. Optimize operational efficiency and cost structure
+4. Optimize operational efficiency and cost structure aligned with strategic goals
 
 ## Scaling Path
 

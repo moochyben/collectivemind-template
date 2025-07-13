@@ -66,3 +66,75 @@ This startup edition implements the CollectiveMind approach optimized for early-
 - **Process Documentation**: Capture successful patterns for future team members
 
 **Evolution Path**: As your startup scales beyond $1M ARR and 10+ employees, consider transitioning to [CollectiveMind Enterprise Edition](../collectivemind-template) for full multi-agent orchestration and comprehensive business management.
+
+## Strategic Context Integration
+
+### Core Strategic Framework
+All decisions and operations must align with the startup's strategic context defined in `strategy/strategic-context.md`. 
+
+**⚠️ IMPORTANT**: The strategic context file contains template placeholders that MUST be customized with your startup's specific mission, vision, values, strategic pillars, and priorities before implementation.
+
+### Strategic Decision Filters
+Before any major decision or recommendation, apply the strategic filters defined in `strategy/strategic-context.md`:
+
+1. **PMF Contribution**: Does this help get closer to product-market fit?
+2. **Mission Alignment**: Does this advance the startup's mission?
+3. **Cost Efficiency**: What's the cheapest way to validate this hypothesis or achieve this outcome?
+4. **Resource Impact**: Can we use free/open-source alternatives instead of paid tools?
+5. **Scalability Test**: Will this decision still make sense at 10x current size?
+6. **Learning Velocity**: How quickly will this generate validated learning?
+7. **Runway Extension**: Does this help extend operational runway?
+
+### Integration Patterns
+- **Start with strategic context** from `strategy/strategic-context.md` for all analysis and recommendations
+- **Connect every decision** to the startup's strategic priorities and product-market fit progress
+- **Optimize for learning speed** over execution speed as defined in the startup's values
+- **Measure against startup KPIs** defined in the strategic context
+- **Document lessons learned** for rapid iteration aligned with the startup's learning-focused values
+- **Prioritize customer-facing activities** and revenue generation per the startup's strategic priorities
+
+## Constitutional Memory Integration
+
+### Learning from Startup Institutional Memory
+Before making recommendations, reference and learn from:
+
+- **`.claude/memory/decisions.log`**: Previous constitutional decisions with startup-focused strategic alignment and PMF outcomes
+- **`.claude/memory/strategic-patterns.md`**: Proven patterns of startup strategic decision success and anti-patterns to avoid
+- **`.claude/memory/lessons.md`**: Startup strategic decision wisdom, PMF acceleration patterns, and resource optimization learnings
+- **`.claude/memory/relationships.json`**: Stakeholder strategic preferences including investors, customers, advisors, and team
+
+### Constitutional Decision Process for Startups
+For significant startup decisions, apply Constitutional AI methodology optimized for startup velocity:
+
+1. **Initial Strategic Assessment**: Score against strategic context with emphasis on PMF contribution and resource efficiency
+2. **Constitutional Self-Critique**: Apply startup-focused constitutional questioning (PMF impact, resource optimization, learning velocity)
+3. **Alternative Analysis**: Consider multiple options through startup strategic alignment lens with cost-efficiency focus
+4. **Stakeholder Impact Assessment**: Evaluate effects on customers, team, investors, and market with startup context
+5. **Constitutional Revision**: Improve decision based on startup constitutional analysis (efficiency, PMF acceleration, runway extension)
+6. **Memory Integration**: Log decision with constitutional analysis for startup organizational learning
+
+### Memory-Informed Startup Recommendations
+When providing analysis or recommendations:
+
+- **Pattern Recognition**: Reference similar startup decisions from memory to predict PMF and efficiency outcomes
+- **Stakeholder Awareness**: Use relationship data to optimize communication with investors, customers, and advisors
+- **Strategic Learning**: Apply startup lessons from strategic-patterns.md to improve decision quality
+- **Constitutional Evolution**: Suggest improvements to startup strategic framework based on memory insights
+
+### Continuous Constitutional Learning for Startups
+Contribute to startup strategic intelligence by:
+
+- **Identifying Startup Patterns**: Recognize new strategic decision patterns specific to startup stages for strategic-patterns.md
+- **Extracting PMF Lessons**: Capture product-market fit and efficiency insights for lessons.md
+- **Refining Startup Processes**: Suggest improvements to constitutional decision-making for startup velocity
+- **Tracking PMF Effectiveness**: Monitor constitutional decision outcomes for startup learning and pivot decisions
+
+### Memory Documentation Standards for Startups
+When documenting startup decisions in memory:
+
+- **Use startup constitutional format** from decisions.log template with PMF and efficiency focus
+- **Include all strategic alignment scores** with emphasis on PMF contribution and resource impact
+- **Document self-critique process** with startup-specific constitutional questions
+- **Capture stakeholder impact** across customers, team, investors, and market
+- **Set startup learning objectives** for tracking PMF progress and efficiency improvements
+- **Include runway impact analysis** for all resource allocation decisions

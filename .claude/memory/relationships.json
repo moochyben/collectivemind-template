@@ -2,43 +2,119 @@
   "stakeholders": {
     "investors": [
       {
-        "name": "Example Ventures",
+        "name": "Seed Fund Alpha",
         "type": "Lead Investor",
-        "preferences": "Monthly metrics updates, focus on growth",
-        "communication_style": "Formal, data-driven",
-        "key_interests": ["Revenue growth", "Market expansion", "Unit economics"],
-        "last_contact": "2025-01-01",
-        "notes": "Appreciates proactive communication"
+        "investment": "$500K seed round",
+        "preferences": "Weekly updates during early stage, focus on PMF metrics",
+        "communication_style": "Direct, milestone-focused",
+        "key_interests": ["Product-market fit", "Customer acquisition", "Runway management"],
+        "strategic_alignment": {
+          "mission_support": 9.0,
+          "vision_alignment": 8.5,
+          "values_compatibility": 8.0,
+          "strategic_priorities": ["Find Product-Market Fit", "Build Sustainable Unit Economics"],
+          "decision_influence": "High",
+          "stakeholder_value_focus": "Long-term value creation with focus on startup survival and growth"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "High - wants to understand strategic reasoning behind pivots",
+          "stakeholder_balance": "Startup-focused with customer validation emphasis",
+          "risk_tolerance": "High - expects rapid experimentation and learning"
+        },
+        "last_contact": "2025-01-10",
+        "notes": "Prefers constitutional decision documentation in investor updates, values strategic learning velocity"
       }
     ],
-    "board_members": [
+    "advisors": [
       {
-        "name": "Jane Smith",
-        "role": "Independent Director",
-        "expertise": "SaaS scaling",
-        "communication_style": "Direct, strategic focus",
-        "key_contributions": ["Go-to-market strategy", "Executive recruiting"],
-        "meeting_preferences": "Quarterly deep dives"
+        "name": "Sarah Chen",
+        "role": "Product Advisor",
+        "expertise": "B2B SaaS product-market fit",
+        "communication_style": "Collaborative, customer-focused",
+        "key_contributions": ["Customer discovery", "Product strategy", "PMF validation"],
+        "strategic_alignment": {
+          "mission_support": 8.5,
+          "vision_alignment": 9.0,
+          "values_compatibility": 9.0,
+          "strategic_priorities": ["Product-Market Fit", "Customer Obsession"],
+          "decision_influence": "Medium-High",
+          "stakeholder_value_focus": "Customer value and product excellence"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "Medium - values product reasoning and customer impact analysis",
+          "stakeholder_balance": "Customer-obsessed with team efficiency focus",
+          "innovation_tolerance": "High - encourages bold product experiments"
+        },
+        "meeting_preferences": "Bi-weekly product reviews with customer feedback integration"
       }
     ],
-    "key_customers": [
+    "early_customers": [
       {
-        "company": "Enterprise Corp",
-        "mrr": "$125,000",
-        "champion": "John Doe (CTO)",
-        "renewal_date": "2025-06-01",
-        "health_score": 85,
-        "key_requirements": ["99.99% uptime", "SOC2 compliance", "24/7 support"]
+        "company": "StartupCo",
+        "mrr": "$2,500",
+        "champion": "Alex Rodriguez (Founder)",
+        "stage": "Early adopter",
+        "health_score": 90,
+        "key_requirements": ["Simple setup", "Fast ROI", "Responsive support"],
+        "strategic_alignment": {
+          "mission_support": 8.0,
+          "vision_alignment": 7.5,
+          "values_compatibility": 9.0,
+          "strategic_priorities": ["Product Excellence", "Customer Success"],
+          "decision_influence": "Medium",
+          "stakeholder_value_focus": "Immediate value and long-term partnership"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "Medium - values understanding product direction",
+          "stakeholder_balance": "Customer-centric with growth partnership mindset",
+          "change_tolerance": "High - early adopter willing to evolve with product"
+        },
+        "feedback_frequency": "Weekly",
+        "notes": "Key reference customer for PMF validation, provides detailed constitutional feedback on product decisions"
       }
     ],
     "strategic_partners": [
       {
-        "company": "Tech Integration Inc",
+        "company": "AI Tools Collective",
         "partnership_type": "Technology",
-        "value": "API integration",
-        "contact": "Sarah Johnson",
+        "value": "AI infrastructure and tools",
+        "contact": "Jamie Park",
         "status": "Active",
-        "notes": "Critical for enterprise features"
+        "strategic_alignment": {
+          "mission_support": 7.5,
+          "vision_alignment": 8.0,
+          "values_compatibility": 8.5,
+          "strategic_priorities": ["AI-Native Operations", "Cost Efficiency"],
+          "decision_influence": "Low-Medium",
+          "stakeholder_value_focus": "Mutual capability enhancement and cost optimization"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "Low - primarily operational partnership",
+          "stakeholder_balance": "Partnership-focused with mutual benefit",
+          "innovation_collaboration": "High - open to co-developing AI-native solutions"
+        },
+        "notes": "Critical for maintaining low-cost AI operations, supports one-engineer operational model"
+      }
+    ],
+    "team": [
+      {
+        "name": "Founder",
+        "role": "CEO/Lead Engineer",
+        "expertise": "AI/ML, Product Development",
+        "strategic_alignment": {
+          "mission_support": 10.0,
+          "vision_alignment": 10.0,
+          "values_compatibility": 10.0,
+          "strategic_priorities": ["All priorities"],
+          "decision_influence": "Ultimate",
+          "stakeholder_value_focus": "Long-term success across all stakeholders"
+        },
+        "constitutional_preferences": {
+          "decision_transparency": "Complete - architect of constitutional framework",
+          "stakeholder_balance": "Balanced with customer and team priority",
+          "risk_tolerance": "High - startup founder risk profile"
+        },
+        "notes": "Primary constitutional decision-maker, responsible for strategic alignment and learning integration"
       }
     ]
   }
