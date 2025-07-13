@@ -184,7 +184,7 @@ Remember: This system augments human judgment with AI-powered leverage at unprec
 
 CollectiveMind is a principled approach to building AI-native businesses that enables companies to scale efficiently with minimal engineering resources. The methodology consists of two main implementations:
 
-- **[CollectiveMind Startup Edition](../collectivemind-startup-adaptation)**: Optimized for early-stage companies ($0-1M ARR)
+- **[CollectiveMind Startup Edition](https://github.com/moochyben/collectivemind-template/tree/startup-adaptation)**: Optimized for early-stage companies ($0-1M ARR)
 - **CollectiveMind Enterprise Edition**: This repository - designed for billion-dollar organizations
 
 ## CollectiveMind Editions & Adaptations
