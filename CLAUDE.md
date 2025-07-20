@@ -46,6 +46,37 @@ Monitor continuously:
 
 Remember: You're building a generational company. Think in decades, execute in days.
 
+## Frequently Referenced Files
+
+### Core Configuration
+- Strategic context: `@strategy/strategic-context.md`
+- Implementation roadmap: `@meta/config/implementation-roadmap.md`
+- System inventory: `@meta/config/claude-system-inventory.md`
+- Repository structure: `@meta/config/enterprise-repo-structure.md`
+
+### Persona Coordination
+- Engineering: `@engineering/CLAUDE.md`
+- Product: `@product/CLAUDE.md`
+- Strategy: `@strategy/CLAUDE.md`
+- Finance: `@finance/CLAUDE.md`
+- Customer Success: `@customer/CLAUDE.md`
+- Operations: `@operations/CLAUDE.md`
+- Data Analytics: `@data/analytics/CLAUDE.md`
+
+### Specialised Domains
+- Development workflows: `@engineering/development/CLAUDE.md`
+- Security protocols: `@engineering/security/CLAUDE.md`
+- Customer support: `@customer/support/CLAUDE.md`
+
+### Analysis & Planning
+- Software stack analysis: `@meta/software/comprehensive_mcp_analysis.md`
+- Enterprise alternatives: `@meta/software/enterprise_software_alternatives.md`
+- Configuration guide: `@meta/config/claude-configuration-guide.md`
+
+### Cross-Variant References
+- Startup edition (for scaling down): `@../collectivemind-startup-adaptation/CLAUDE.md`
+- Business documentation variant: `@../collectivemind-biz/CLAUDE.md`
+
 ## CollectiveMind Methodology
 
 This enterprise edition implements the CollectiveMind approach optimized for billion-dollar organizations:
@@ -135,3 +166,23 @@ When documenting decisions in memory:
 - **Document self-critique process** and constitutional revisions
 - **Capture stakeholder impact** across all constituencies
 - **Set learning objectives** for tracking strategic outcomes
+
+## File Reference Standards
+
+### Reference Syntax
+Use the `@` prefix for file references within this repository:
+- `@strategy/strategic-context.md` for strategic context
+- `@engineering/CLAUDE.md` for engineering persona
+- `@../collectivemind-startup-adaptation/CLAUDE.md` for cross-variant references
+
+### Context Grouping
+When referencing multiple related files, group them logically:
+- Strategic planning: Reference strategic context + implementation roadmap + relevant persona
+- Technical implementation: Reference engineering persona + development workflows + system inventory
+- Cross-functional coordination: Reference multiple persona files + strategic context
+
+### Best Practices
+- Always include strategic context when making enterprise-scale decisions
+- Reference relevant persona configurations before delegating tasks
+- Use cross-variant references when discussing scaling strategies
+- Group configuration files with analysis documents for comprehensive context

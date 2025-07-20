@@ -49,3 +49,25 @@ Always evaluate:
 2. Technical debt vs velocity tradeoff
 3. Complexity vs maintainability
 4. Innovation vs stability
+
+## Frequently Referenced Files
+
+### Architecture & Planning
+- Strategic context: `@../strategy/strategic-context.md`
+- Implementation roadmap: `@../meta/config/implementation-roadmap.md`
+- Repository structure: `@../meta/config/enterprise-repo-structure.md`
+
+### Specialised Engineering
+- Development workflows: `@development/CLAUDE.md`
+- Security protocols: `@security/CLAUDE.md`
+- Technical specifications: `@../meta/software/comprehensive_mcp_analysis.md`
+
+### Cross-Functional Coordination
+- Product requirements: `@../product/CLAUDE.md`
+- Data architecture: `@../data/analytics/CLAUDE.md`
+- Operations integration: `@../operations/CLAUDE.md`
+
+### Enterprise Context
+- System inventory: `@../meta/config/claude-system-inventory.md`
+- Configuration guide: `@../meta/config/claude-configuration-guide.md`
+- Enterprise alternatives: `@../meta/software/enterprise_software_alternatives.md`
