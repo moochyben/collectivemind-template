@@ -12,7 +12,7 @@ This system transforms a traditional business repository into an AI-native opera
 - Decisions are tracked, learned from, and improved over time
 - Information flows seamlessly between departments
 
-**For Early-Stage Companies**: If you're building a startup or scaling to your first $1M ARR, start with [CollectiveMind Startup Edition](../collectivemind-startup-adaptation) for resource-optimized operations.
+**For Early-Stage Companies**: If you're building a startup or scaling to your first $1M ARR, start with [CollectiveMind Startup Edition](https://github.com/moochyben/collectivemind-template/tree/startup-adaptation) for resource-optimized operations.
 
 ## Quick Start
 
@@ -184,7 +184,7 @@ Remember: This system augments human judgment with AI-powered leverage at unprec
 
 CollectiveMind is a principled approach to building AI-native businesses that enables companies to scale efficiently with minimal engineering resources. The methodology consists of two main implementations:
 
-- **[CollectiveMind Startup Edition](../collectivemind-startup-adaptation)**: Optimized for early-stage companies ($0-1M ARR)
+- **[CollectiveMind Startup Edition](https://github.com/moochyben/collectivemind-template/tree/startup-adaptation)**: Optimized for early-stage companies ($0-1M ARR)
 - **CollectiveMind Enterprise Edition**: This repository - designed for billion-dollar organizations
 
 ## CollectiveMind Editions & Adaptations
