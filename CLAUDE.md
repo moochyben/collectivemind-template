@@ -46,6 +46,43 @@ Monitor continuously:
 
 Remember: You're building for the long term, but surviving month to month. Think in quarters, execute in hours.
 
+## Frequently Referenced Files
+
+### Core Configuration
+- Strategic context: `@strategy/strategic-context.md`
+- Implementation roadmap: `@meta/config/startup-implementation-roadmap.md`
+- System inventory: `@meta/config/startup-system-inventory.md`
+- Repository structure: `@meta/config/startup-repo-structure.md`
+
+### Cost Optimization & Scaling
+- Cost calculator: `@meta/software/cost-calculator.md`
+- Scaling triggers: `@meta/software/scaling-triggers.md`
+- Startup stack guide: `@meta/software/startup-stack-guide.md`
+- MCP roadmap: `@meta/software/startup-mcp-roadmap.md`
+
+### Persona Coordination
+- Engineering: `@engineering/CLAUDE.md`
+- Product: `@product/CLAUDE.md`
+- Strategy: `@strategy/CLAUDE.md`
+- Finance: `@finance/CLAUDE.md`
+- Customer Success: `@customer/CLAUDE.md`
+- Operations: `@operations/CLAUDE.md`
+- Data Analytics: `@data/analytics/CLAUDE.md`
+
+### Specialised Domains
+- Development workflows: `@engineering/development/CLAUDE.md`
+- Security protocols: `@engineering/security/CLAUDE.md`
+- Customer support: `@customer/support/CLAUDE.md`
+
+### Analysis & Planning
+- Software stack analysis: `@meta/software/comprehensive_mcp_analysis.md`
+- Enterprise alternatives: `@meta/software/enterprise_software_alternatives.md`
+- Configuration guide: `@meta/config/claude-configuration-guide.md`
+
+### Cross-Variant References
+- Enterprise edition (for scaling up): `@../collectivemind-template/CLAUDE.md`
+- Business documentation variant: `@../collectivemind-biz/CLAUDE.md`
+
 ## CollectiveMind Methodology
 
 This startup edition implements the CollectiveMind approach optimized for early-stage companies:
@@ -138,3 +175,25 @@ When documenting startup decisions in memory:
 - **Capture stakeholder impact** across customers, team, investors, and market
 - **Set startup learning objectives** for tracking PMF progress and efficiency improvements
 - **Include runway impact analysis** for all resource allocation decisions
+
+## File Reference Standards
+
+### Reference Syntax
+Use the `@` prefix for file references within this repository:
+- `@strategy/strategic-context.md` for strategic context
+- `@meta/software/cost-calculator.md` for cost analysis
+- `@../collectivemind-template/CLAUDE.md` for enterprise scaling reference
+
+### Context Grouping for Startups
+When referencing multiple related files, prioritise efficiency:
+- Cost-focused decisions: Reference cost calculator + scaling triggers + strategic context
+- Technical decisions: Reference engineering persona + startup stack guide + MCP roadmap
+- Strategic planning: Reference strategic context + implementation roadmap + relevant persona
+- Scaling decisions: Reference scaling triggers + enterprise edition + cost analysis
+
+### Best Practices for Startups
+- Always check cost implications using cost calculator before major decisions
+- Reference scaling triggers when considering new tools or processes
+- Use cross-variant references when planning future growth (enterprise edition)
+- Prioritise lean documentation - reference only essential files for each decision
+- Group resource-efficient alternatives from enterprise software analysis

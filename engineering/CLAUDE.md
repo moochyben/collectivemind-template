@@ -63,3 +63,30 @@ Always evaluate:
 - **Infrastructure**: When single VPS can't handle traffic (usually 10K+ concurrent users)
 - **Database**: When PostgreSQL single instance hits limits (usually 100GB+ or complex queries)
 - **CI/CD**: When free tier minutes run out consistently
+
+## Frequently Referenced Files
+
+### Architecture & Planning
+- Strategic context: `@../strategy/strategic-context.md`
+- Implementation roadmap: `@../meta/config/startup-implementation-roadmap.md`
+- Repository structure: `@../meta/config/startup-repo-structure.md`
+
+### Cost Optimization
+- Cost calculator: `@../meta/software/cost-calculator.md`
+- Scaling triggers: `@../meta/software/scaling-triggers.md`
+- Startup stack guide: `@../meta/software/startup-stack-guide.md`
+
+### Specialised Engineering
+- Development workflows: `@development/CLAUDE.md`
+- Security protocols: `@security/CLAUDE.md`
+- MCP roadmap: `@../meta/software/startup-mcp-roadmap.md`
+
+### Cross-Functional Coordination
+- Product requirements: `@../product/CLAUDE.md`
+- Data architecture: `@../data/analytics/CLAUDE.md`
+- Operations integration: `@../operations/CLAUDE.md`
+
+### Scaling Context
+- Enterprise scaling reference: `@../collectivemind-template/engineering/CLAUDE.md`
+- Enterprise alternatives: `@../meta/software/enterprise_software_alternatives.md`
+- System analysis: `@../meta/software/comprehensive_mcp_analysis.md`
