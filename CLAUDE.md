@@ -21,12 +21,31 @@ When making decisions:
 4. Document rationale for future learning
 5. Set clear success criteria and timelines
 
-## Subagent Coordination
+## Sub-Agent Coordination
 
-- Spawn specialized agents based on task domain
-- Ensure information flow between parallel agents
-- Synthesize insights from multiple perspectives
-- Maintain consistency across all outputs
+CollectiveMind uses specialized sub-agents for domain expertise and parallel execution:
+
+### Available Sub-Agents
+- **engineering-architect**: Technical architecture, system design, infrastructure decisions
+- **product-manager**: Product strategy, feature prioritisation, user research
+- **finance-controller**: Financial planning, analysis, forecasting, capital management
+- **security-engineer**: Application security, infrastructure hardening, compliance
+- **data-scientist**: Business intelligence, analytics, predictive modelling
+- **operations-manager**: Operational excellence, process optimisation, coordination
+- **constitutional-reviewer**: Strategic alignment verification, stakeholder impact assessment
+
+### Sub-Agent Invocation Patterns
+- **Parallel Execution**: Deploy multiple sub-agents simultaneously for complex analysis
+- **Sequential Delegation**: Chain sub-agents when output from one informs another
+- **Synthesis**: Integrate insights from multiple sub-agent perspectives
+- **Constitutional Review**: Apply constitutional-reviewer for major strategic decisions
+
+### Best Practices
+- Use sub-agents for specialized domain expertise
+- Deploy sub-agents in parallel when tasks are independent
+- Ensure information flow between sub-agents when needed
+- Apply constitutional review to decisions with strategic impact
+- Maintain consistency across all sub-agent outputs
 
 ## Key Metrics Dashboard
 
@@ -54,19 +73,24 @@ Remember: You're building a generational company. Think in decades, execute in d
 - System inventory: `@meta/config/claude-system-inventory.md`
 - Repository structure: `@meta/config/enterprise-repo-structure.md`
 
-### Persona Coordination
+### Sub-Agent Definitions
+Sub-agents are defined in `.claude/agents/` with specialized system prompts:
+- Engineering: `@.claude/agents/engineering-architect.md`
+- Product: `@.claude/agents/product-manager.md`
+- Finance: `@.claude/agents/finance-controller.md`
+- Security: `@.claude/agents/security-engineer.md`
+- Data: `@.claude/agents/data-scientist.md`
+- Operations: `@.claude/agents/operations-manager.md`
+- Constitutional Review: `@.claude/agents/constitutional-reviewer.md`
+
+### Legacy Persona Files (Reference Only)
+Original persona configurations retained for context:
 - Engineering: `@engineering/CLAUDE.md`
 - Product: `@product/CLAUDE.md`
-- Strategy: `@strategy/CLAUDE.md`
 - Finance: `@finance/CLAUDE.md`
-- Customer Success: `@customer/CLAUDE.md`
 - Operations: `@operations/CLAUDE.md`
 - Data Analytics: `@data/analytics/CLAUDE.md`
-
-### Specialised Domains
-- Development workflows: `@engineering/development/CLAUDE.md`
-- Security protocols: `@engineering/security/CLAUDE.md`
-- Customer support: `@customer/support/CLAUDE.md`
+- Security: `@engineering/security/CLAUDE.md`
 
 ### Analysis & Planning
 - Software stack analysis: `@meta/software/comprehensive_mcp_analysis.md`
@@ -79,12 +103,13 @@ Remember: You're building a generational company. Think in decades, execute in d
 
 ## CollectiveMind Methodology
 
-This enterprise edition implements the CollectiveMind approach optimized for billion-dollar organizations:
+This enterprise edition implements the CollectiveMind approach optimized for billion-dollar organizations using Claude Code's latest sub-agent capabilities:
 
-### Multi-Agent Orchestration
-- **Parallel Intelligence**: Deploy specialized AI agents across all business functions simultaneously
-- **Cross-Functional Coordination**: Ensure seamless information flow between departments and initiatives
-- **Strategic Alignment**: Maintain consistency with long-term vision while enabling rapid tactical execution
+### Multi-Agent Orchestration with Sub-Agents
+- **Parallel Intelligence**: Deploy specialized sub-agents across all business functions simultaneously using Claude Code's Task tool
+- **Isolated Context**: Each sub-agent operates in its own context window with specialized system prompts
+- **Cross-Functional Coordination**: Ensure seamless information flow between sub-agents and synthesis of insights
+- **Strategic Alignment**: Maintain consistency with long-term vision while enabling rapid tactical execution through constitutional review
 
 ### Enterprise-Scale Operations
 - **Institutional Memory**: Capture and leverage organizational knowledge across all business units

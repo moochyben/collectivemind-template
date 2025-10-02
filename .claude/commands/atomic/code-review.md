@@ -1,5 +1,8 @@
 ---
 description: Intelligent code review with multiple perspectives
+argument-hint: <file-path-or-PR-number>
+allowed-tools: Read, Grep, Bash(git *)
+model: sonnet
 ---
 
 # Comprehensive Code Review: $ARGUMENTS

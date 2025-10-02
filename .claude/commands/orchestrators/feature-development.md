@@ -1,34 +1,43 @@
 ---
 description: End-to-end feature development with parallel testing
+argument-hint: <feature-name>
+allowed-tools: Read, Write, Edit, Grep, Glob, Bash, Task
+model: sonnet
 ---
 
 # Feature Development Pipeline: $ARGUMENTS
 
-## Phase 1: Specification & Design (4 parallel subagents)
+## Phase 1: Specification & Design (Parallel Sub-Agents)
 
-1. **Product Specification**
-   - Read PRD from /product/specs/$ARGUMENTS.md
+Deploy the following sub-agents in parallel:
+
+1. **Product Manager Sub-Agent**
+   Task: Review PRD from @product/specs/$ARGUMENTS.md
    - Validate requirements completeness
    - Generate acceptance criteria
    - Create test scenarios
+   - Define success metrics
 
-2. **Technical Architecture**
+2. **Engineering Architect Sub-Agent**
+   Task: Design technical architecture for $ARGUMENTS
    - Design system components
    - API specification
    - Database schema
    - Performance requirements
 
-3. **Security Assessment**
-   - Threat modeling
+3. **Security Engineer Sub-Agent**
+   Task: Security assessment for $ARGUMENTS
+   - Threat modelling
    - Security requirements
    - Compliance check
    - Penetration test plan
 
-4. **UX Design Review**
+4. **Product Manager Sub-Agent** (UX Focus)
+   Task: UX design review for $ARGUMENTS
    - Wireframe validation
    - Accessibility audit
    - Mobile responsiveness
-   - User flow optimization
+   - User flow optimisation
 
 ## Phase 2: Implementation (6 parallel subagents)
 

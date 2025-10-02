@@ -1,5 +1,8 @@
 ---
 description: Quick metric analysis
+argument-hint: <metric-name-or-category>
+allowed-tools: Read, Bash
+model: sonnet
 ---
 
 # Analyze Metrics: $ARGUMENTS
